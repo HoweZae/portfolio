@@ -7,6 +7,6 @@
 
 - 🔭 Currently studying BS Computer Science
 - 🌱 Currently exploring Git repos to see what I can do
-- 👯 Looking to collaborate on Discord bot projects
+- 👯 Looking to collaborate on Discord and Twitter bot projects
 - 🤔 Looking for help with advanced Python
 - 📫 Currently unavailable for contact, might make a business email soon
