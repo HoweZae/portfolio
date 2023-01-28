@@ -9,4 +9,6 @@
 - 🌱 Currently exploring Git repos to see what I can do
 - 👯 Looking to collaborate on Discord and Twitter bot projects
 - 🤔 Looking for help with advanced Python
-- 📫 Free to contact on jdtomanan@up.edu.ph
+
+Contact Details:
+📫 jdtomanan@up.edu.ph
