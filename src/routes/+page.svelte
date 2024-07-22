@@ -8,14 +8,6 @@
     let htmlLine = `<strong>Gave up on me like I was a bad drug</strong>`
 </script>
 
-<h1>{ name.toUpperCase() } Homepage</h1>
-
-<img src={svelteLogo} alt="{song} Lyrics" />
-
-<p>My heart, my hips, my body, my love</p>
-<Body />
-<p>{@html htmlLine}</p>
-
 <style>
 	p {
 		color: seagreen;
@@ -23,3 +15,11 @@
 		font-size: 1em;
 	}
 </style>
+
+<h1>{ name.toUpperCase() } Homepage</h1>
+
+<img src={svelteLogo} alt="{song} Lyrics" />
+
+<p>My heart, my hips, my body, my love</p>
+<Body />
+<p>{@html htmlLine}</p>
