@@ -1,9 +1,25 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
-
 <script>
-	let src = 'static/test.jpg';
-	let title = 'You\'re on your own, kid';
+    import Body from './Body.svelte';
+
+	let name = 'HoweZae';
+    let svelteLogo = '/img/test.jpg';
+    let song = "DBATC";
+
+    let htmlLine = `<strong>Gave up on me like I was a bad drug</strong>`
 </script>
 
-<img {src} alt="{title} lyrics" />
+<h1>{ name.toUpperCase() } Homepage</h1>
+
+<img src={svelteLogo} alt="{song} Lyrics" />
+
+<p>My heart, my hips, my body, my love</p>
+<Body />
+<p>{@html htmlLine}</p>
+
+<style>
+	p {
+		color: seagreen;
+		font-family: 'Comic Sans MS', cursive;
+		font-size: 1em;
+	}
+</style>
