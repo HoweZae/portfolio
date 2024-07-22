@@ -9,9 +9,13 @@
 </script>
 
 <style>
+    h1 {
+        font-family: 'Noteworthy'
+    }
+
 	p {
 		color: seagreen;
-		font-family: 'Comic Sans MS', cursive;
+		font-family: 'Microsoft Sans Serif';
 		font-size: 1em;
 	}
 </style>
