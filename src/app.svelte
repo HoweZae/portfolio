@@ -1,5 +1,5 @@
 <script>
-	let src = 'img/test.jpg';
+	let src = 'static/test.jpg';
 	let title = 'You\'re on your own, kid';
 </script>
 
