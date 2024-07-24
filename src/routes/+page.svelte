@@ -1,7 +1,9 @@
 <script>
-    import Body from './Body.svelte';
+    import "../input.css";
 
-	let title = 'Svelte Testing Page';
+    import Lyric from './Lyric.svelte';
+
+	let title = 'svelte testing page';
     let svelteLogo = '/img/test.jpg';
     let song = "DBATC";
 
@@ -24,7 +26,7 @@
 
 <style>
     h1 {
-        font-family: 'Noteworthy'
+        font-family: 'Charter'
     }
 	p {
 		color: seagreen;
@@ -33,12 +35,14 @@
 	}
 </style>
 
-<h1>{ title.toUpperCase() }</h1>
+<h1 class = "font-bold underline">
+    {title.toUpperCase()}
+</h1>
 
 <img src={svelteLogo} alt="{song} Lyrics" />
 
 <p>My heart, my hips, my body, my love</p>
-<Body />
+<Lyric />
 <p>{@html htmlLine}</p>
 
 <button on:click = {increment}>
