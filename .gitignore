@@ -19,3 +19,11 @@ Thumbs.db
 # Vite
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Tailwind
+.log/
+node_modules/
+docs/
+css/
+export.scss
+export/
