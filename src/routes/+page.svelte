@@ -42,5 +42,5 @@
 <p>{@html htmlLine}</p>
 
 <button on:click = {increment}>
-    Now I'm searching for {countActual} {countActual === 1 ? 'sign' : 'signs'} in a haunted club (or {doubled} clubs)
+    Now I'm searching for {countActual} {countActual === 1 ? 'sign' : 'signs'} in {doubled} haunted clubs
 </button>
