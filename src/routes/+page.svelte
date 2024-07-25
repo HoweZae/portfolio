@@ -1,5 +1,5 @@
 <script>
-    import "../input.css";
+    import "../app.css";
 
     import Lyric from './Lyric.svelte';
 
