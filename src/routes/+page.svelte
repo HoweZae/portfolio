@@ -29,15 +29,13 @@
         font-family: 'Charter'
     }
 	p {
-		color: seagreen;
+		color: violet;
 		font-family: 'Microsoft Sans Serif';
 		font-size: 1em;
 	}
 </style>
 
-<h1 class = "font-bold underline">
-    {title.toUpperCase()}
-</h1>
+<h1 class = "text-3xl font-bold underline">{ title.toUpperCase() }</h1>
 
 <img src={svelteLogo} alt="{song} Lyrics" />
 
@@ -45,6 +43,6 @@
 <Lyric />
 <p>{@html htmlLine}</p>
 
-<button on:click = {increment}>
+<button class="bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300" on:click = {increment}>
     Now I'm searching for {countActual} {countActual === 1 ? 'sign' : 'signs'} in {doubled} haunted clubs
 </button>
