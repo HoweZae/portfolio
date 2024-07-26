@@ -1,9 +1,9 @@
 h1, h2 {
     font-family: "Futura";
+    font-weight: normal;
     color: white;
 }
 
 h3, p {
     font-family: "Avenir";
-    color: #bbbbbb;
 }

@@ -3,13 +3,18 @@
     import "../global.css";
 </script>
 
-<h1 class="text-3xl font-bold">Heya! I'm Jose.</h1>
-<h3 class="text-l">
-    I am a 3rd year BS Computer Science Student in UP Diliman.
-    Thanks for visiting my portfolio!
-</h3>
+<div class="mx-32 my-32">
+    <h1 class="text-3xl leading-8">Heya! I'm Jose.</h1>
+    <h3 class="text-l text-slate-400 leading-8">
+        I am a 3rd year BS Computer Science student at the University of the Philippines Diliman.
+        You can also visit my
+        <a class="underline text-slate-300" href="https://www.linkedin.com/in/jedtomanan/">LinkedIn profile</a>.
+        Nice to meet you!
+    </h3>
 
-<h2 class="text-xl">What have I been up to?</h2>
-<h3>
-    Tackle Head
-</h3>
+    <h2 class="text-xl leading-8">What have I been up to?</h2>
+    <h3 class="text-l text-slate-400 leading-8">
+        A bunch of stuff, honestly. But here are the highlights:
+    </h3>
+
+</div>
