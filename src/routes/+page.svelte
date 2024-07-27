@@ -12,6 +12,11 @@
         Nice to meet you!
     </h3>
 
+    <div class="self-center">
+        <!-- Placeholder -->
+        <img src="/favicon.png" alt="Logo"/>
+    </div>
+
     <h2 class="text-xl leading-8">What have I been up to?</h2>
     <h3 class="text-l text-slate-400 leading-8">
         A bunch of stuff, honestly. But here are the highlights:
