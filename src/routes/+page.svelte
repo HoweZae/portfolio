@@ -36,7 +36,7 @@
         <a href={image.link}
             class="basis-1/4 flex justify-center
                 bg-gradient-to-r from-slate-100 to-slate-100
-                hover:to-{image.hovercolor} to-75%
+                hover:from-slate-50 hover:to-{image.hovercolor} to-80%
                 mx-2 p-2 rounded-xl"
         ><img class="h-8" src={image.logo} alt="Logo" /></a>
     {/each}
