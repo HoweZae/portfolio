@@ -11,11 +11,11 @@
     }
 
     const header = [
-        {logo: "/li.png", hovercolor: "cyan-200", link: link.li},
-        {logo: "/gh.svg", hovercolor: "purple-200", link: link.gh},
-        {logo: "/fb.png", hovercolor: "blue-200", link: link.fb},
-        {logo: "/ig.webp", hovercolor: "orange-200", link: link.ig},
-        {logo: "/twt.png", hovercolor: "sky-200", link: link.twt},
+        {logo: "/logo/li.png", hovercolor: "cyan-200", link: link.li},
+        {logo: "/logo/gh.svg", hovercolor: "purple-200", link: link.gh},
+        {logo: "/logo/fb.png", hovercolor: "blue-200", link: link.fb},
+        {logo: "/logo/ig.webp", hovercolor: "orange-200", link: link.ig},
+        {logo: "/logo/twt.png", hovercolor: "sky-200", link: link.twt},
     ]
 </script>
 
