@@ -5,38 +5,36 @@
     const link = {
         li: "https://www.linkedin.com/in/jedtomanan/",
         gh: "https://github.com/HoweZae",
-        fb: "",
-        ig: "",
-        twt: "",
+        fb: "https://www.facebook.com/jedtomanan/",
+        ig: "https://www.instagram.com/jose.tmnn/",
+        twt: "https://x.com/howe_zae",
     }
 
     const header = [
-        {logo: "/logo/li.png", hovercolor: "cyan-200", link: link.li},
-        {logo: "/logo/gh.svg", hovercolor: "purple-200", link: link.gh},
-        {logo: "/logo/fb.png", hovercolor: "blue-200", link: link.fb},
-        {logo: "/logo/ig.webp", hovercolor: "orange-200", link: link.ig},
-        {logo: "/logo/twt.png", hovercolor: "sky-200", link: link.twt},
+        {logo: "/logo/li.png", color: "hover:to-cyan-200", link: link.li, handle: "jedtomanan"},
+        {logo: "/logo/gh.svg", color: "hover:to-purple-200", link: link.gh, handle: "HoweZae"},
+        {logo: "/logo/fb.png", color: "hover:to-blue-200", link: link.fb, handle: "jedtomanan"},
+        {logo: "/logo/ig.png", color: "hover:to-red-100", link: link.ig, handle: "jose.tmnn"},
+        {logo: "/logo/twt.png", color: "hover:to-sky-100", link: link.twt, handle: "howe_zae"},
     ]
 </script>
 
 <header class="bg-white p-5 rounded-xl shadow-lg">
-    <h1 class="my-2 font-bold italic">
+    <h1 class="text-3xl my-2 font-bold italic">
         Hey, ya! I'm Jose Tomanan.
     </h1>
-    <h4>
+    <h4 class="text-lg">
         I am a 3rd year BS Computer Science student from the University of the Philippines Diliman.
-        Nice to meet you, thanks for visiting this page!
-        <br>
-        You can visit my socials below:
+        Nice to meet you!
+        <!-- You can visit my socials below: -->
     </h4>
 
-    <!-- Placeholder -->
     <div class="flex mt-3">
     {#each header as image}
         <a href={image.link}
             class="basis-1/4 flex justify-center
                 bg-gradient-to-r from-slate-100 to-slate-100
-                hover:from-slate-50 hover:to-{image.hovercolor} to-80%
+                hover:from-slate-100 {image.color} to-75%
                 mx-2 p-2 rounded-xl"
         ><img class="h-8" src={image.logo} alt="Logo" /></a>
     {/each}
@@ -45,54 +43,62 @@
 
 <div class="flex">
     <section class="basis-1/2 mr-3 mb-0">
-        <h2>What have I been up to?</h2>
+        <h2 class="text-xl">What have I been up to?</h2>
         <h4>
-            See everything I've done in full detail at <a class="italic text-slate-600 hover:underline" href={link.li}>LinkedIn</a>.
+            See everything I've done, in full detail, at <a class="italic text-slate-600 hover:underline" href={link.li}>LinkedIn</a>.
             <!-- Here are my highlights: -->
         </h4>
 
         <article>
-            <h3>Tackle Junior Head</h3>
+            <h3 class="text-lg">Tackle Junior Head</h3>
             <h4 class="italic">UP Association of Computer Science Majors (UP CURSOR)</h4>
+            <h5 class="text-slate-500 text-sm mt-1">September 2023 - March 2024</h5>
         </article>
 
         <article>
-            <h3>Head Giver</h3>
+            <h3 class="text-lg">Head Giver</h3>
             <h4 class="italic">UP Center for Student Innovations (UP CSI)</h4>
+            <h5 class="text-slate-500 text-sm mt-1">September 2023 - November 2023</h5>
         </article>
 
         <article>
-            <h3>Member Relations Head</h3>
+            <h3 class="text-lg">Member Relations Head</h3>
             <h4 class="italic">UP CURSOR</h4>
+            <h5 class="text-slate-500 text-sm mt-1">February 2023 - May 2023</h5>
         </article>
     </section>
 
     <section class="basis-1/2 ml-3 mb-0">
-        <h2>What projects have I made?</h2>
+        <h2 class="text-xl">What projects have I made?</h2>
         <h4>
-            See everything I've made in full detail at <a class="italic text-slate-600 hover:underline" href={link.gh}>GitHub</a>.
+            See my public repositories, in full detail, at <a class="italic text-slate-600 hover:underline" href={link.gh}>GitHub</a>.
             <!-- Here are my highlights: -->
         </h4>
 
         <article>
-            <h3>Online Portfolio-Resume <span class="font-thin italic">(this exact website!)</span></h3>
+            <h3 class="text-lg">Online Portfolio-Resume <span class="font-thin italic">(this webpage!)</span></h3>
             <h4 class="italic">Svelte + Tailwind</h4>
+            <h5 class="text-slate-500 text-sm mt-1">I felt a glow like this</h5>
         </article>
 
         <article>
-            <h3>Finances Tracker</h3>
+            <h3 class="text-lg">
+                <a class="hover:underline" href="">Finances Tracker</a>
+            </h3>
             <h4 class="italic">Google Sheets + Apps Script</h4>
+            <h5 class="text-slate-500 text-sm mt-1">Never before</h5>
         </article>
 
         <article>
-            <h3>Checkmate</h3>
+            <h3 class="text-lg">Checkmate</h3>
             <h4 class="italic">Figma</h4>
+            <h5 class="text-slate-500 text-sm mt-1">And never since</h5>
         </article>
     </section>
 </div>
 
 <section>
-    <h2>What do I do in my free time?</h2>
+    <h2 class="text-xl">What do I do in my free time?</h2>
     <h4>
         Outside of computer science, I also like to hit the gym, play competitive video games, and play basketball.
         I also used to pursue traditional drawing and guitar/keyboard playing as hobbies.
@@ -100,7 +106,7 @@
 </section>
 
 <section>
-    <h2>Where can you find me?</h2>
+    <h2 class="text-xl">Where can you find me?</h2>
     <!-- <h4></h4> -->
 </section>
 

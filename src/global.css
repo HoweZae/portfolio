@@ -4,20 +4,23 @@ h1, h2, h3 {
     color: #0f172a;
 }
 
-h4, p {
+h4, h5, p {
     font-family: "Avenir";
     color: #64748b;
 }
 
+
+/*
 h1 {
-    font-size: 1.875rem; /* 30px */
-    line-height: 2.25rem; /* 36px */
+    font-size: 1.875rem;
+    line-height: 2.25rem;
 }
 
 h2 {
-    font-size: 1.25rem; /* 20px */
-    line-height: 1.75rem; /* 28px */
+    font-size: 1.25rem;
+    line-height: 1.75rem;
 }
+*/
 
 section {
     background-color: white;   /* bg-white */
@@ -31,7 +34,7 @@ section {
 article {
     background-color: #f1f5f9; /* bg-slate-100 */
     margin-top: 0.75rem;        /* my-2 (my-2 applies to both top and bottom) */
-    margin-bottom: 0.75rem;     /* my-2 */
+    /* margin-bottom: 0.75rem; */
     padding-top: 0.75rem;          /* p-3 */
     padding-bottom: 0.75rem;          /* p-3 */
     padding-left: 1rem;          /* p-3 */
@@ -39,5 +42,7 @@ article {
     border-radius: 0.5rem;     /* rounded-lg */
     /* box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); shadow-md */
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05); /* shadow-sm */
+
+    text-align: center;
 }
   
