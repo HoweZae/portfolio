@@ -10,14 +10,14 @@
     }
 
     const header = [
-        {img: "/linkedin.png", color: "", link: link.li},
-        {img: "/github.png", color: "", link: link.gh},
-        {img: "/fb.png", color: "", link: link.fb},
-        {img: "/twt.png", color: "", link: link.twt},
+        {img: "/linkedin.png", color: "cyan-500", link: link.li},
+        {img: "/github.png", color: "violet-800", link: link.gh},
+        {img: "/fb.png", color: "blue-600", link: link.fb},
+        {img: "/twt.png", color: "sky-500", link: link.twt},
     ]
 </script>
 
-<header class="bg-gradient-to-br from-white to-slate-200 to-90% p-5 rounded-xl shadow-lg">
+<header class="bg-white p-5 rounded-xl shadow-lg">
     <h1 class="text-3xl my-2 font-bold italic underline">
         Hey ya! I'm Jose.
     </h1>
@@ -31,7 +31,11 @@
     <!-- Placeholder -->
     <div class="flex mt-3">
         {#each header as image}
-            <div class="basis-1/4 flex justify-center bg-slate-600 hover:bg-slate-500 mx-2 p-2 rounded-xl">
+            <div class="basis-1/4 flex justify-center
+                bg-gradient-to-r from-{image.color} to-{image.color}
+                hover:bg-gradient-to-r hover:from-slate-100 hover:to-slate-200
+                mx-2 p-2 rounded-xl"
+            >
                 <img class="h-12" src="/favicon.png" alt="Logo" />
             </div>
         {/each}
