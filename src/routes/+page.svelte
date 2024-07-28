@@ -19,8 +19,8 @@
     ]
 </script>
 
-<header class="bg-white p-5 rounded-xl shadow-lg">
-    <h1 class="text-3xl my-2 font-bold italic">
+<header class="bg-white px-7 py-5 rounded-xl shadow-lg">
+    <h1 class="text-3xl mb-2 font-bold italic">
         Hey, ya! I'm Jose Tomanan.
     </h1>
     <h4 class="text-lg">
@@ -76,7 +76,7 @@
         </h4>
 
         <article>
-            <h3 class="text-lg">Online Portfolio-Resume <span class="font-thin italic">(this webpage!)</span></h3>
+            <h3 class="text-lg">Online Portfolio-Resume <i>(this webpage!)</i></h3>
             <h4 class="italic">Svelte + Tailwind</h4>
             <h5 class="text-slate-500 text-sm mt-1">I felt a glow like this</h5>
         </article>
