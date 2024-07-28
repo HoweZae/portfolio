@@ -66,7 +66,7 @@
 
 <div class="bg-white my-5 p-5 rounded-xl shadow-lg">
     <h2 class="text-xl">Where can you find me?</h2>
-    <h3>You're not getting it you fucking cow</h3>
+    <h3></h3>
 </div>
 
 <div class="bg-white my-5 p-5 rounded-xl shadow-lg">
