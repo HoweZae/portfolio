@@ -106,8 +106,18 @@
 </section>
 
 <section>
-    <h2 class="text-xl">Where can you find me?</h2>
-    <!-- <h4></h4> -->
+    <h2 class="text-xl mb-2">Where can you find me?</h2>
+    <div class="flex">
+        <div class="basis-1/3 flex justify-center bg-gradient-to-r hover:from-slate-100 hover:to-slate-100 p-2 rounded-xl mr-2">
+            jdtomanan@up.edu.ph
+        </div>
+        <div class="basis-1/3 flex justify-center bg-gradient-to-r hover:from-slate-100 hover:to-slate-100 p-2 rounded-xl">
+            jdtomanan@up.edu.ph
+        </div>
+        <div class="basis-1/3 flex justify-center bg-gradient-to-r hover:from-slate-100 hover:to-slate-100 p-2 rounded-xl ml-2">
+            jdtomanan@up.edu.ph
+        </div>
+    </div>
 </section>
 
 <section>
