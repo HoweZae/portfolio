@@ -19,36 +19,34 @@
     ]
 </script>
 
-<section class="mb-0">
-    <header class="flex">
-        <img 
-            class="flex justify-center content-center my-2 h-60 border-double border-2 border-orange-300"
-            src="/me.JPG"
-            alt="Me"
-        />
-        <div class="grow ml-3">
-            <h1 class="text-3xl ml-1 mt-3 mb-2 font-bold italic">
-                Hey, ya! I'm Jose Tomanan.
-            </h1>
-            <h4 class="text-lg ml-2">
-                I am a BS Computer Science junior student from the University of the Philippines Diliman.
-                <br> Thanks for visiting this page, it's nice to meet you!
-                <br> Feel free to get to know me better through the following platforms:
-            </h4>
-            <div class="flex mt-3">
-            {#each header as image}
-                <a href={image.link}
-                    class="basis-1/4 flex justify-center
-                        bg-gradient-to-r from-slate-100 to-slate-100 to-75%
-                        hover:from-slate-100 active:from-slate-100
-                        {image.color}
-                        mx-2 p-2 rounded-xl"
-                ><img class="h-8" src={image.logo} alt="Logo" /></a>
-            {/each}
-            </div>
+<header class="flex">
+    <img 
+        class="mt-7 mr-4 align-middle ml-5 flex justify-center content-center my-2 h-60 border-double border-2 border-orange-300"
+        src="/me.JPG"
+        alt="Me"
+    />
+    <section class="grow mb-0">
+        <h1 class="text-3xl ml-3 mt-3 mb-2 font-bold italic">
+            Hey, ya! I'm Jose Tomanan.
+        </h1>
+        <h4 class="text-lg ml-3">
+            I am a BS Computer Science junior student from the University of the Philippines Diliman.
+            <br> Thanks for visiting this page, it's nice to meet you!
+            <br> Feel free to get to know me better through the following platforms:
+        </h4>
+        <div class="flex mt-3">
+        {#each header as image}
+            <a href={image.link}
+                class="basis-1/4 flex justify-center
+                    bg-gradient-to-r from-slate-100 to-slate-100 to-75%
+                    hover:from-slate-100 active:from-slate-100
+                    {image.color}
+                    mx-2 p-2 rounded-xl"
+            ><img class="h-8" src={image.logo} alt="Logo" /></a>
+        {/each}
         </div>
-    </header>
-</section>
+    </section>
+</header>
 
 <div class="flex">
     <section class="basis-1/2 mr-3 mb-0">
@@ -145,7 +143,7 @@
             +63 947 301 3664
         </h5>
         <h5 class="basis-1/3 flex justify-center bg-gradient-to-r hover:from-slate-100 hover:to-slate-100 p-2 rounded-xl ml-2">
-            jdtomanan@up.edu.ph
+            Jose Ernesto Tomanan (LinkedIn)
         </h5>
     </div>
 </section>
