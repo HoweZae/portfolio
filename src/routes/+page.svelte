@@ -22,7 +22,7 @@
 <section class="mb-0">
     <header class="flex">
         <img 
-            class="flex justify-center content-center cmy-2 h-56 border-double border-2 border-orange-300"
+            class="flex justify-center content-center my-2 h-60 border-double border-2 border-orange-300"
             src="/me.JPG"
             alt="Me"
         />
@@ -36,16 +36,16 @@
                 <br> Feel free to get to know me better through the following platforms:
             </h4>
             <div class="flex mt-3">
-                {#each header as image}
-                    <a href={image.link}
-                        class="basis-1/4 flex justify-center
-                            bg-gradient-to-r from-slate-100 to-slate-100 to-75%
-                            hover:from-slate-100 active:from-slate-100
-                            {image.color}
-                            mx-2 p-2 rounded-xl"
-                    ><img class="h-8" src={image.logo} alt="Logo" /></a>
-                {/each}
-                </div>
+            {#each header as image}
+                <a href={image.link}
+                    class="basis-1/4 flex justify-center
+                        bg-gradient-to-r from-slate-100 to-slate-100 to-75%
+                        hover:from-slate-100 active:from-slate-100
+                        {image.color}
+                        mx-2 p-2 rounded-xl"
+                ><img class="h-8" src={image.logo} alt="Logo" /></a>
+            {/each}
+            </div>
         </div>
     </header>
 </section>
