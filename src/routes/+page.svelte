@@ -115,9 +115,16 @@
 </div>
 
 <section>
+    <h2 class="text-xl">What am I passionate about?</h2>
+    <h4>
+        In terms of computer science, ...
+    </h4>
+</section>
+
+<section>
     <h2 class="text-xl">What do I do in my free time?</h2>
     <h4>
-        Outside of computer science, I also like to hit the gym, play competitive video games, and play basketball.
+        Away from the keyboard, I take passion in hitting the gym, playing competitive video games, and playing basketball.
         I also used to pursue traditional drawing and guitar/keyboard playing as hobbies.
     </h4>
 </section>
