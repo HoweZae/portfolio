@@ -50,19 +50,19 @@
             <!-- Here are my highlights: -->
         </h4>
 
-        <article>
+        <article class="hover:bg-slate-200">
             <h3 class="text-lg">Tackle Junior Head</h3>
             <h4 class="italic">UP Association of Computer Science Majors (UP CURSOR)</h4>
             <h5 class="text-slate-500 text-sm mt-1">September 2023 - March 2024</h5>
         </article>
 
-        <article>
+        <article class="hover:bg-slate-200">
             <h3 class="text-lg">Head Giver</h3>
             <h4 class="italic">UP Center for Student Innovations (UP CSI)</h4>
             <h5 class="text-slate-500 text-sm mt-1">September 2023 - November 2023</h5>
         </article>
 
-        <article>
+        <article class="hover:bg-slate-200">
             <h3 class="text-lg">Member Relations Head</h3>
             <h4 class="italic">UP CURSOR</h4>
             <h5 class="text-slate-500 text-sm mt-1">February 2023 - May 2023</h5>
@@ -76,19 +76,19 @@
             <!-- Here are my highlights: -->
         </h4>
 
-        <article>
+        <article class="hover:bg-slate-200">
             <h3 class="text-lg">Online Portfolio-Resume <i>(this webpage!)</i></h3>
             <h4 class="italic">Svelte + Tailwind</h4>
             <h5 class="text-slate-500 text-sm mt-1">I felt a glow like this</h5>
         </article>
 
-        <article>
+        <article class="hover:bg-slate-200">
             <h3 class="text-lg">Poverty and Parenting: A Case Study</h3>
             <h4 class="italic">Python</h4>
             <h5 class="text-slate-500 text-sm mt-1">Never before</h5>
         </article>
 
-        <article>
+        <article class="hover:bg-slate-200">
             <h3 class="text-lg">
                 <!-- <a class="hover:underline" href=""> -->
                 Finances Tracker
