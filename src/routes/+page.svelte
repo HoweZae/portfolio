@@ -50,19 +50,22 @@
             <!-- Here are my highlights: -->
         </h4>
 
-        <article class="hover:bg-slate-200">
+        <!-- <article class="hover:bg-slate-200"> -->
+        <article>
             <h3 class="text-lg">Tackle Junior Head</h3>
             <h4 class="italic">UP Association of Computer Science Majors (UP CURSOR)</h4>
             <h5 class="text-slate-500 text-sm mt-1">September 2023 - March 2024</h5>
         </article>
 
-        <article class="hover:bg-slate-200">
+        <!-- <article class="hover:bg-slate-200"> -->
+        <article>
             <h3 class="text-lg">Head Giver</h3>
             <h4 class="italic">UP Center for Student Innovations (UP CSI)</h4>
             <h5 class="text-slate-500 text-sm mt-1">September 2023 - November 2023</h5>
         </article>
 
-        <article class="hover:bg-slate-200">
+        <!-- <article class="hover:bg-slate-200"> -->
+        <article>
             <h3 class="text-lg">Member Relations Head</h3>
             <h4 class="italic">UP CURSOR</h4>
             <h5 class="text-slate-500 text-sm mt-1">February 2023 - May 2023</h5>
@@ -76,19 +79,22 @@
             <!-- Here are my highlights: -->
         </h4>
 
-        <article class="hover:bg-slate-200">
+        <!-- <article class="hover:bg-slate-200"> -->
+        <article>
             <h3 class="text-lg">Online Portfolio-Resume <i>(this webpage!)</i></h3>
             <h4 class="italic">Svelte + Tailwind</h4>
             <h5 class="text-slate-500 text-sm mt-1">I felt a glow like this</h5>
         </article>
 
-        <article class="hover:bg-slate-200">
+        <!-- <article class="hover:bg-slate-200"> -->
+        <article>
             <h3 class="text-lg">Poverty and Parenting: A Case Study</h3>
             <h4 class="italic">Python</h4>
             <h5 class="text-slate-500 text-sm mt-1">Never before</h5>
         </article>
 
-        <article class="hover:bg-slate-200">
+        <!-- <article class="hover:bg-slate-200"> -->
+        <article>
             <h3 class="text-lg">
                 <!-- <a class="hover:underline" href=""> -->
                 Finances Tracker
@@ -111,15 +117,15 @@
 <section>
     <h2 class="text-xl mb-2">Where can you find me?</h2>
     <div class="flex">
-        <div class="basis-1/3 flex justify-center bg-gradient-to-r hover:from-slate-100 hover:to-slate-100 p-2 rounded-xl mr-2">
+        <h5 class="basis-1/3 flex justify-center bg-gradient-to-r hover:from-slate-100 hover:to-slate-100 p-2 rounded-xl mr-2">
             jdtomanan@up.edu.ph
-        </div>
-        <div class="basis-1/3 flex justify-center bg-gradient-to-r hover:from-slate-100 hover:to-slate-100 p-2 rounded-xl">
+        </h5>
+        <h5 class="basis-1/3 flex justify-center bg-gradient-to-r hover:from-slate-100 hover:to-slate-100 p-2 rounded-xl">
             jdtomanan@up.edu.ph
-        </div>
-        <div class="basis-1/3 flex justify-center bg-gradient-to-r hover:from-slate-100 hover:to-slate-100 p-2 rounded-xl ml-2">
+        </h5>
+        <h5 class="basis-1/3 flex justify-center bg-gradient-to-r hover:from-slate-100 hover:to-slate-100 p-2 rounded-xl ml-2">
             jdtomanan@up.edu.ph
-        </div>
+        </h5>
     </div>
 </section>
 
