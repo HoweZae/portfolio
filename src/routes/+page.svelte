@@ -87,29 +87,35 @@
             <!-- Here are my highlights: -->
         </h4>
 
-        <!-- <article class="hover:bg-slate-200"> -->
         <article>
-            <h3 class="text-lg">Online Portfolio-Resume <i>(this webpage!)</i></h3>
+            <h3 class="text-lg"><a
+                class="hover:underline hover:text-slate-400"
+                href="">
+                Online Portfolio-Resume <i>(this webpage!)</i>
+            </a></h3>
             <h4 class="italic">Svelte + Tailwind</h4>
             <h5 class="text-slate-500 text-sm mt-1">I felt a glow like this</h5>
         </article>
 
-        <!-- <article class="hover:bg-slate-200"> -->
         <article>
-            <h3 class="text-lg">Poverty and Parenting: A Case Study</h3>
-            <h4 class="italic">Python</h4>
-            <h5 class="text-slate-500 text-sm mt-1">Never before</h5>
+            <h3 class="text-lg"><a
+                class="hover:underline hover:text-orange-500"
+                href="https://tes-birth-rate.vercel.app">
+                Poverty and Parenting: A Case Study
+            </a></h3>
+            <h4 class="italic">Python: Pandas, Seaborn, Geopandas</h4>
+            <h5 class="text-slate-500 text-sm mt-1">Economic analysis of birth rates in the Philippines</h5>
         </article>
 
-        <!-- <article class="hover:bg-slate-200"> -->
         <article>
-            <h3 class="text-lg">
-                <!-- <a class="hover:underline" href=""> -->
+            <h3 class="text-lg"><a
+                class="hover:underline hover:text-green-600"
+                href="">
                 Finances Tracker
-                <!-- </a> -->
+                </a>
             </h3>
             <h4 class="italic">Google Sheets + Apps Script</h4>
-            <h5 class="text-slate-500 text-sm mt-1">And never since</h5>
+            <h5 class="text-slate-500 text-sm mt-1">Personal spreadsheet with JS-powered macros</h5>
         </article>
     </section>
 </div>
