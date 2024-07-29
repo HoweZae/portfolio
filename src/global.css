@@ -9,15 +9,17 @@ h4, h5, p {
     color: #64748b;
 }
 
+/*
 h1 {
-    /* font-size: 1.875rem; */
+    font-size: 1.875rem;
     line-height: 2.25rem;
 }
 
 h2 {
-    /* font-size: 1.25rem; */
+    font-size: 1.25rem;
     line-height: 2rem;
 }
+*/
 
 section {
     background-color: white;   /* bg-white */
