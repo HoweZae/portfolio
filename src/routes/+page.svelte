@@ -33,8 +33,9 @@
     {#each header as image}
         <a href={image.link}
             class="basis-1/4 flex justify-center
-                bg-gradient-to-r from-slate-100 to-slate-100
-                hover:from-slate-100 {image.color} to-75%
+                bg-gradient-to-r from-slate-100 to-slate-100 to-75%
+                hover:from-slate-100 active:from-slate-100
+                {image.color}
                 mx-2 p-2 rounded-xl"
         ><img class="h-8" src={image.logo} alt="Logo" /></a>
     {/each}
@@ -82,16 +83,18 @@
         </article>
 
         <article>
-            <h3 class="text-lg">
-                <a class="hover:underline" href="">Finances Tracker</a>
-            </h3>
-            <h4 class="italic">Google Sheets + Apps Script</h4>
+            <h3 class="text-lg">Poverty and Parenting: A Case Study</h3>
+            <h4 class="italic">Python</h4>
             <h5 class="text-slate-500 text-sm mt-1">Never before</h5>
         </article>
 
         <article>
-            <h3 class="text-lg">Checkmate</h3>
-            <h4 class="italic">Figma</h4>
+            <h3 class="text-lg">
+                <!-- <a class="hover:underline" href=""> -->
+                Finances Tracker
+                <!-- </a> -->
+            </h3>
+            <h4 class="italic">Google Sheets + Apps Script</h4>
             <h5 class="text-slate-500 text-sm mt-1">And never since</h5>
         </article>
     </section>
