@@ -116,9 +116,9 @@
         <Article 
             link="https://tes-birth-rate.vercel.app"
             hoverColor="hover:text-orange-500"
-            title="Poverty and Parenting: A Case Study"
+            title="Poverty and Parenting: A Data Science Study"
             subtitle="Python: Pandas, Seaborn, Geopandas"
-            other="Data science-backed analysis of birth rates in the Philippines"
+            other="Economic analysis of birth rates in the Philippines"
         />
 
         <Article 
