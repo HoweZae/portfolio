@@ -27,8 +27,8 @@
 
 <header class="flex">
     <img 
-        class="mt-5 mr-4 ml-3 flex justify-center content-center h-60 border-double border-2 border-orange-300"
-        src="/me.JPG"
+        class="mt-5 mr-4 ml-3 flex justify-center content-center h-60 border-double border-4 border-sky-700"
+        src="/me2.HEIC"
         alt="Me"
     />
     <section class="grow mb-0">
@@ -94,25 +94,12 @@
 
         <Article 
             link="https://github.com/HoweZae/HoweZae"
-            hoverColor="hover:text-slate-400"
+            hoverColor="hover:text-sky-500 italic"
             title="JoseTomanan.io"
             subtitle="Svelte + SvelteKit + Tailwind"
             other="My personal webpage-portfolio-resume (i.e., this webpage!)"
         />
         
-        <!--
-        <article>
-            <h3 class="text-lg"><a
-                class="hover:underline hover:text-slate-400"
-                on:click|once={linkClicked}
-                href="https://github.com/HoweZae/HoweZae">
-                <i>JoseTomanan.io</i>
-            </a></h3>
-            <h4 class="italic">Svelte + SvelteKit + Tailwind</h4>
-            <h5 class="text-slate-500 text-sm mt-1">My personal webpage-portfolio-resume (i.e., this webpage!)</h5>
-        </article>
-        -->
-
         <Article 
             link="https://tes-birth-rate.vercel.app"
             hoverColor="hover:text-orange-500"
