@@ -17,6 +17,10 @@
         {logo: "/logo/ig.png", color: "hover:to-red-100 active:from-red-200 active:to-red-200", link: link.ig, handle: "jose.tmnn"},
         {logo: "/logo/twt.png", color: "hover:to-sky-100 active:from-sky-200 active:to-sky-200", link: link.twt, handle: "howe_zae"},
     ]
+
+    function linkClicked() {
+        console.log("Link clicked. Hi mom!");
+    }
 </script>
 
 <header class="flex">
@@ -58,7 +62,7 @@
         <article>
             <h3 class="text-lg"><a
                 class="hover:underline hover:text-cyan-500"
-                on:click|once={() => console.log("Clicked link")}
+                on:click|once={linkClicked}
                 href="https://www.linkedin.com/in/jedtomanan/details/experience/">
                 Tackle Junior Head
             </a></h3>
@@ -69,6 +73,7 @@
         <article>
             <h3 class="text-lg"><a
                 class="hover:underline hover:text-cyan-500"
+                on:click|once={linkClicked}
                 href="https://www.linkedin.com/in/jedtomanan/details/experience/">
                 Engineering Committee Member
             </a></h3>
@@ -79,6 +84,7 @@
         <article>
             <h3 class="text-lg"><a
                 class="hover:underline hover:text-cyan-500"
+                on:click|once={linkClicked}
                 href="https://www.linkedin.com/in/jedtomanan/details/experience/">
                 Member Relations Head
             </a></h3>
@@ -96,16 +102,18 @@
         <article>
             <h3 class="text-lg"><a
                 class="hover:underline hover:text-slate-400"
+                on:click|once={linkClicked}
                 href="https://github.com/HoweZae/HoweZae">
-                Online Portfolio-Resume <i>(this webpage!)</i>
+                <i>JoseTomanan.io</i>
             </a></h3>
-            <h4 class="italic">Svelte + Tailwind</h4>
-            <h5 class="text-slate-500 text-sm mt-1">I felt a glow like this</h5>
+            <h4 class="italic">Svelte + SvelteKit + Tailwind</h4>
+            <h5 class="text-slate-500 text-sm mt-1">My personal webpage-portfolio-resume (i.e., this webpage!)</h5>
         </article>
 
         <article>
             <h3 class="text-lg"><a
                 class="hover:underline hover:text-orange-500"
+                on:click|once={linkClicked}
                 href="https://tes-birth-rate.vercel.app">
                 Poverty and Parenting: A Case Study
             </a></h3>
@@ -116,6 +124,7 @@
         <article>
             <h3 class="text-lg"><a
                 class="hover:underline hover:text-green-600"
+                on:click|once={linkClicked}
                 href="https://docs.google.com/spreadsheets/d/1Gl8ZSLqoZOfrErq09FKBjBx0lInlYxXj3dCs48e-T_Q/edit?usp=sharing">
                 Finances Tracker
                 </a>
