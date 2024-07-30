@@ -53,13 +53,12 @@
         <h2 class="text-xl">What have I been up to?</h2>
         <h4>
             See everything I've done, in full detail, at <a class="italic text-slate-600 hover:underline" href={link.li}>LinkedIn</a>.
-            <!-- Here are my highlights: -->
         </h4>
 
-        <!-- <article class="hover:bg-slate-200"> -->
         <article>
             <h3 class="text-lg"><a
                 class="hover:underline hover:text-cyan-500"
+                on:click|once={() => console.log("Clicked link")}
                 href="https://www.linkedin.com/in/jedtomanan/details/experience/">
                 Tackle Junior Head
             </a></h3>
@@ -67,7 +66,6 @@
             <h5 class="text-slate-500 text-sm mt-1">September 2023 - March 2024</h5>
         </article>
 
-        <!-- <article class="hover:bg-slate-200"> -->
         <article>
             <h3 class="text-lg"><a
                 class="hover:underline hover:text-cyan-500"
@@ -78,7 +76,6 @@
             <h5 class="text-slate-500 text-sm mt-1">September 2023 - November 2023</h5>
         </article>
 
-        <!-- <article class="hover:bg-slate-200"> -->
         <article>
             <h3 class="text-lg"><a
                 class="hover:underline hover:text-cyan-500"
@@ -94,13 +91,12 @@
         <h2 class="text-xl">What projects have I made?</h2>
         <h4>
             See my public repositories, in full detail, at <a class="italic text-slate-600 hover:underline" href={link.gh}>GitHub</a>.
-            <!-- Here are my highlights: -->
         </h4>
 
         <article>
             <h3 class="text-lg"><a
                 class="hover:underline hover:text-slate-400"
-                href="">
+                href="https://github.com/HoweZae/HoweZae">
                 Online Portfolio-Resume <i>(this webpage!)</i>
             </a></h3>
             <h4 class="italic">Svelte + Tailwind</h4>
@@ -120,7 +116,7 @@
         <article>
             <h3 class="text-lg"><a
                 class="hover:underline hover:text-green-600"
-                href="">
+                href="https://docs.google.com/spreadsheets/d/1Gl8ZSLqoZOfrErq09FKBjBx0lInlYxXj3dCs48e-T_Q/edit?usp=sharing">
                 Finances Tracker
                 </a>
             </h3>
