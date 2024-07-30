@@ -62,7 +62,7 @@
         </h4>
 
         <Article 
-            link="https://www.linkedin.com/in/jedtomanan/details/experience/"
+            href="https://www.linkedin.com/in/jedtomanan/details/experience/"
             hoverColor="hover:text-cyan-500"
             title="Tackle Junior Head"
             subtitle="UP Association of Computer Science Majors (UP CURSOR)"
@@ -70,7 +70,7 @@
         />
 
         <Article 
-            link="https://www.linkedin.com/in/jedtomanan/details/experience/"
+            href="https://www.linkedin.com/in/jedtomanan/details/experience/"
             hoverColor="hover:text-cyan-500"
             title="Engineering Committee Member"
             subtitle="UP Center for Student Innovations (UP CSI)"
@@ -78,7 +78,7 @@
         />
 
         <Article 
-            link="https://www.linkedin.com/in/jedtomanan/details/experience/"
+            href="https://www.linkedin.com/in/jedtomanan/details/experience/"
             hoverColor="hover:text-cyan-500"
             title="Member Relations Head"
             subtitle="UP CURSOR"
@@ -93,7 +93,7 @@
         </h4>
 
         <Article 
-            link="https://github.com/HoweZae/HoweZae"
+            href="https://github.com/HoweZae/HoweZae"
             hoverColor="hover:text-sky-500 italic"
             title="JoseTomanan.io"
             subtitle="Svelte + SvelteKit + Tailwind"
@@ -101,7 +101,7 @@
         />
         
         <Article 
-            link="https://tes-birth-rate.vercel.app"
+            href="https://tes-birth-rate.vercel.app"
             hoverColor="hover:text-orange-500"
             title="Poverty and Parenting: A Data Science Study"
             subtitle="Python: Pandas, Seaborn, Geopandas"
@@ -109,7 +109,7 @@
         />
 
         <Article 
-            link="https://docs.google.com/spreadsheets/d/1Gl8ZSLqoZOfrErq09FKBjBx0lInlYxXj3dCs48e-T_Q/edit?usp=sharing"
+            href="https://docs.google.com/spreadsheets/d/1Gl8ZSLqoZOfrErq09FKBjBx0lInlYxXj3dCs48e-T_Q/edit?usp=sharing"
             hoverColor="hover:text-green-600"
             title="Finances Tracker"
             subtitle="Google Sheets + Apps Script"

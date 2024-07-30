@@ -1,5 +1,5 @@
 <script>
-    export let link;
+    export let href;
     export let hoverColor;
     export let title;
     export let subtitle;
@@ -9,7 +9,7 @@
 <article>
     <h3 class="text-lg"><a
         class="hover:underline {hoverColor}"
-        href={link}
+        {href}
     >
         <!-- on:click|once={linkClicked} -->
         {title}
