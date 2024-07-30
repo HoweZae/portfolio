@@ -114,7 +114,7 @@
                 Poverty and Parenting: A Case Study
             </a></h3>
             <h4 class="italic">Python: Pandas, Seaborn, Geopandas</h4>
-            <h5 class="text-slate-500 text-sm mt-1">Economic analysis of birth rates in the Philippines</h5>
+            <h5 class="text-slate-500 text-sm mt-1">Data science-backed analysis of birth rates in the Philippines</h5>
         </article>
 
         <article>
