@@ -58,21 +58,33 @@
 
         <!-- <article class="hover:bg-slate-200"> -->
         <article>
-            <h3 class="text-lg">Tackle Junior Head</h3>
+            <h3 class="text-lg"><a
+                class="hover:underline hover:text-cyan-500"
+                href="https://www.linkedin.com/in/jedtomanan/details/experience/">
+                Tackle Junior Head
+            </a></h3>
             <h4 class="italic">UP Association of Computer Science Majors (UP CURSOR)</h4>
             <h5 class="text-slate-500 text-sm mt-1">September 2023 - March 2024</h5>
         </article>
 
         <!-- <article class="hover:bg-slate-200"> -->
         <article>
-            <h3 class="text-lg">Director for Engineering Committee</h3>
+            <h3 class="text-lg"><a
+                class="hover:underline hover:text-cyan-500"
+                href="https://www.linkedin.com/in/jedtomanan/details/experience/">
+                Engineering Committee Member
+            </a></h3>
             <h4 class="italic">UP Center for Student Innovations (UP CSI)</h4>
             <h5 class="text-slate-500 text-sm mt-1">September 2023 - November 2023</h5>
         </article>
 
         <!-- <article class="hover:bg-slate-200"> -->
         <article>
-            <h3 class="text-lg">Member Relations Head</h3>
+            <h3 class="text-lg"><a
+                class="hover:underline hover:text-cyan-500"
+                href="https://www.linkedin.com/in/jedtomanan/details/experience/">
+                Member Relations Head
+            </a></h3>
             <h4 class="italic">UP CURSOR</h4>
             <h5 class="text-slate-500 text-sm mt-1">February 2023 - May 2023</h5>
         </article>
