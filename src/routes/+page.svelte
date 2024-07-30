@@ -2,6 +2,8 @@
     import "../app.css";
     import "../global.css";
 
+    import Article from "./Article.svelte";
+
     const link = {
         li: "https://www.linkedin.com/in/jedtomanan/",
         gh: "https://github.com/HoweZae",
@@ -59,38 +61,29 @@
             See everything I've done, in full detail, at <a class="italic text-slate-600 hover:underline" href={link.li}>LinkedIn</a>.
         </h4>
 
-        <article>
-            <h3 class="text-lg"><a
-                class="hover:underline hover:text-cyan-500"
-                on:click|once={linkClicked}
-                href="https://www.linkedin.com/in/jedtomanan/details/experience/">
-                Tackle Junior Head
-            </a></h3>
-            <h4 class="italic">UP Association of Computer Science Majors (UP CURSOR)</h4>
-            <h5 class="text-slate-500 text-sm mt-1">September 2023 - March 2024</h5>
-        </article>
+        <Article 
+            link="https://www.linkedin.com/in/jedtomanan/details/experience/"
+            hoverColor="hover:text-cyan-500"
+            title="Tackle Junior Head"
+            subtitle="UP Association of Computer Science Majors (UP CURSOR)"
+            other="September 2023 - March 2024"
+        />
 
-        <article>
-            <h3 class="text-lg"><a
-                class="hover:underline hover:text-cyan-500"
-                on:click|once={linkClicked}
-                href="https://www.linkedin.com/in/jedtomanan/details/experience/">
-                Engineering Committee Member
-            </a></h3>
-            <h4 class="italic">UP Center for Student Innovations (UP CSI)</h4>
-            <h5 class="text-slate-500 text-sm mt-1">September 2023 - November 2023</h5>
-        </article>
+        <Article 
+            link="https://www.linkedin.com/in/jedtomanan/details/experience/"
+            hoverColor="hover:text-cyan-500"
+            title="Engineering Committee Member"
+            subtitle="UP Center for Student Innovations (UP CSI)"
+            other="September 2023 - November 2023"
+        />
 
-        <article>
-            <h3 class="text-lg"><a
-                class="hover:underline hover:text-cyan-500"
-                on:click|once={linkClicked}
-                href="https://www.linkedin.com/in/jedtomanan/details/experience/">
-                Member Relations Head
-            </a></h3>
-            <h4 class="italic">UP CURSOR</h4>
-            <h5 class="text-slate-500 text-sm mt-1">February 2023 - May 2023</h5>
-        </article>
+        <Article 
+            link="https://www.linkedin.com/in/jedtomanan/details/experience/"
+            hoverColor="hover:text-cyan-500"
+            title="Member Relations Head"
+            subtitle="UP CURSOR"
+            other="February 2023 - May 2023"
+        />
     </section>
 
     <section class="basis-1/2 ml-3 mb-0">
@@ -99,6 +92,15 @@
             See my public repositories, in full detail, at <a class="italic text-slate-600 hover:underline" href={link.gh}>GitHub</a>.
         </h4>
 
+        <Article 
+            link="https://github.com/HoweZae/HoweZae"
+            hoverColor="hover:text-slate-400"
+            title="JoseTomanan.io"
+            subtitle="Svelte + SvelteKit + Tailwind"
+            other="My personal webpage-portfolio-resume (i.e., this webpage!)"
+        />
+        
+        <!--
         <article>
             <h3 class="text-lg"><a
                 class="hover:underline hover:text-slate-400"
@@ -109,29 +111,23 @@
             <h4 class="italic">Svelte + SvelteKit + Tailwind</h4>
             <h5 class="text-slate-500 text-sm mt-1">My personal webpage-portfolio-resume (i.e., this webpage!)</h5>
         </article>
+        -->
 
-        <article>
-            <h3 class="text-lg"><a
-                class="hover:underline hover:text-orange-500"
-                on:click|once={linkClicked}
-                href="https://tes-birth-rate.vercel.app">
-                Poverty and Parenting: A Case Study
-            </a></h3>
-            <h4 class="italic">Python: Pandas, Seaborn, Geopandas</h4>
-            <h5 class="text-slate-500 text-sm mt-1">Data science-backed analysis of birth rates in the Philippines</h5>
-        </article>
+        <Article 
+            link="https://tes-birth-rate.vercel.app"
+            hoverColor="hover:text-orange-500"
+            title="Poverty and Parenting: A Case Study"
+            subtitle="Python: Pandas, Seaborn, Geopandas"
+            other="Data science-backed analysis of birth rates in the Philippines"
+        />
 
-        <article>
-            <h3 class="text-lg"><a
-                class="hover:underline hover:text-green-600"
-                on:click|once={linkClicked}
-                href="https://docs.google.com/spreadsheets/d/1Gl8ZSLqoZOfrErq09FKBjBx0lInlYxXj3dCs48e-T_Q/edit?usp=sharing">
-                Finances Tracker
-                </a>
-            </h3>
-            <h4 class="italic">Google Sheets + Apps Script</h4>
-            <h5 class="text-slate-500 text-sm mt-1">Personal spreadsheet with JS-powered macros</h5>
-        </article>
+        <Article 
+            link="https://docs.google.com/spreadsheets/d/1Gl8ZSLqoZOfrErq09FKBjBx0lInlYxXj3dCs48e-T_Q/edit?usp=sharing"
+            hoverColor="hover:text-green-600"
+            title="Finances Tracker"
+            subtitle="Google Sheets + Apps Script"
+            other="Personal spreadsheet with JS-powered macros"
+        />
     </section>
 </div>
 
