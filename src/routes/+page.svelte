@@ -21,7 +21,7 @@
 
 <header class="flex">
     <img 
-        class="mt-5 mr-4 ml-5 flex justify-center content-center h-60 border-double border-2 border-orange-300"
+        class="mt-5 mr-4 ml-3 flex justify-center content-center h-60 border-double border-2 border-orange-300"
         src="/me.JPG"
         alt="Me"
     />
