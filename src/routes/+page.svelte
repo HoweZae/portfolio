@@ -14,7 +14,7 @@
         {logo: "/logo/li.png", color: "hover:to-cyan-200", link: link.li, handle: "jedtomanan"},
         {logo: "/logo/gh.svg", color: "hover:to-purple-200", link: link.gh, handle: "HoweZae"},
         {logo: "/logo/fb.png", color: "hover:to-blue-200", link: link.fb, handle: "jedtomanan"},
-        {logo: "/logo/ig.png", color: "hover:to-red-100", link: link.ig, handle: "jose.tmnn"},
+        {logo: "/logo/ig.png", color: "hover:to-yellow-200", link: link.ig, handle: "jose.tmnn"},
         {logo: "/logo/twt.png", color: "hover:to-sky-100", link: link.twt, handle: "howe_zae"},
     ]
 </script>
