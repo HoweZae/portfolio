@@ -4,11 +4,11 @@
 
     import Article from "./Article.svelte";
 
-    import * as helpers from "$lib/index.js";
+    import * as helpers from "$lib";
 
-    let link = helpers.link;
-    let header = helpers.header;
-    let linkClicked = helpers.linkClicked;
+    const link = helpers.link;
+    const header = helpers.header;
+    const linkClicked = helpers.linkClicked;
 </script>
 
 <header class="flex">
@@ -34,7 +34,6 @@
                     hover:from-slate-100
                     {image.color}
                     mx-2 p-2 rounded-xl"
-                on:click={ linkClicked }
             ><img class="h-8" src={image.logo} alt="Logo" /></a>
         {/each}
         </div>
@@ -54,6 +53,7 @@
             title="Tackle Junior Head"
             subtitle="UP Association of Computer Science Majors (UP CURSOR)"
             other="September 2023 - March 2024"
+            on:interact={ linkClicked }
         />
 
         <Article 
@@ -62,6 +62,7 @@
             title="Engineering Committee Member"
             subtitle="UP Center for Student Innovations (UP CSI)"
             other="September 2023 - November 2023"
+            on:interact={ linkClicked }
         />
 
         <Article 
@@ -70,6 +71,7 @@
             title="Member Relations Head"
             subtitle="UP CURSOR"
             other="February 2023 - May 2023"
+            on:interact={ linkClicked }
         />
     </section>
 
@@ -85,6 +87,7 @@
             title="JoseTomanan.io"
             subtitle="Svelte + SvelteKit + Tailwind"
             other="My personal webpage-portfolio-resume (i.e., this webpage!)"
+            on:interact={ linkClicked }
         />
         
         <Article 
@@ -93,6 +96,7 @@
             title="Poverty and Parenting: A Data Science Study"
             subtitle="Python: Pandas, Seaborn, Geopandas"
             other="Economic analysis of birth rates in the Philippines"
+            on:interact={ linkClicked }
         />
 
         <Article 
@@ -101,6 +105,7 @@
             title="Finances Tracker"
             subtitle="Google Sheets + Apps Script"
             other="Personal spreadsheet with JS-powered macros"
+            on:interact={ linkClicked }
         />
     </section>
 </div>
