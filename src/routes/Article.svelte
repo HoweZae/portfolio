@@ -4,23 +4,13 @@
     export let title;
     export let subtitle;
     export let other;
-
-    import {createEventDispatcher} from 'svelte';
-    
-    const dispatch = createEventDispatcher();
-
-    function click() {
-        dispatch('interact', {
-            text: "Hi mom!"
-        });
-    }
 </script>
 
 <article>
     <h3 class="text-lg"><a
         class="hover:underline {hoverColor}"
         {href}
-        on:click|once={click}
+        on:click|once
     >
         {title}
     </a></h3>

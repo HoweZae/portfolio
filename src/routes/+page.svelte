@@ -53,7 +53,7 @@
             title="Tackle Junior Head"
             subtitle="UP Association of Computer Science Majors (UP CURSOR)"
             other="September 2023 - March 2024"
-            on:interact={ linkClicked }
+            on:click|once={ linkClicked }
         />
 
         <Article 
@@ -62,7 +62,7 @@
             title="Engineering Committee Member"
             subtitle="UP Center for Student Innovations (UP CSI)"
             other="September 2023 - November 2023"
-            on:interact={ linkClicked }
+            on:click|once={ linkClicked }
         />
 
         <Article 
@@ -71,7 +71,7 @@
             title="Member Relations Head"
             subtitle="UP CURSOR"
             other="February 2023 - May 2023"
-            on:interact={ linkClicked }
+            on:click|once={ linkClicked }
         />
     </section>
 
@@ -87,7 +87,7 @@
             title="JoseTomanan.io"
             subtitle="Svelte + SvelteKit + Tailwind"
             other="My personal webpage-portfolio-resume (i.e., this webpage!)"
-            on:interact={ linkClicked }
+            on:click|once={ linkClicked }
         />
         
         <Article 
@@ -96,7 +96,7 @@
             title="Poverty and Parenting: A Data Science Study"
             subtitle="Python: Pandas, Seaborn, Geopandas"
             other="Economic analysis of birth rates in the Philippines"
-            on:interact={ linkClicked }
+            on:click|once={ linkClicked }
         />
 
         <Article 
@@ -105,7 +105,7 @@
             title="Finances Tracker"
             subtitle="Google Sheets + Apps Script"
             other="Personal spreadsheet with JS-powered macros"
-            on:interact={ linkClicked }
+            on:click|once={ linkClicked }
         />
     </section>
 </div>

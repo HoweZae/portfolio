@@ -16,10 +16,7 @@ export const header = [
     {logo: "/logo/twt.png", color: "hover:to-sky-100 active:from-sky-200 active:to-sky-200", link: link.twt, handle: "howe_zae"},
 ]
 
-/**
- * @param {{ detail: { text: any; }; }} event
- */
-export function linkClicked(event) {
+export function linkClicked() {
     console.log("Link clicked.");
-    console.log(event.detail.text);
+    // console.log(event.detail.text);
 }
