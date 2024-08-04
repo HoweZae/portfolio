@@ -59,7 +59,7 @@
         <Article 
             href="https://www.linkedin.com/in/jedtomanan/details/experience/"
             hoverColor="hover:text-cyan-500"
-            title="Engineering Committee Member"
+            title="Dev Training Program Contributor"
             subtitle="UP Center for Student Innovations (UP CSI)"
             other="September 2023 - November 2023"
             on:click|once={ linkClicked }
@@ -121,7 +121,7 @@
     <h2 class="text-xl">What do I do in my free time?</h2>
     <h4>
         Away from the keyboard, I take passion in hitting the gym, playing competitive video games, and playing basketball.
-        I also used to pursue traditional drawing and guitar/keyboard playing as hobbies.
+        I also used to pursue traditional drawing and guitar/keyboard playing as other ways to spend my time productively.
     </h4>
 </section>
 

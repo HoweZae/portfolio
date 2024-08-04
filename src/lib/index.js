@@ -18,5 +18,6 @@ export const header = [
 
 export function linkClicked() {
     console.log("Link clicked.");
-    // console.log(event.detail.text);
+
+    // TODO: code to change link text color to violet (to signify "clicked")
 }
