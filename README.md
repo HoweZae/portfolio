@@ -1,5 +1,4 @@
-# Profile
+# Heya! I'm Jose Tomanan.
 
-I don't know what to put here yet HAHA
-
-But thanks Arki for pointing it out HAHAHAHAHAH
+<a href="http://linkedin.com/in/jedtomanan/">LinkedIn</a>
+<a href="https://www.instagram.com/jose.tmnn/">Instagram</a>
