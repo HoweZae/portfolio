@@ -9,12 +9,14 @@
     const link = helpers.link;
     const header = helpers.header;
     const linkClicked = helpers.linkClicked;
+
+    import {tweened, spring} from "svelte/motion";
 </script>
 
 <header class="flex">
     <img 
         class="mt-5 mr-4 ml-3 flex justify-center content-center h-60 border-double border-4 border-sky-700"
-        src="/me2.HEIC"
+        src="/images/me.JPG"
         alt="Me"
     />
     <section class="grow mb-0">
@@ -113,15 +115,22 @@
 <section>
     <h2 class="text-xl">What am I passionate about?</h2>
     <h4>
-        In terms of computer science, ...
+        In terms of computer science, out of all the options I have explored thus far, I have taken the most interest in <b>automation</b>.
+        I like seeing mundane tasks get accomplished by programs written in 5 minutes.
+        <br>
+        To me, this is the biggest advantage that learning programming has brought:
+        improving productivity and saving time.
     </h4>
 </section>
 
 <section>
     <h2 class="text-xl">What do I do in my free time?</h2>
     <h4>
-        Away from the keyboard, I take passion in hitting the gym, playing competitive video games, and playing basketball.
+        Away from the keyboard, I take passion in hitting the gym, playing basketball, and playing video games.
         I also used to pursue traditional drawing and guitar/keyboard playing as other ways to spend my time productively.
+    </h4>
+    <h4>
+        I am also an avid Swiftie since 2016, and I'd bet my left leg I know more about Taylor Swift than you!
     </h4>
 </section>
 
