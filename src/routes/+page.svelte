@@ -17,7 +17,7 @@
 
 <div class="flex">
     <section class="basis-1/2 mr-3 mb-0">
-        <h2 class="text-xl">What have I been up to?</h2>
+        <h2>What have I been up to?</h2>
         <h4>
             See everything I've done, in full detail, at <a class="italic text-slate-600 hover:underline" href={link.li}>LinkedIn</a>.
         </h4>
@@ -51,7 +51,7 @@
     </section>
 
     <section class="basis-1/2 ml-3 mb-0">
-        <h2 class="text-xl">What projects have I made?</h2>
+        <h2>What projects have I made?</h2>
         <h4>
             See my public repositories, in full detail, at <a class="italic text-slate-600 hover:underline" href={link.gh}>GitHub</a>.
         </h4>
@@ -86,29 +86,21 @@
 </div>
 
 <section>
-    <h2 class="text-xl">What am I passionate about?</h2>
-    <h4>
+    <h2>What am I passionate about?</h2>
+    <h4 class="my-3">
         In terms of computer science, out of all the options I have explored thus far, I have taken the most interest in <b>automation</b>.
         I like seeing mundane tasks get accomplished by programs written in 5 minutes.
-        <br>
         To me, this is the biggest advantage that learning programming has brought:
-        improving productivity and saving time.
+        <i>improving productivity and saving time</i>.
     </h4>
-</section>
-
-<section>
-    <h2 class="text-xl">What do I do in my free time?</h2>
     <h4>
         Away from the keyboard, I take passion in hitting the gym, playing basketball, and playing video games.
-        I also used to pursue traditional drawing and guitar/keyboard playing as other ways to spend my time productively.
-    </h4>
-    <h4>
         I am also an avid Swiftie since 2016: I'd bet my left leg I know more about Taylor Swift than you!
     </h4>
 </section>
 
 <section>
-    <h2 class="text-xl mb-2">Where can you find me?</h2>
+    <h2 class="mb-2">Where can you find me?</h2>
     <div class="flex">
         <h5 class="basis-1/3 flex justify-center bg-gradient-to-r hover:from-slate-100 hover:to-slate-100 p-2 rounded-xl mr-2">
             jdtomanan@up.edu.ph
