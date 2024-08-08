@@ -5,7 +5,7 @@ export const link = {
     gh: "https://github.com/HoweZae",
     fb: "https://www.facebook.com/jedtomanan/",
     ig: "https://www.instagram.com/jose.tmnn/",
-    twt: "https://x.com/howe_zae",
+    // twt: "https://x.com/howe_zae",
 }
 
 export const header = [
@@ -13,7 +13,7 @@ export const header = [
     {logo: "/logo/gh.svg", color: "hover:to-purple-200 active:from-purple-300 active:to-purple-300", link: link.gh, handle: "HoweZae"},
     {logo: "/logo/fb.png", color: "hover:to-blue-200 active:from-blue-300 active:to-blue-300", link: link.fb, handle: "jedtomanan"},
     {logo: "/logo/ig.png", color: "hover:to-red-100 active:from-red-200 active:to-red-200", link: link.ig, handle: "jose.tmnn"},
-    {logo: "/logo/twt.png", color: "hover:to-sky-100 active:from-sky-200 active:to-sky-200", link: link.twt, handle: "howe_zae"},
+    // {logo: "/logo/twt.png", color: "hover:to-sky-100 active:from-sky-200 active:to-sky-200", link: link.twt, handle: "howe_zae"},
 ]
 
 export function linkClicked() {
