@@ -1,9 +1,9 @@
 <script>
-    export let href;
-    export let hoverColor;
-    export let title;
-    export let subtitle;
-    export let other;
+    export let href = "";
+    export let hoverColor = "";
+    export let title = "";
+    export let subtitle = "";
+    export let other = "";
 </script>
 
 <article>
