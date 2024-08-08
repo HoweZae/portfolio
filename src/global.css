@@ -1,50 +1,16 @@
 h1, h2, h3 {
-    font-family: "Futura";
-    font-weight: normal;
-    color: #0f172a;
+    @apply font-['Futura'] text-slate-900;
 }
 
 h4, h5, p {
-    font-family: "Avenir";
-    color: #64748b;
+    @apply font-['Avenir'] text-slate-500;
 }
-
-/*
-h1 {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-}
-
-h2 {
-    font-size: 1.25rem;
-    line-height: 2rem;
-}
-*/
 
 section, footer {
-    background-color: white;   /* bg-white */
-    margin-top: 1.25rem;       /* my-5 (my-5 applies to both top and bottom) */
-    margin-bottom: 1.25rem;    /* my-5 */
-    padding-top: 1.25rem;          /* p-5 */
-    padding-bottom: 1.25rem;
-    padding-left: 1.625rem;
-    padding-right: 1.625rem;
-    border-radius: 0.75rem;    /* rounded-xl */
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* shadow-lg */
+    @apply bg-white my-5 p-5 rounded-xl shadow-lg;
 }
 
 article {
-    background-color: #f1f5f9; /* bg-slate-100 */
-    margin-top: 0.75rem;        /* my-2 (my-2 applies to both top and bottom) */
-    /* margin-bottom: 0.75rem; */
-    padding-top: 0.75rem;          /* p-3 */
-    padding-bottom: 0.75rem;          /* p-3 */
-    padding-left: 1rem;          /* p-3 */
-    padding-right: 1rem;          /* p-3 */
-    border-radius: 0.5rem;     /* rounded-lg */
-    /* box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); shadow-md */
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05); /* shadow-sm */
-
-    text-align: center;
+    @apply bg-slate-100 mt-2 py-2 px-3 rounded-lg shadow-sm text-center;
 }
   
