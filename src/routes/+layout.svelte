@@ -17,9 +17,9 @@
             Hey, ya! I'm Jose Tomanan.
         </h1>
         <h4 class="text-lg ml-3">
-            I am a BS Computer Science junior student from the University of the Philippines Diliman.
+            I am a BS Computer Science junior student from University of the Philippines Diliman.
             <br> Thanks for visiting this page, it's nice to meet you!
-            <br> Feel free to get to know me better through the following platforms:
+            <br> Get to know me better through the following platforms:
         </h4>
         <div class="flex mt-3">
         {#each header as image}
