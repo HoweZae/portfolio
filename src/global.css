@@ -6,6 +6,10 @@ h4, h5, p {
     @apply font-['Avenir'] text-slate-500;
 }
 
+h2 {
+    @apply text-xl;
+}
+
 section, footer {
     @apply bg-white my-5 p-5 rounded-xl shadow-lg;
 }
