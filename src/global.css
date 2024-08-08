@@ -21,7 +21,7 @@ h2 {
 }
 */
 
-section {
+section, footer {
     background-color: white;   /* bg-white */
     margin-top: 1.25rem;       /* my-5 (my-5 applies to both top and bottom) */
     margin-bottom: 1.25rem;    /* my-5 */
