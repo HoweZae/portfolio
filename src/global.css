@@ -10,6 +10,10 @@ h2 {
     @apply text-xl;
 }
 
+footer {
+    @apply text-xs;
+}
+
 section {
     @apply bg-white my-5 p-5 rounded-xl shadow-lg;
 }
@@ -17,4 +21,3 @@ section {
 article {
     @apply bg-slate-100 mt-2 py-2 px-3 rounded-lg shadow-sm text-center;
 }
-  
