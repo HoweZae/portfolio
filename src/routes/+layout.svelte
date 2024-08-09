@@ -40,8 +40,8 @@
 </main>
 
 <footer>
-    <h4 class="text-white-900 text-justify">
+    <h4 class="text-xs text-slate-600 text-center">
         This page is written with Svelte and Tailwind.
-        Feel free to use <b>Inspect Element</b> to see how I made this!
+        Feel free to use Inspect Element to see how I made this!
     </h4>
 </footer>

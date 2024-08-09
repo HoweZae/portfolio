@@ -10,7 +10,7 @@ h2 {
     @apply text-xl;
 }
 
-section, footer {
+section {
     @apply bg-white my-5 p-5 rounded-xl shadow-lg;
 }
 
