@@ -1,7 +1,7 @@
 <script>
     import "../app.css";
     import "../global.css";
-    import {header, buttonHover} from "$lib";
+    import {header, buttonHover, linkClicked} from "$lib";
 </script>
 
 <header class="flex">
@@ -27,8 +27,9 @@
                     hover:from-slate-100
                     {image.color}
                     mx-2 p-2 rounded-xl"
-                on:focus={ buttonHover }
-            ><img class="h-8" src={image.logo} alt="Logo" /></a>
+                on:click={ linkClicked }
+            ><img class="h-7" src={image.logo} alt="Logo" />
+            </a>
         {/each}
         </div>
     </section>
@@ -39,7 +40,7 @@
 </main>
 
 <footer>
-    <h4 class="font-['JetBrains_Mono_NL'] text-slate-600 text-center">
+    <h4 class="font-['JetBrains_Mono_NL'] text-center">
         //
         This page is written with Svelte and Tailwind.
         Feel free to use Inspect Element to see how I made this!
