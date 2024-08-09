@@ -1,10 +1,10 @@
 <script>
     import Article from "./Article.svelte";
-    import {link, linkClicked} from "$lib";
+    import { link, linkClicked } from "$lib";
 
     // FROM LEARN.SVELTE.DEV 
-    import {tweened, spring} from "svelte/motion";
-    import {elasticOut} from "svelte/easing";
+    import { tweened, spring } from "svelte/motion";
+    import { elasticOut } from "svelte/easing";
 
     const hoverButton = tweened(0, {
         duration: 500,

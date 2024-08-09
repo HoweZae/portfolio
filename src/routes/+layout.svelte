@@ -1,7 +1,7 @@
 <script>
     import "../app.css";
     import "../global.css";
-    import {header, buttonHover, linkClicked} from "$lib";
+    import { header, buttonHover, linkClicked } from "$lib";
 </script>
 
 <header class="flex">
