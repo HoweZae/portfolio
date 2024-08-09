@@ -1,10 +1,7 @@
 <script>
     import "../app.css";
     import "../global.css";
-    import * as helpers from "$lib";
-
-    const header = helpers.header;
-    const buttonHover = helpers.buttonHover;
+    import {header, buttonHover} from "$lib";
 </script>
 
 <header class="flex">

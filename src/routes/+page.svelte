@@ -1,9 +1,6 @@
 <script>
     import Article from "./Article.svelte";
-    import * as helpers from "$lib";
-
-    const link = helpers.link;
-    const linkClicked = helpers.linkClicked;
+    import {link, linkClicked} from "$lib";
 
     // FROM LEARN.SVELTE.DEV 
     import {tweened, spring} from "svelte/motion";
