@@ -39,7 +39,8 @@
 </main>
 
 <footer>
-    <h4 class="text-xs text-slate-600 text-center">
+    <h4 class="font-['JetBrains_Mono_NL'] text-xs text-slate-600 text-center">
+        //
         This page is written with Svelte and Tailwind.
         Feel free to use Inspect Element to see how I made this!
     </h4>
