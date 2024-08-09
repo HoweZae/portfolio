@@ -4,6 +4,7 @@
     import * as helpers from "$lib";
 
     const header = helpers.header;
+    const buttonHover = helpers.buttonHover;
 </script>
 
 <header class="flex">
@@ -23,12 +24,13 @@
         </h4>
         <div class="flex mt-3">
         {#each header as image}
-            <a href={image.link}
+            <a href={ image.link }
                 class="basis-1/4 flex justify-center
                     bg-gradient-to-r from-slate-100 to-slate-100 to-75%
                     hover:from-slate-100
                     {image.color}
                     mx-2 p-2 rounded-xl"
+                on:focus={ buttonHover }
             ><img class="h-8" src={image.logo} alt="Logo" /></a>
         {/each}
         </div>

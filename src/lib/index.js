@@ -17,7 +17,11 @@ export const header = [
 ]
 
 export function linkClicked() {
-    console.log("Link clicked.");
-
+    console.log("Link clicked...");
     // TODO: code to change link text color to violet (to signify "clicked")
+}
+
+export function buttonHover() {
+    console.log("Hovering on button...")
+    // TODO: code to animate hovering on link (using gradient)
 }
