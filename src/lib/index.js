@@ -18,7 +18,15 @@ export const header = [
 
 export function linkClicked() {
     console.log("Link clicked...");
+
     // TODO: code to change link text color to violet (to signify "clicked")
+    const id = "";
+
+    if (id != null) {
+        const link = document.getElementById(id);
+        // @ts-ignore
+        link.classList.add("text-violet-600");
+    }
 }
 
 export function buttonHover() {

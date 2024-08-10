@@ -86,8 +86,8 @@
     <h2>What am I passionate about?</h2>
     <h4 class="my-2">
         In terms of computer science, out of all the options I have explored thus far, I have taken the most interest in <b>UI/UX design</b>.
-        Other than appreciating how things look and making things pretty,
-        I also appreciate studying the psychology behind what makes users engage more.
+        Other than making things pretty, I also appreciate studying the psychology behind what makes users engage more.
+        My goal is to create highly intuitive designs that present themselves 
     </h4>
     <h4>
         Away from the keyboard, I take passion in hitting the gym, playing basketball, and playing video games.
@@ -97,6 +97,7 @@
 
 <section>
     <h2 class="mb-2">Where can you find me?</h2>
+    <!-- TODO: click to copy -->
     <div class="flex">
         <h5 class="basis-1/3 flex justify-center bg-gradient-to-r hover:from-slate-100 hover:to-slate-100 p-2 rounded-xl mr-2">
             jdtomanan@up.edu.ph

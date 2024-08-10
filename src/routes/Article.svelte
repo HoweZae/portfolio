@@ -7,8 +7,8 @@
 </script>
 
 <article class="bg-slate-100 mt-2 py-2 px-3 rounded-lg shadow-sm text-center">
-    <h3 class="text-lg clickableLink">
-        <a class="hover:underline {hoverColor}"
+    <h3 class="text-lg">
+        <a class="hover:underline {hoverColor} clickableLink"
             {href}
             target="_blank"
             on:click|once

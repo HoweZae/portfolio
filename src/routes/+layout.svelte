@@ -28,7 +28,7 @@
                     {image.color}
                     mx-2 p-2 rounded-xl"
                 target="_blank"
-                on:click={ linkClicked }
+                on:focus={ buttonHover }
             ><img class="h-7" src={image.logo} alt="Logo" />
             </a>
         {/each}
