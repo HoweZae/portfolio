@@ -1,15 +1,16 @@
 <script>
     import Article from "./Article.svelte";
+    import ClickToCopy from "./ClickToCopy.svelte";
+
     import { link, linkClicked } from "$lib";
 
-    // FROM LEARN.SVELTE.DEV 
-    import { tweened, spring } from "svelte/motion";
-    import { elasticOut } from "svelte/easing";
+    // import { tweened, spring } from "svelte/motion";
+    // import { elasticOut } from "svelte/easing";
 
-    const hoverButton = tweened(0, {
-        duration: 500,
-        easing: elasticOut
-    });
+    // const hoverButton = tweened(0, {
+    //     duration: 500,
+    //     easing: elasticOut
+    // });
 </script>
 
 <div class="flex">
@@ -103,16 +104,12 @@
 
 <section>
     <h2 class="mb-2">Where can you find me?</h2>
-    <!-- TODO: click to copy -->
     <div class="flex">
-        <h5 class="basis-1/3 flex justify-center bg-gradient-to-r hover:from-slate-100 hover:to-slate-100 p-2 rounded-xl mr-2">
-            jdtomanan@up.edu.ph
-        </h5>
-        <h5 class="basis-1/3 flex justify-center bg-gradient-to-r hover:from-slate-100 hover:to-slate-100 p-2 rounded-xl">
-            +63 947 301 3664
-        </h5>
-        <h5 class="basis-1/3 flex justify-center bg-gradient-to-r hover:from-slate-100 hover:to-slate-100 p-2 rounded-xl ml-2">
-            Jose Ernesto Tomanan (LinkedIn)
-        </h5>
+        <ClickToCopy content="jdtomanan@up.edu.ph" 
+            on:dblclick={ ()=>{ navigator.clipboard.writeText("jdtomanan@up.edu.ph") }} />
+        <ClickToCopy content="+63 947 301 3664" 
+            on:dblclick={ () => { navigator.clipboard.writeText("+639473013664") }} />
+        <ClickToCopy content="Jose Ernesto Tomanan (LinkedIn)" 
+            on:dblclick={ () => { navigator.clipboard.writeText("Jose Ernesto Tomanan") }} />
     </div>
 </section>
