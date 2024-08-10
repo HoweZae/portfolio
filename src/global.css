@@ -10,8 +10,9 @@ h2 {
     @apply text-xl;
 }
 
-footer {
-    @apply text-xs;
+h6 {
+    /* subtitle */
+    @apply text-xs font-['JetBrains_Mono_NL']
 }
 
 section {

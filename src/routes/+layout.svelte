@@ -40,9 +40,9 @@
 </main>
 
 <footer>
-    <h4 class="font-['JetBrains_Mono_NL'] text-center">
+    <h6 class="text-center text-slate-400">
         //
         This page is written with Svelte, SvelteKit and Tailwind.
         Feel free to use Inspect Element to see how I made this!
-    </h4>
+    </h6>
 </footer>
