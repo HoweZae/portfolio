@@ -20,30 +20,33 @@
         </h4>
 
         <Article 
+            id="role1"
             href="https://www.linkedin.com/in/jedtomanan/details/experience/"
             hoverColor="hover:text-cyan-500"
             title="Tackle Junior Head"
             subtitle="UP Association of Computer Science Majors (UP CURSOR)"
             other="September 2023 - March 2024"
-            on:click|once={ linkClicked }
+            on:click|once={ () => linkClicked("role1") }
         />
 
         <Article 
+            id="role2"
             href="https://www.linkedin.com/in/jedtomanan/details/experience/"
             hoverColor="hover:text-cyan-500"
             title="Dev Training Program Contributor"
             subtitle="UP Center for Student Innovations (UP CSI)"
             other="September 2023 - November 2023"
-            on:click|once={ linkClicked }
+            on:click|once={ () => linkClicked("role2") }
         />
 
         <Article 
+            id="role3"
             href="https://www.linkedin.com/in/jedtomanan/details/experience/"
             hoverColor="hover:text-cyan-500"
             title="Member Relations Head"
             subtitle="UP CURSOR"
             other="February 2023 - May 2023"
-            on:click|once={ linkClicked }
+            on:click|once={ () => linkClicked("role3") }
         />
     </section>
 
@@ -54,30 +57,33 @@
         </h4>
 
         <Article 
+            id="proj1"
             href="https://github.com/HoweZae/HoweZae"
             hoverColor="hover:text-sky-500 italic"
             title="JoseTomanan.io"
             subtitle="Svelte + SvelteKit + Tailwind"
             other="My personal webpage-portfolio-resume (i.e., this webpage!)"
-            on:click|once={ linkClicked }
+            on:click|once={ () => linkClicked("proj1") }
         />
         
         <Article 
+            id="proj2"
             href="https://tes-birth-rate.vercel.app"
             hoverColor="hover:text-orange-500"
             title="Poverty and Parenting: A Data Science Study"
             subtitle="Python: Pandas, Seaborn, Geopandas"
             other="Economic analysis of birth rates in the Philippines"
-            on:click|once={ linkClicked }
+            on:click|once={ () => linkClicked("proj2") }
         />
 
         <Article 
+            id="proj3"
             href="https://docs.google.com/spreadsheets/d/1Gl8ZSLqoZOfrErq09FKBjBx0lInlYxXj3dCs48e-T_Q/edit?usp=sharing"
             hoverColor="hover:text-green-600"
             title="Finances Tracker"
             subtitle="Google Sheets + Apps Script"
             other="Personal spreadsheet with JS-powered macros"
-            on:click|once={ linkClicked }
+            on:click|once={ () => linkClicked("proj3") }
         />
     </section>
 </div>

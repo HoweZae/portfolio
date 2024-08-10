@@ -1,4 +1,5 @@
 <script>
+    export let id = "";
     export let href = "";
     export let hoverColor = "";
     export let title = "";
@@ -9,7 +10,7 @@
 <article class="bg-slate-100 mt-2 py-2 px-3 rounded-lg shadow-sm text-center">
     <h3 class="text-lg">
         <a class="hover:underline {hoverColor} clickableLink"
-            {href}
+            {id} {href}
             target="_blank"
             on:click|once
         >

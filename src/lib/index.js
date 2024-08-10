@@ -16,16 +16,16 @@ export const header = [
     {logo: "/logo/twt.png", color: "hover:to-sky-100 active:from-sky-200 active:to-sky-200", link: link.twt, handle: "howe_zae"},
 ]
 
-export function linkClicked() {
+/**
+ * @param {string | null} id
+ */
+export function linkClicked(id) {
     console.log("Link clicked...");
-
-    // TODO: code to change link text color to violet (to signify "clicked")
-    const id = "";
 
     if (id != null) {
         const link = document.getElementById(id);
         // @ts-ignore
-        link.classList.add("text-violet-600");
+        link.classList.add("text-violet-800", "underline");
     }
 }
 
