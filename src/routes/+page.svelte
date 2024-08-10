@@ -82,13 +82,12 @@
     </section>
 </div>
 
-<section>
+<section class="text-justify">
     <h2>What am I passionate about?</h2>
-    <h4 class="my-3">
-        In terms of computer science, out of all the options I have explored thus far, I have taken the most interest in <b>automation</b>.
-        I like seeing mundane tasks get accomplished by programs written in 5 minutes.
-        To me, this is the biggest advantage that learning programming has brought:
-        <i>improving productivity and saving time</i>.
+    <h4 class="my-2">
+        In terms of computer science, out of all the options I have explored thus far, I have taken the most interest in <b>UI/UX design</b>.
+        Other than appreciating how things look and making things pretty,
+        I also appreciate studying the psychology behind what makes users engage more.
     </h4>
     <h4>
         Away from the keyboard, I take passion in hitting the gym, playing basketball, and playing video games.
