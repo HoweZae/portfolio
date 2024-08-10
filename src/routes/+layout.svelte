@@ -4,14 +4,14 @@
     import { header, buttonHover, linkClicked } from "$lib";
 </script>
 
-<header class="flex mt-2">
+<header class="flex mt-3">
     <img 
         class="mr-4 flex justify-center content-center h-52 border-double border-4 border-sky-700"
         src="/images/me.JPG"
         alt="Me"
     />
     <section class="grow my-0">
-        <h1 class="text-3xl ml-2 mb-3 font-bold italic">
+        <h1 class="text-3xl ml-2 mt-2 font-bold italic">
             Heya! I'm Jose Tomanan.
         </h1>
         <h4 class="text-lg ml-2">
