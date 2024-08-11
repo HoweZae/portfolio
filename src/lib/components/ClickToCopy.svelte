@@ -13,15 +13,14 @@
         color: rgb(100 116 139 / var(--tw-text-opacity)) /* #64748b */;
     }
 
-    #copybutton:hover{
+    #copybutton:hover {
         stroke-width: 2;
     }
 </style>
 
 <div
-    class="basis-1/3 flex justify-between
-    bg-gradient-to-r hover:from-slate-100 hover:to-slate-100
-    p-2 rounded-xl" >
+    class="basis-1/3 flex justify-between hover:bg-slate-50 p-2 rounded-xl"
+>
     <!-- svelte-ignore a11y-missing-content -->
     <h5></h5>
     <h5>{ content }</h5>
