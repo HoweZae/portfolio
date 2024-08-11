@@ -19,10 +19,10 @@
 </style>
 
 <div
-    class="basis-1/3 flex justify-between hover:bg-slate-50 p-2 rounded-xl"
+    class="flex justify-between hover:bg-slate-50 p-2 rounded-xl"
 >
     <!-- svelte-ignore a11y-missing-content -->
-    <h5></h5>
+    <h5></h5> <!-- THIS IS NOT A GOOD WORKAROUND, FIX IT LATER-->
     <h5>{ content }</h5>
     <button type="button" on:click>
         <svg id="copybutton"
