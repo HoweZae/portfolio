@@ -11,7 +11,7 @@
         alt="Me"
     />
     <section class="grow my-0">
-        <h1 class="text-3xl ml-2 mt-2 font-bold italic">
+        <h1 class="text-3xl ml-2 mb-3 font-bold italic">
             Heya! I'm Jose Tomanan.
         </h1>
         <h4 class="text-lg ml-2">
@@ -43,6 +43,6 @@
     <h6 class="text-center text-slate-400">
         //
         This page is written with Svelte, SvelteKit and Tailwind.
-        Feel free to use Inspect Element to see how I made this!
+        Feel free to open the codebase to see how I made this!
     </h6>
 </footer>

@@ -9,7 +9,7 @@
         stroke-width: 1;
     }
 
-    div:hover #copybutton {
+    .flex:hover #copybutton {
         color: rgb(100 116 139 / var(--tw-text-opacity)) /* #64748b */;
     }
 
