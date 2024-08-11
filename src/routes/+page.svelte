@@ -14,7 +14,7 @@
 </script>
 
 <div class="flex">
-    <section class="basis-1/2 mr-3 mb-0">
+    <section class="basis-1/2 mr-2 mb-0">
         <h2>What have I been up to?</h2>
         <h4>
             See everything I've done, in full detail, at <a class="italic text-slate-600 hover:underline" href={link.li}>LinkedIn</a>.
@@ -51,7 +51,7 @@
         />
     </section>
 
-    <section class="basis-1/2 ml-3 mb-0">
+    <section class="basis-1/2 ml-2 mb-0">
         <h2>What projects have I made?</h2>
         <h4>
             See my public repositories, in full detail, at <a class="italic text-slate-600 hover:underline" href={link.gh}>GitHub</a>.
@@ -113,7 +113,7 @@
 
         <ClickToCopy content="+63 947 301 3664" 
             on:click={ () => { navigator.clipboard.writeText("+639473013664") }} />
-            
+
         <ClickToCopy content="Jose Ernesto Tomanan (LinkedIn)" 
             on:click={ () => { navigator.clipboard.writeText("Jose Ernesto Tomanan") }} />
     </div>

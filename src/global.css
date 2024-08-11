@@ -12,9 +12,9 @@ h2 {
 
 h6 {
     /* subtitle */
-    @apply text-xs font-['JetBrains_Mono_NL']
+    @apply text-xs font-['JetBrains_Mono_NL'];
 }
 
 section {
-    @apply bg-white my-5 p-5 rounded-xl shadow-lg;
+    @apply bg-white my-4 p-4 rounded-lg shadow-sm;
 }
