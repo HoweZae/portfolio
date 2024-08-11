@@ -17,8 +17,8 @@
     <h2>What do I do?</h2>
     <h4>
         As a computer science student, I explore everything tech-related; i.e., finding a story then digging into its rabbit hole.
-        My journey has led me to <b>UI/UX design</b> which has piqued the most interest:
-        other than making things pretty, I particularly appreciate studying the psychology behind what makes users engage more.
+        My journey has led me to <b>UI/UX design</b> which has piqued my interest the most:
+        other than making things pretty, I appreciate studying the psychology behind what makes users engage more.
         I've found a passion in creating highly intuitive designs that present and market themselves.
     </h4>
 </section>
