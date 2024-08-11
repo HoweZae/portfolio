@@ -110,8 +110,10 @@
     <div class="flex">
         <ClickToCopy content="jdtomanan@up.edu.ph" 
             on:click={ ()=>{ navigator.clipboard.writeText("jdtomanan@up.edu.ph") }} />
+
         <ClickToCopy content="+63 947 301 3664" 
             on:click={ () => { navigator.clipboard.writeText("+639473013664") }} />
+            
         <ClickToCopy content="Jose Ernesto Tomanan (LinkedIn)" 
             on:click={ () => { navigator.clipboard.writeText("Jose Ernesto Tomanan") }} />
     </div>
