@@ -1,6 +1,6 @@
 <script>
-    import Article from "./Article.svelte";
-    import ClickToCopy from "./ClickToCopy.svelte";
+    import Article from "../lib/components/Article.svelte";
+    import ClickToCopy from "../lib/components/ClickToCopy.svelte";
 
     import { link, linkClicked } from "$lib";
 
