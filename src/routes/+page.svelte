@@ -103,13 +103,17 @@
 </section>
 
 <section>
-    <h2 class="mb-2">Where can you find me?</h2>
+    <div class="flex justify-between">
+        <h2 class="mb-2">Where can you find me?</h2>
+        <hfill></hfill>
+        <h6 class="text-slate-400 italic">(hover to show copy button!)</h6>
+    </div>
     <div class="flex">
         <ClickToCopy content="jdtomanan@up.edu.ph" 
-            on:dblclick={ ()=>{ navigator.clipboard.writeText("jdtomanan@up.edu.ph") }} />
+            on:click={ ()=>{ navigator.clipboard.writeText("jdtomanan@up.edu.ph") }} />
         <ClickToCopy content="+63 947 301 3664" 
-            on:dblclick={ () => { navigator.clipboard.writeText("+639473013664") }} />
+            on:click={ () => { navigator.clipboard.writeText("+639473013664") }} />
         <ClickToCopy content="Jose Ernesto Tomanan (LinkedIn)" 
-            on:dblclick={ () => { navigator.clipboard.writeText("Jose Ernesto Tomanan") }} />
+            on:click={ () => { navigator.clipboard.writeText("Jose Ernesto Tomanan") }} />
     </div>
 </section>
