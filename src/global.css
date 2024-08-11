@@ -16,5 +16,5 @@ h6 {
 }
 
 section {
-    @apply bg-white my-4 p-4 rounded-lg shadow-sm;
+    @apply bg-white my-4 p-4 rounded-md shadow-sm;
 }
