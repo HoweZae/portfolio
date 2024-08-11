@@ -20,15 +20,13 @@
         </h4>
         <div class="flex mt-3">
         {#each header as image}
-            <a href={ image.link }
-                class="basis-1/4 flex justify-center
-                    bg-gradient-to-r from-slate-100 to-slate-100 to-75%
-                    hover:from-slate-100
-                    {image.color}
-                    mx-1 p-2 rounded-xl"
+            <a 
+                href={ image.link }
+                class="basis-1/4 flex justify-center bg-gradient-to-r from-slate-100 to-slate-100 to-75%  hover:from-slate-100 {image.color} mx-1 p-2 rounded-xl"
                 target="_blank"
                 on:focus={ buttonHover }
-            ><img class="h-7" src={image.logo} alt="Logo" />
+            >
+                <img class="h-7" src={image.logo} alt="Logo" />
             </a>
         {/each}
         </div>

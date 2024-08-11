@@ -105,7 +105,6 @@
 <section>
     <div class="flex justify-between">
         <h2 class="mb-2">Where can you find me?</h2>
-        <hfill></hfill>
         <h6 class="text-slate-400 italic">(hover to show copy button!)</h6>
     </div>
     <div class="flex">
