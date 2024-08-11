@@ -1,15 +1,16 @@
 <script>
     export let content = "";
+    export let src = "";
 </script>
 
 <style>
-    #copybutton {
+    .hoverablebutton {
         --tw-text-opacity: 1;
         color: transparent;
         stroke-width: 1;
     }
 
-    .flex:hover #copybutton {
+    .flex:hover .hoverablebutton {
         color: rgb(100 116 139 / var(--tw-text-opacity)) /* #64748b */;
     }
 
@@ -18,21 +19,21 @@
     }
 </style>
 
-<div
-    class="flex justify-between hover:bg-slate-50 p-2 rounded-xl"
->
-    <!-- svelte-ignore a11y-missing-content -->
-    <h5></h5> <!-- THIS IS NOT A GOOD WORKAROUND, FIX IT LATER-->
+<div class="flex justify-between hover:bg-slate-50 p-2 rounded-xl">
+    <img 
+        class="hoverablebutton h-5 w-5 stroke-current " 
+        {src} alt="Helpful"
+    >
     <h5>{ content }</h5>
     <button type="button" on:click>
-        <svg id="copybutton"
-            class="h-5 w-5 stroke-current stroke-1"
-            viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+        <svg  
+            id="copybutton" class="hoverablebutton h-5 w-5 stroke-current"
+            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"  fill="none"  
+            stroke="currentColor" stroke-linecap="round"  stroke-linejoin="round"  
         >
-            <path
-                d="M17.5 14H19C20.1046 14 21 13.1046 21 12V5C21 3.89543 20.1046 3 19 3H12C10.8954 3 10 3.89543 10 5V6.5M5 10H12C13.1046 10 14 10.8954 14 12V19C14 20.1046 13.1046 21 12 21H5C3.89543 21 3 20.1046 3 19V12C3 10.8954 3.89543 10 5 10Z" 
-                stroke-linecap="round" stroke-linejoin="round"
-            />
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M7 7m0 2.667a2.667 2.667 0 0 1 2.667 -2.667h8.666a2.667 2.667 0 0 1 2.667 2.667v8.666a2.667 2.667 0 0 1 -2.667 2.667h-8.666a2.667 2.667 0 0 1 -2.667 -2.667z" />
+            <path d="M4.012 16.737a2.005 2.005 0 0 1 -1.012 -1.737v-10c0 -1.1 .9 -2 2 -2h10c.75 0 1.158 .385 1.5 1" />
         </svg>
     </button>
 </div>

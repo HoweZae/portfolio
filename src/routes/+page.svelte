@@ -139,19 +139,28 @@
     </h4>
 </section>
 
-<section>
-    <div class="flex justify-between">
-        <h2>Where can you find me?</h2>
-        <h6 class="text-slate-400 italic">(hover to show copy button!)</h6>
-    </div>
-    <div class="flex">
-        <ClickToCopy content="jdtomanan@up.edu.ph" 
-            on:click={ ()=>{ navigator.clipboard.writeText("jdtomanan@up.edu.ph") }} />
+<div class="flex">
+    <section class="basis-2/5 mt-0 mr-2">
+        <div class="flex justify-between">
+            <h2>Where can you find me?</h2>
+            <!-- <h6 class="text-slate-400 italic">(try hovering!)</h6> -->
+        </div>
+        <div class="flex flex-col mt-1">
+            <ClickToCopy content="jdtomanan@up.edu.ph" src="/svg/email.svg"
+                on:click={ ()=>{ navigator.clipboard.writeText("jdtomanan@up.edu.ph") }} />
 
-        <ClickToCopy content="+63 947 301 3664" 
-            on:click={ () => { navigator.clipboard.writeText("+639473013664") }} />
+            <ClickToCopy content="+63 947 301 3664" src="/svg/phone.svg"
+                on:click={ () => { navigator.clipboard.writeText("+639473013664") }} />
 
-        <ClickToCopy content="Jose Ernesto Tomanan (LinkedIn)" 
-            on:click={ () => { navigator.clipboard.writeText("Jose Ernesto Tomanan") }} />
-    </div>
-</section>
+            <ClickToCopy content="In: jedtomanan" src="/svg/li.svg"
+                on:click={ () => { navigator.clipboard.writeText("jedtomanan") }} />
+
+            <ClickToCopy content="fb: Jose Ernesto Tomanan" src="/svg/fb.svg"
+                on:click={ () => { navigator.clipboard.writeText("Jose Ernesto Tomanan") }} />
+        </div>
+    </section>
+    <section class="basis-3/5 mt-0 ml-1">
+        <h2>Or send me a message:</h2>
+        <input>
+    </section>
+</div>
