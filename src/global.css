@@ -7,7 +7,7 @@ h4, h5, p {
 }
 
 h2 {
-    @apply text-xl;
+    @apply text-lg;
 }
 
 h6 {

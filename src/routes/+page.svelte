@@ -103,7 +103,7 @@
     <h2>What else am I passionate about?</h2>
     <h4>
         Away from the keyboard, I take passion in hitting the gym, playing basketball, and playing video games.
-        I am also an avid Swiftie since 2016: I'd bet my left leg I know more about Taylor Swift than you!
+        I am also an avid Swiftie: I'd bet my left leg I know more about Taylor Swift than you!
     </h4>
 </section>
 
