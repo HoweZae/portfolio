@@ -13,8 +13,18 @@
     // });
 </script>
 
+<section>
+    <h2>What do I do?</h2>
+    <h4>
+        As a computer science student, I explore everything tech-related; i.e., finding a story then digging into its rabbit hole.
+        My journey has led me to <b>UI/UX design</b> which has piqued the most interest:
+        other than making things pretty, I particularly appreciate studying the psychology behind what makes users engage more.
+        I've found a passion in creating highly intuitive designs that present and market themselves.
+    </h4>
+</section>
+
 <div class="flex">
-    <section class="basis-1/2 mr-2 mb-0">
+    <section class="basis-1/2 mr-2 my-0">
         <h2>What have I been up to?</h2>
         <h4>
             See everything I've done, in full detail, at <a class="italic text-slate-600 hover:underline" href={link.li}>LinkedIn</a>.
@@ -51,7 +61,7 @@
         />
     </section>
 
-    <section class="basis-1/2 ml-2 mb-0">
+    <section class="basis-1/2 ml-2 my-0">
         <h2>What projects have I made?</h2>
         <h4>
             See my public repositories, in full detail, at <a class="italic text-slate-600 hover:underline" href={link.gh}>GitHub</a>.
@@ -90,12 +100,7 @@
 </div>
 
 <section class="text-justify">
-    <h2>What am I passionate about?</h2>
-    <h4 class="my-2">
-        In terms of computer science, out of all the options I have explored thus far, I have taken the most interest in <b>UI/UX design</b>.
-        Other than making things pretty, I also appreciate studying the psychology behind what makes users engage more.
-        My goal is to create highly intuitive designs that present themselves 
-    </h4>
+    <h2>What else am I passionate about?</h2>
     <h4>
         Away from the keyboard, I take passion in hitting the gym, playing basketball, and playing video games.
         I am also an avid Swiftie since 2016: I'd bet my left leg I know more about Taylor Swift than you!
@@ -104,7 +109,7 @@
 
 <section>
     <div class="flex justify-between">
-        <h2 class="mb-2">Where can you find me?</h2>
+        <h2>Where can you find me?</h2>
         <h6 class="text-slate-400 italic">(hover to show copy button!)</h6>
     </div>
     <div class="flex">

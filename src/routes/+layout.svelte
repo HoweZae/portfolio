@@ -4,7 +4,7 @@
     import { header, buttonHover, linkClicked } from "$lib";
 </script>
 
-<header class="flex mt-3">
+<header class="flex">
     <div class="h-52 w-52 rounded-lg border-double border-4 border-sky-600 mr-2 p-1">
         <img 
             class="rounded-sm"

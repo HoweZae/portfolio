@@ -7,7 +7,7 @@
     export let other = "";
 </script>
 
-<article class="bg-slate-100 mt-2 py-2 px-3 rounded-lg shadow-sm text-center">
+<article class="bg-slate-100 mt-2 py-2 px-3 rounded-lg text-center">
     <h3 class="text-lg">
         <a class="hover:underline {hoverColor} clickableLink"
             {id} {href}
