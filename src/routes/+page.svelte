@@ -34,7 +34,7 @@
             {#each header as image}
             <a 
                 href={ image.link }
-                class="basis-1/5 flex justify-center bg-gradient-to-r from-white to-white to-75% {image.color} p-2 rounded-xl"
+                class="grow flex justify-center bg-gradient-to-r from-white to-white to-75% {image.color} p-2 rounded-xl"
                 target="_blank"
                 on:focus={ buttonHover }
             >
