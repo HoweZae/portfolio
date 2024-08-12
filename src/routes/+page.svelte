@@ -2,7 +2,12 @@
     import Article from "../lib/components/Article.svelte";
     import ClickToCopy from "../lib/components/ClickToCopy.svelte";
 
-    import { link, header, buttonHover, linkClicked } from "$lib";
+    import { link, header } from "$lib";
+    import { buttonHover, linkClicked, submitForm } from "$lib";
+
+    let name = "";
+    let email = "";
+    let message = "";
 
     // import { tweened, spring } from "svelte/motion";
     // import { elasticOut } from "svelte/easing";
@@ -164,25 +169,38 @@
         <h2>Or send me a message:</h2>
 
         <div class="flex gap-2 py-1">
-            <form class="grow flex gap-2 justify-between">
+            <form class="basis-5/12 flex gap-2 justify-between">
                 <label for="name">Name: </label>
-                <input name="name" class="smallContent" placeholder="Your Name">
+                <input 
+                    name="name" type="text" class="input_text_sm" placeholder="Your Name" 
+                    bind:value={ name }
+                >
             </form>
-            <form class="grow flex gap-2 justify-between">
+
+            <form class="basis-7/12 flex gap-2 justify-between">
                 <label for="email">Email: </label>
-                <input name="email" class="smallContent" placeholder="yourname@email.com">
+                <input 
+                    name="email" type="email" class="input_text_sm" placeholder="yourname@email.com" 
+                    bind:value={ email }
+                >
             </form>
         </div>
 
         <form class="flex-col pb-2">
             <label for="message">Message:</label>
             <br>
-            <textarea rows=3 name="message" id="bigContent" placeholder="Say something..."
+            <textarea 
+                class="block w-full font-['Avenir'] rounded-sm border-0 text-slate-700 ring-1 ring-inset ring-slate-300 p-1"
+                rows=3 name="message" placeholder="Say something..."
+                bind:value={ message }
             ></textarea>
         </form>
 
         <form class="flex justify-end">
-            <button class="bg-sky-500 hover:bg-sky-800 rounded-md py-2 px-4 text-base font-['Futura'] text-white">
+            <button
+                class="bg-sky-500 hover:bg-sky-800 rounded-md py-2 px-4 text-base font-['Futura'] text-white"
+                on:click={ ()=>{ submitForm(name, email, message) }}
+            >
                 Submit
             </button>
         </form>

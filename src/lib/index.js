@@ -33,3 +33,12 @@ export function buttonHover() {
     console.log("Hovering on button...")
     // TODO: code to animate hovering on link (using gradient)
 }
+
+/**
+ * @param {string} name
+ * @param {string} email
+ * @param {string} message
+ */
+export function submitForm(name, email, message) {
+    alert(`Submitted: ${name}, ${email}: ${message}`);
+}
