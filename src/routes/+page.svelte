@@ -146,16 +146,16 @@
             <!-- <h6 class="text-slate-400 italic">(try hovering!)</h6> -->
         </div>
         <div class="flex flex-col mt-1">
-            <ClickToCopy content="jdtomanan@up.edu.ph" src="/svg/email.svg"
+            <ClickToCopy content="jdtomanan@up.edu.ph"
                 on:click={ ()=>{ navigator.clipboard.writeText("jdtomanan@up.edu.ph") }} />
 
-            <ClickToCopy content="+63 947 301 3664" src="/svg/phone.svg"
+            <ClickToCopy content="+63 947 301 3664"
                 on:click={ () => { navigator.clipboard.writeText("+639473013664") }} />
 
-            <ClickToCopy content="In: jedtomanan" src="/svg/li.svg"
+            <ClickToCopy content="In: jedtomanan"
                 on:click={ () => { navigator.clipboard.writeText("jedtomanan") }} />
 
-            <ClickToCopy content="fb: Jose Ernesto Tomanan" src="/svg/fb.svg"
+            <ClickToCopy content="fb: Jose Ernesto Tomanan"
                 on:click={ () => { navigator.clipboard.writeText("Jose Ernesto Tomanan") }} />
         </div>
     </section>

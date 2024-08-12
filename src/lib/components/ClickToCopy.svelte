@@ -1,6 +1,6 @@
 <script>
     export let content = "";
-    export let src = "";
+    // export let src = "";
 </script>
 
 <style>
@@ -20,10 +20,7 @@
 </style>
 
 <div class="flex justify-between hover:bg-slate-50 p-2 rounded-xl">
-    <img 
-        class="hoverablebutton h-5 w-5 stroke-current " 
-        {src} alt="Helpful"
-    >
+    <div class="h-5 w-5"></div>
     <h5>{ content }</h5>
     <button type="button" on:click>
         <svg  
