@@ -160,23 +160,31 @@
         <h6 class="text-slate-400 italic text-right">(hover for copy button!)</h6>
     </section>
 
-    <section class="basis-3/5 mt-0 flex-col gap-y-2">
+    <section class="basis-3/5 mt-0 gap-y-2">
         <h2>Or send me a message:</h2>
 
-        <div class="flex gap-2">
-            <form class="grow flex justify-between">
+        <div class="flex gap-2 py-1">
+            <form class="basis-2/5 flex gap-2 justify-between">
                 <label for="name">Name: </label>
-                <input name="name">
+                <input name="name" class="smallContent" placeholder="Your Name">
             </form>
-            <form class="grow flex justify-between">
+            <form class="basis-3/5 flex gap-2 justify-between">
                 <label for="email">Email: </label>
-                <input name="email">
+                <input name="email" class="smallContent" placeholder="yourname@email.com">
             </form>
         </div>
 
-        <form class="flex-col grow">
+        <form class="flex-col pb-2">
             <label for="message">Message:</label>
-            <input name="message" class="grow">
+            <br>
+            <textarea rows=3 name="message" id="bigContent" placeholder="Say something..."
+            ></textarea>
+        </form>
+
+        <form class="flex justify-end">
+            <button class="bg-sky-500 hover:bg-sky-800 rounded-md py-2 px-4 text-base font-['Futura'] text-white">
+                Submit
+            </button>
         </form>
     </section>
 </div>

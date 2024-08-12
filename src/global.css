@@ -11,10 +11,18 @@ h2 {
 }
 
 h6 {
-    /* subtitle */
     @apply text-xs font-['JetBrains_Mono_NL'];
 }
 
 section {
     @apply bg-white my-4 p-4 rounded-md shadow-sm;
+}
+
+input.smallContent {
+    @apply block w-full font-['Avenir'] rounded-sm border-0 text-slate-700 ring-1 ring-inset ring-slate-300 pl-1 pr-5 placeholder:text-gray-400;
+    /* @apply focus:ring-2 focus:ring-indigo-600; */
+}
+
+textarea#bigContent {
+    @apply block w-full font-['Avenir'] rounded-sm border-0 text-slate-700 ring-1 ring-inset ring-slate-300 pl-1 pr-2;
 }
