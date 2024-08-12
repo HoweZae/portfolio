@@ -55,8 +55,8 @@
     </h4>
 </section>
 
-<div class="flex">
-    <section class="basis-1/2 mr-2 my-0">
+<div class="flex gap-x-4">
+    <section class="basis-1/2 my-0">
         <h2>What have I been up to?</h2>
         <h4>
             See everything I've done, in full detail, at <a class="italic text-slate-600 hover:underline" href={link.li}>LinkedIn</a>.
@@ -93,7 +93,7 @@
         />
     </section>
 
-    <section class="basis-1/2 ml-2 my-0">
+    <section class="basis-1/2 my-0">
         <h2>What projects have I made?</h2>
         <h4>
             See my public repositories, in full detail, at <a class="italic text-slate-600 hover:underline" href={link.gh}>GitHub</a>.
@@ -139,13 +139,11 @@
     </h4>
 </section>
 
-<div class="flex">
-    <section class="basis-2/5 mt-0 mr-2">
-        <div class="flex justify-between">
-            <h2>Where can you find me?</h2>
-            <!-- <h6 class="text-slate-400 italic">(try hovering!)</h6> -->
-        </div>
-        <div class="flex flex-col mt-1">
+<div class="flex gap-x-4">
+    <section class="basis-2/5 mt-0">
+        <h2>Contact me:</h2>
+
+        <div class="flex flex-col my-1">
             <ClickToCopy content="jdtomanan@up.edu.ph"
                 on:click={ ()=>{ navigator.clipboard.writeText("jdtomanan@up.edu.ph") }} />
 
@@ -158,9 +156,27 @@
             <ClickToCopy content="fb: Jose Ernesto Tomanan"
                 on:click={ () => { navigator.clipboard.writeText("Jose Ernesto Tomanan") }} />
         </div>
+
+        <h6 class="text-slate-400 italic text-right">(hover for copy button!)</h6>
     </section>
-    <section class="basis-3/5 mt-0 ml-1">
+
+    <section class="basis-3/5 mt-0 flex-col gap-y-2">
         <h2>Or send me a message:</h2>
-        <input>
+
+        <div class="flex gap-2">
+            <form class="grow flex justify-between">
+                <h4>Name: </h4>
+                <input>
+            </form>
+            <form class="grow flex justify-between">
+                <h4>Email: </h4>
+                <input>
+            </form>
+        </div>
+
+        <form class="flex-col grow">
+            <h4>Message:</h4>
+            <input class="grow">
+        </form>
     </section>
 </div>
