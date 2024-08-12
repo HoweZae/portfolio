@@ -19,7 +19,7 @@
     }
 </style>
 
-<div class="flex justify-between hover:bg-slate-50 p-2 rounded-xl">
+<div class="flex justify-between hover:bg-slate-100 p-2 rounded-xl">
     <div class="h-5 w-5"></div>
     <h5>{ content }</h5>
     <button type="button" on:click>
