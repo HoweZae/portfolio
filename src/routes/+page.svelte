@@ -47,12 +47,12 @@
 
 <section>
     <h2>What do I do?</h2>
-    <h4>
+    <p>
         As a computer science student, I explore everything tech-related; i.e., finding a story then digging into its rabbit hole.
         My journey has led me to <b>UI/UX design</b> which has piqued my interest the most:
         other than making things pretty, I appreciate studying the psychology behind what makes users engage more.
         I've found a passion in creating highly intuitive designs that present and market themselves.
-    </h4>
+    </p>
 </section>
 
 <div class="flex gap-x-4">
@@ -133,10 +133,10 @@
 
 <section class="text-justify">
     <h2>What else am I passionate about?</h2>
-    <h4>
+    <p>
         Away from the keyboard, I take passion in hitting the gym, playing basketball, and playing video games.
         I am also an avid Swiftie: I'd bet my left leg I know more about Taylor Swift than you!
-    </h4>
+    </p>
 </section>
 
 <div class="flex gap-x-4">

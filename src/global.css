@@ -10,6 +10,11 @@ h2 {
     @apply text-lg;
 }
 
+p {
+    /* should be temporary; I feel like there's a better way to do this */
+    @apply mt-1;
+}
+
 h6 {
     @apply text-xs font-['JetBrains_Mono_NL'];
 }
