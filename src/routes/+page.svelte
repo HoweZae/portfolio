@@ -164,11 +164,11 @@
         <h2>Or send me a message:</h2>
 
         <div class="flex gap-2 py-1">
-            <form class="basis-2/5 flex gap-2 justify-between">
+            <form class="grow flex gap-2 justify-between">
                 <label for="name">Name: </label>
                 <input name="name" class="smallContent" placeholder="Your Name">
             </form>
-            <form class="basis-3/5 flex gap-2 justify-between">
+            <form class="grow flex gap-2 justify-between">
                 <label for="email">Email: </label>
                 <input name="email" class="smallContent" placeholder="yourname@email.com">
             </form>
