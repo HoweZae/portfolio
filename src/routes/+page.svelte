@@ -165,18 +165,18 @@
 
         <div class="flex gap-2">
             <form class="grow flex justify-between">
-                <h4>Name: </h4>
-                <input>
+                <label for="name">Name: </label>
+                <input name="name">
             </form>
             <form class="grow flex justify-between">
-                <h4>Email: </h4>
-                <input>
+                <label for="email">Email: </label>
+                <input name="email">
             </form>
         </div>
 
         <form class="flex-col grow">
-            <h4>Message:</h4>
-            <input class="grow">
+            <label for="message">Message:</label>
+            <input name="message" class="grow">
         </form>
     </section>
 </div>

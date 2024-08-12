@@ -2,7 +2,7 @@ h1, h2, h3 {
     @apply font-['Futura'] text-slate-900;
 }
 
-h4, h5, p {
+h4, h5, p, label {
     @apply font-['Avenir'] text-slate-500;
 }
 
