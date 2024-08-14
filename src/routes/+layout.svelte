@@ -3,6 +3,10 @@
     import "../global.css";
 </script>
 
+<header>
+    
+</header>
+
 <main>
     <slot></slot>
 </main>
