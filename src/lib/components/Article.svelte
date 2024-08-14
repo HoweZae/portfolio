@@ -9,9 +9,10 @@
 
 <article class="bg-slate-100 mt-2 py-2 px-3 rounded-lg text-center">
     <h3 class="text-lg">
-        <a class="hover:underline {hoverColor} clickableLink"
-            {id} {href}
+        <a 
+            class="clickableLink {hoverColor} hover:underline transition ease-linear"
             target="_blank"
+            {id} {href}
             on:click|once
         >
             {title}
