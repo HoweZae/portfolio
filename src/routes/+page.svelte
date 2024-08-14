@@ -199,7 +199,7 @@
 
         <form class="flex justify-end">
             <button
-                class="bg-sky-500 hover:bg-sky-800 rounded-md py-2 px-4 text-base font-['Futura'] text-white"
+                class="bg-sky-500 hover:bg-sky-800 rounded-md py-2 px-4 text-base font-['Futura'] text-white transition ease-out"
                 on:click={ ()=>{ submitForm(name, email, message) }}
             >
                 Submit
