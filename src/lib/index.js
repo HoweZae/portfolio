@@ -17,7 +17,7 @@ export const header = [
 ]
 
 /**
- * @param {string | null} id
+ * @param {string} id
  */
 export function linkClicked(id) {
     console.log("Link clicked...");
@@ -30,8 +30,7 @@ export function linkClicked(id) {
 }
 
 export function buttonHover() {
-    console.log("Hovering on button...")
-    // TODO: code to animate hovering on link (using gradient)
+    console.log("Hovering on button...");
 }
 
 /**
