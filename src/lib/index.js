@@ -40,5 +40,5 @@ export function buttonHover() {
  * @param {string} message
  */
 export function submitForm(name, email, message) {
-    alert(`Submitted: ${name}, ${email}: ${message}`);
+    alert(`Submitted ${name}, ${email} with message: ${message}`);
 }
