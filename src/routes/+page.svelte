@@ -35,17 +35,18 @@
             <br>
             Thanks for visiting! Get to know me more:
         </h4>
-        <div class="flex">
-            {#each header as image}
-            <a 
-                href={ image.link }
-                class="grow flex justify-center bg-gradient-to-r from-white to-white to-75% {image.color} p-2 rounded-xl"
-                target="_blank"
-                on:focus={ buttonHover }
-            >
-                <img class="h-8" src={image.logo} alt="Logo" />
-            </a>
-            {/each}
+        <div class="flex gap-2">
+        {#each header as image}
+            <button type="button" class="grow flex justify-center bg-gradient-to-b from-white to-white {image.color} active:from-slate-100 active:to-slate-100 p-2 rounded-xl transition ease-out hover:scale-110">
+                <a 
+                    href={ image.link }
+                    target="_blank"
+                    on:focus={ buttonHover }
+                >
+                    <img class="h-8" src={image.logo} alt="Logo" />
+                </a>
+            </button>
+        {/each}
         </div>
     </section>
 </div>

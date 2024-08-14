@@ -10,7 +10,7 @@
 <article class="bg-slate-100 mt-2 py-2 px-3 rounded-lg text-center">
     <h3 class="text-lg">
         <a 
-            class="clickableLink {hoverColor} hover:underline transition ease-linear"
+            class="clickableLink {hoverColor} hover:underline transition ease-out"
             target="_blank"
             {id} {href}
             on:click|once
