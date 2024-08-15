@@ -51,10 +51,12 @@
     </section>
 </div>
 
-<section>
+<section class="flex flex-col gap-1">
     <h2>What do I do?</h2>
     <p>
         As a CS major, I explore everything tech-related; i.e., finding new technology then digging into its rabbit hole.
+    </p>
+    <p>
         My journey has led me to <b>UI/UX design</b> which has piqued my interest the most:
         other than making things pretty, I appreciate studying the psychology behind what makes users engage more.
         I've found a passion in creating highly intuitive designs that present and market themselves.
@@ -62,82 +64,82 @@
 </section>
 
 <div class="flex gap-x-4">
-    <section class="basis-1/2 my-0">
+    <section class="basis-1/2 my-0 flex flex-col gap-1">
         <h2>What have I been up to?</h2>
         <h4>
             See everything I've done, in full detail, at <a class="italic text-slate-600 hover:underline" href={link.li}>LinkedIn</a>.
         </h4>
 
-        <Article 
-            id="role1"
-            href="https://www.linkedin.com/in/jedtomanan/details/experience/"
-            hoverColor="hover:text-cyan-500"
-            title="Tackle Junior Head"
-            subtitle="UP Association of Computer Science Majors (UP CURSOR)"
-            other="September 2023 - March 2024"
-            on:click|once={ () => linkClicked("role1") }
-        />
-
-        <Article 
-            id="role2"
-            href="https://www.linkedin.com/in/jedtomanan/details/experience/"
-            hoverColor="hover:text-cyan-500"
-            title="Dev Training Program Contributor"
-            subtitle="UP Center for Student Innovations (UP CSI)"
-            other="September 2023 - November 2023"
-            on:click|once={ () => linkClicked("role2") }
-        />
-
-        <Article 
-            id="role3"
-            href="https://www.linkedin.com/in/jedtomanan/details/experience/"
-            hoverColor="hover:text-cyan-500"
-            title="Member Relations Head"
-            subtitle="UP CURSOR"
-            other="February 2023 - May 2023"
-            on:click|once={ () => linkClicked("role3") }
-        />
+        <div class="flex flex-col gap-2">
+            <Article 
+                id="role1"
+                href="https://www.linkedin.com/in/jedtomanan/details/experience/"
+                hoverColor="hover:text-cyan-500"
+                title="Tackle Junior Head"
+                subtitle="UP Association of Computer Science Majors (UP CURSOR)"
+                other="September 2023 - March 2024"
+                on:click|once={ () => linkClicked("role1") }
+            />
+            <Article 
+                id="role2"
+                href="https://www.linkedin.com/in/jedtomanan/details/experience/"
+                hoverColor="hover:text-cyan-500"
+                title="Dev Training Program Contributor"
+                subtitle="UP Center for Student Innovations (UP CSI)"
+                other="September 2023 - November 2023"
+                on:click|once={ () => linkClicked("role2") }
+            />
+            <Article 
+                id="role3"
+                href="https://www.linkedin.com/in/jedtomanan/details/experience/"
+                hoverColor="hover:text-cyan-500"
+                title="Member Relations Head"
+                subtitle="UP CURSOR"
+                other="February 2023 - May 2023"
+                on:click|once={ () => linkClicked("role3") }
+            />
+        </div>
     </section>
 
-    <section class="basis-1/2 my-0">
+    <section class="basis-1/2 my-0 flex flex-col gap-1">
         <h2>What projects have I made?</h2>
         <h4>
             See my public repositories, in full detail, at <a class="italic text-slate-600 hover:underline" href={link.gh}>GitHub</a>.
         </h4>
-
-        <Article 
-            id="proj1"
-            href="https://github.com/HoweZae/HoweZae"
-            hoverColor="hover:text-sky-500 italic"
-            title="JoseTomanan.io"
-            subtitle="Svelte + SvelteKit + Tailwind"
-            other="My personal webpage-portfolio-resume (i.e., this webpage!)"
-            on:click|once={ () => linkClicked("proj1") }
-        />
         
-        <Article 
-            id="proj2"
-            href="https://tes-birth-rate.vercel.app"
-            hoverColor="hover:text-orange-500"
-            title="Poverty and Parenting: A Data Science Study"
-            subtitle="Python: Pandas, Seaborn, Geopandas"
-            other="Economic analysis of birth rates in the Philippines"
-            on:click|once={ () => linkClicked("proj2") }
-        />
-
-        <Article 
-            id="proj3"
-            href="https://docs.google.com/spreadsheets/d/1Gl8ZSLqoZOfrErq09FKBjBx0lInlYxXj3dCs48e-T_Q/edit?usp=sharing"
-            hoverColor="hover:text-green-600"
-            title="Finances Tracker"
-            subtitle="Google Sheets + Apps Script"
-            other="Personal spreadsheet with JS-powered macros"
-            on:click|once={ () => linkClicked("proj3") }
-        />
+        <div class="flex flex-col gap-2">
+            <Article 
+                id="proj1"
+                href="https://github.com/HoweZae/HoweZae"
+                hoverColor="hover:text-sky-500 italic"
+                title="JoseTomanan.io"
+                subtitle="Svelte + SvelteKit + Tailwind"
+                other="My personal webpage-portfolio-resume (i.e., this webpage!)"
+                on:click|once={ () => linkClicked("proj1") }
+            />
+            <Article 
+                id="proj2"
+                href="https://tes-birth-rate.vercel.app"
+                hoverColor="hover:text-orange-500"
+                title="Poverty and Parenting: A Data Science Study"
+                subtitle="Python: Pandas, Seaborn, Geopandas"
+                other="Economic analysis of birth rates in the Philippines"
+                on:click|once={ () => linkClicked("proj2") }
+            />
+            <Article 
+                id="proj3"
+                href="https://docs.google.com/spreadsheets/d/1Gl8ZSLqoZOfrErq09FKBjBx0lInlYxXj3dCs48e-T_Q/edit?usp=sharing"
+                hoverColor="hover:text-green-600"
+                title="Finances Tracker"
+                subtitle="Google Sheets + Apps Script"
+                other="Personal spreadsheet with JS-powered macros"
+                on:click|once={ () => linkClicked("proj3") }
+            />
+        </div>
     </section>
 </div>
 
-<section class="text-justify">
+<section class="flex flex-col gap-1">
     <h2>What else am I passionate about?</h2>
     <p>
         Away from the keyboard, I take passion in hitting the gym, playing basketball, and playing video games.
@@ -149,7 +151,7 @@
     <section class="basis-2/5 mt-0">
         <h2>Contact me:</h2>
 
-        <div class="flex flex-col my-1">
+        <div class="flex flex-col">
             <ClickToCopy content="jdtomanan@up.edu.ph"
                 on:click={ ()=>{ navigator.clipboard.writeText("jdtomanan@up.edu.ph") }} />
 

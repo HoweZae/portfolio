@@ -1,5 +1,5 @@
 h1, h2, h3 {
-    @apply font-['Futura'] text-slate-900;
+    @apply font-['Futura'] text-slate-800;
 }
 
 h4, h5, p, label {
@@ -10,13 +10,12 @@ h2 {
     @apply text-lg;
 }
 
-p {
-    /* should be temporary; I feel like there's a better way to do this */
-    @apply mt-1;
-}
-
 h6 {
     @apply text-xs font-['JetBrains_Mono_NL'];
+}
+
+p {
+    @apply text-justify;
 }
 
 section {
