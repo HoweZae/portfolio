@@ -18,6 +18,6 @@
             {title}
         </a>
     </h3>
-    <h4 class="italic">{subtitle}</h4>
+    <h5 class="italic">{subtitle}</h5>
     <h5 class="text-slate-500 text-sm mt-1">{other}</h5>
 </article>

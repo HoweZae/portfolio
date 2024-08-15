@@ -18,23 +18,22 @@
     // });
 </script>
 
-<div class="flex">
-    <div class="h-52 w-52 rounded-lg border-double border-4 border-sky-600 mr-2 p-1">
-        <img 
-            class="rounded-sm"
-            src="/images/me.JPG"
-            alt="Me"
-        />
-    </div>
-    <section class="flex flex-col justify-between grow my-0 p-6">
-        <h1 class="text-3xl font-bold italic">
-            Heya! I'm Jose Tomanan.
-        </h1>
-        <h4 class="text-lg">
-            I am a 3rd year BS Computer Science student from University of the Philippines Diliman.
-            <br>
-            Thanks for visiting! Get to know me more:
-        </h4>
+<div class="flex flex-col gap-4 h-screen py-2">
+    <section class="basis-1/2 flex flex-col justify-between my-0 p-6">
+        <div class="flex justify-center">
+            <img 
+                class="h-64 w-64 p-1 border-double border-4 border-orange-500 rounded-md"
+                src="/images/me.JPG"
+                alt="Me"
+            />
+        </div>
+
+        <div class="flex justify-center gap-6">
+            <h1 class="text-2xl">Jose Tomanan</h1>
+            <h3 class="mt-1 text-slate-500">CS major / Web developer / Student leader / Gym rat.</h3>
+            <!-- TODO: there's a better way to do this than mt-1 -->
+        </div>
+
         <div class="flex gap-2">
         {#each header as image}
             <button type="button" class="grow flex justify-center bg-gradient-to-b from-white to-white {image.color} active:from-slate-100 active:to-slate-100 p-2 rounded-xl transition ease-out hover:scale-110">
@@ -49,21 +48,24 @@
         {/each}
         </div>
     </section>
+
+    <section class="grow flex flex-col gap-1 my-0">
+        <h2>What do I do?</h2>
+        <p>
+            As a CS major, I explore everything tech-related; i.e., finding new technology then digging into its rabbit hole.
+        </p>
+        <!-- TODO: illustration of what I do -->
+        <p>
+            My journey has led me to <b>UI/UX design</b> which has piqued my interest the most:
+            other than making things pretty, I appreciate studying the psychology behind what makes users engage more.
+        </p>
+        <p>
+            I've found a passion in creating highly intuitive designs that present and market themselves.
+        </p>
+    </section>
 </div>
 
-<section class="flex flex-col gap-1">
-    <h2>What do I do?</h2>
-    <p>
-        As a CS major, I explore everything tech-related; i.e., finding new technology then digging into its rabbit hole.
-    </p>
-    <p>
-        My journey has led me to <b>UI/UX design</b> which has piqued my interest the most:
-        other than making things pretty, I appreciate studying the psychology behind what makes users engage more.
-        I've found a passion in creating highly intuitive designs that present and market themselves.
-    </p>
-</section>
-
-<div class="flex gap-x-4">
+<div class="flex gap-x-4 mt-2">
     <section class="basis-1/2 my-0 flex flex-col gap-1">
         <h2>What have I been up to?</h2>
         <h4>

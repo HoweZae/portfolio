@@ -6,16 +6,16 @@ h4, h5, p, label {
     @apply font-['Avenir'] text-slate-500;
 }
 
-h2 {
-    @apply text-lg;
-}
+h2 { @apply text-xl }
+h3 { @apply text-lg }
+h4 { @apply text-lg }
 
 h6 {
     @apply text-xs font-['JetBrains_Mono_NL'];
 }
 
 p {
-    @apply text-justify;
+    @apply text-justify text-lg;
 }
 
 section {
