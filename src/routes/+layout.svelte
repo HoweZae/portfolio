@@ -3,15 +3,15 @@
     import "../global.css";
 </script>
 
-<prenav class="h-16 flex flex-col justify-center bg-white border-b-2 border-sky-500" >
-    <nav class="max-w-screen flex justify-center gap-8 font-['Avenir']" >
-        <a class="nav" href="_blank">Top</a>
-        <a class="nav" href="_blank">Projects</a>
-        <a class="nav" href="_blank">Roles</a>
-        <a class="nav" href="_blank">Me</a>
-        <a class="nav" href="_blank">Contact</a>
-    </nav>
-</prenav>
+<nav 
+    class="h-16 bg-white border-b-2 border-sky-500 max-w-screen flex items-center justify-center gap-8 font-['Avenir']"
+>
+    <a class="nav" href="_blank">Top</a>
+    <a class="nav" href="_blank">Projects</a>
+    <a class="nav" href="_blank">Roles</a>
+    <a class="nav" href="_blank">Me</a>
+    <a class="nav" href="_blank">Contact</a>
+</nav>
 
 <premain class="flex justify-center">
     <main class="mx-6 min-h-screen max-w-screen-lg flex flex-col">
