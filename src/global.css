@@ -19,7 +19,7 @@ p {
 }
 
 page {
-    @apply flex flex-col gap-4 h-screen py-2;
+    @apply flex flex-col gap-4 h-screen;
 }
 
 section {

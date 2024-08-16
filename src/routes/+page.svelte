@@ -18,7 +18,7 @@
     // });
 </script>
 
-<page class="pt-16">
+<page class="pt-16 pb-2">
     <section class="basis-1/2 flex flex-col items-center justify-between my-0 p-4">
         <img 
             class="h-60 w-auto mb-2 border-double border-4 border-orange-500 rounded-md"
