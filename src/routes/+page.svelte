@@ -18,7 +18,7 @@
     // });
 </script>
 
-<div class="flex flex-col gap-4 h-screen pt-16 pb-2">
+<page class="pt-16">
     <section class="basis-1/2 flex flex-col items-center justify-between my-0 p-4">
         <img 
             class="h-60 w-auto mb-2 border-double border-4 border-orange-500 rounded-md"
@@ -61,7 +61,7 @@
             I've found a passion in creating highly intuitive designs that present and market themselves.
         </p>
     </section>
-</div>
+</page>
 
 <div class="flex gap-x-4 mt-2">
     <section class="basis-1/2 my-0 flex flex-col gap-1">

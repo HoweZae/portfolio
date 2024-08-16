@@ -18,6 +18,10 @@ p {
     @apply text-justify text-lg;
 }
 
+page {
+    @apply flex flex-col gap-4 h-screen py-2;
+}
+
 section {
     @apply bg-white my-4 p-4 rounded-md shadow-sm;
 }
