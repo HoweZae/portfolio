@@ -18,11 +18,11 @@
     // });
 </script>
 
-<div class="flex flex-col gap-4 h-screen py-2">
+<div class="flex flex-col gap-4 h-screen pt-16 pb-2">
     <section class="basis-1/2 flex flex-col justify-between my-0 p-6">
         <div class="flex justify-center">
             <img 
-                class="h-64 w-64 p-1 border-double border-4 border-orange-500 rounded-md"
+                class="h-60 w-auto p-1 border-double border-4 border-orange-500 rounded-md"
                 src="/images/me.JPG"
                 alt="Me"
             />
