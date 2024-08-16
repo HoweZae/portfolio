@@ -23,7 +23,7 @@ section {
 }
 
 a.nav {
-    @apply hover:text-sky-600 transition ease-out;
+    @apply hover:text-sky-400 transition ease-out;
 }
 
 input.input_text_sm {
