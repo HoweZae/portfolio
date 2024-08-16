@@ -19,22 +19,20 @@
 </script>
 
 <div class="flex flex-col gap-4 h-screen pt-16 pb-2">
-    <section class="basis-1/2 flex flex-col justify-between my-0 p-6">
-        <div class="flex justify-center">
-            <img 
-                class="h-60 w-auto p-1 border-double border-4 border-orange-500 rounded-md"
-                src="/images/me.JPG"
-                alt="Me"
-            />
-        </div>
+    <section class="basis-1/2 flex flex-col items-center justify-between my-0 p-4">
+        <img 
+            class="h-60 w-auto mb-2 border-double border-4 border-orange-500 rounded-md"
+            src="/images/me.JPG"
+            alt="Me"
+        />
 
-        <div class="flex justify-center gap-6">
+        <div class="flex gap-6">
             <h1 class="text-2xl">Jose Tomanan</h1>
             <h3 class="mt-1 text-slate-500">CS major / Web developer / Student leader / Gym rat.</h3>
             <!-- TODO: there's a better way to do this than mt-1 -->
         </div>
 
-        <div class="flex gap-2">
+        <div class="flex gap-2 w-full">
         {#each header as image}
             <button type="button" class="grow flex justify-center bg-gradient-to-b from-white to-white {image.color} active:from-slate-100 active:to-slate-100 p-2 rounded-xl transition ease-out hover:scale-110">
                 <a 
