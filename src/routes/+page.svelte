@@ -21,8 +21,8 @@
 <page class="mt-14">
     <section class="basis-1/2 flex flex-col items-center justify-between p-4">
         <img 
-            class="h-60 w-auto mb-2 border-double border-4 border-orange-500 rounded-md"
-            src="/images/me.JPG"
+            class="h-60 w-auto mb-2 border-double border-4 border-sky-500 rounded-md"
+            src="/images/me2.jpg"
             alt="Me"
         />
 
