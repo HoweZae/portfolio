@@ -50,15 +50,7 @@
     <section class="grow flex flex-col gap-1">
         <h2>What do I do?</h2>
         <p>
-            As a CS major, I explore everything tech-related; i.e., finding new technology then digging into its rabbit hole.
-        </p>
-        <!-- TODO: illustration of what I do -->
-        <p>
-            My journey has led me to <b>UI/UX design</b> which has piqued my interest the most:
-            other than making things pretty, I appreciate studying the psychology behind what makes users engage more.
-        </p>
-        <p>
-            I've found a passion in creating highly intuitive designs that present and market themselves.
+            Lorem ipsum dolor sit amet...
         </p>
     </section>
 </page>
