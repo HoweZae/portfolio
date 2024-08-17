@@ -19,11 +19,11 @@ p {
 }
 
 page {
-    @apply flex flex-col gap-4 h-screen;
+    @apply flex flex-col gap-4 h-[calc(100vh-4rem)] py-2;
 }
 
 section {
-    @apply bg-white my-4 p-4 rounded-md shadow-sm;
+    @apply bg-white p-4 rounded-md shadow-sm;
 }
 
 a.nav {

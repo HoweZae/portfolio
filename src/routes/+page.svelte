@@ -18,8 +18,8 @@
     // });
 </script>
 
-<page class="pt-16 pb-2">
-    <section class="basis-1/2 flex flex-col items-center justify-between my-0 p-4">
+<page class="mt-14">
+    <section class="basis-1/2 flex flex-col items-center justify-between p-4">
         <img 
             class="h-60 w-auto mb-2 border-double border-4 border-orange-500 rounded-md"
             src="/images/me.JPG"
@@ -47,7 +47,7 @@
         </div>
     </section>
 
-    <section class="grow flex flex-col gap-1 my-0">
+    <section class="grow flex flex-col gap-1">
         <h2>What do I do?</h2>
         <p>
             As a CS major, I explore everything tech-related; i.e., finding new technology then digging into its rabbit hole.
@@ -63,8 +63,8 @@
     </section>
 </page>
 
-<div class="flex gap-x-4 mt-2">
-    <section class="basis-1/2 my-0 flex flex-col gap-1">
+<page class="flex-row">
+    <section class="basis-1/2 flex flex-col gap-1">
         <h2>What have I been up to?</h2>
         <h4>
             See everything I've done, in full detail, at <a class="italic text-slate-600 hover:underline" href={link.li}>LinkedIn</a>.
@@ -101,7 +101,7 @@
         </div>
     </section>
 
-    <section class="basis-1/2 my-0 flex flex-col gap-1">
+    <section class="basis-1/2 flex flex-col gap-1">
         <h2>What projects have I made?</h2>
         <h4>
             See my public repositories, in full detail, at <a class="italic text-slate-600 hover:underline" href={link.gh}>GitHub</a>.
@@ -137,15 +137,17 @@
             />
         </div>
     </section>
-</div>
+</page>
 
-<section class="flex flex-col gap-1">
+<page>
+<section class="flex flex-col gap-1 grow">
     <h2>What else am I passionate about?</h2>
     <p>
         Away from the keyboard, I take passion in hitting the gym, playing basketball, and playing video games.
         I am also an avid Swiftie: I'd bet my left leg I know more about Taylor Swift than you!
     </p>
 </section>
+</page>
 
 <div class="flex gap-x-4">
     <section class="basis-2/5 mt-0">
