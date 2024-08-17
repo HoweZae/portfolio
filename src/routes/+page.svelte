@@ -141,7 +141,7 @@
 </section>
 </page>
 
-<div class="flex gap-x-4">
+<page class="h-auto flex-row">
     <section class="basis-2/5 mt-0">
         <h2>Contact me:</h2>
 
@@ -202,4 +202,4 @@
             </button>
         </form>
     </section>
-</div>
+</page>
