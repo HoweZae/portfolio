@@ -26,10 +26,9 @@
             alt="Me"
         />
 
-        <div class="flex gap-6">
+        <div class="flex gap-6 items-end">
             <h1 class="text-2xl">Jose Tomanan</h1>
-            <h3 class="mt-1 text-slate-500">CS major / Web developer / Student leader / Gym rat.</h3>
-            <!-- TODO: there's a better way to do this than mt-1 -->
+            <h3 class="text-slate-500">CS major / Web developer / Student leader / Gym rat.</h3>
         </div>
 
         <div class="flex gap-2 w-full">
@@ -135,7 +134,10 @@
 <section class="flex flex-col gap-1 grow">
     <h2>What else am I passionate about?</h2>
     <p>
-        Away from the keyboard, I take passion in hitting the gym, playing basketball, and playing video games.
+        When not working, I prefer to spend my time away from the keyboard than in front of it;
+        my favorite ways to spend my free time include hitting the gym, playing basketball, getting involved in fashion, and listening to podcasts.
+    </p>
+    <p>
         I am also an avid Swiftie: I'd bet my left leg I know more about Taylor Swift than you!
     </p>
 </section>
