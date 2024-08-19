@@ -19,24 +19,39 @@
 </script>
 
 <page class="mt-14">
-    <section class="basis-1/2 flex flex-col items-center justify-between p-4">
+    <section class="grow flex flex-col items-center justify-between p-4">
         <img 
-            class="h-60 w-auto mb-2 border-double border-4 border-sky-500 rounded-md"
-            src="/images/me2.jpg"
+            class="h-[27rem] w-full object-cover border-b-sky-500 border-b-2 rounded-sm"
+            src="/images/header.jpg"
             alt="Me"
         />
 
-        <div class="flex gap-6 items-end">
+        <div class="flex flex-col gap-1 items-center">
             <h1 class="text-2xl">Jose Tomanan</h1>
             <h3 class="text-slate-500">CS major / Web developer / Student leader / Gym rat.</h3>
         </div>
+    </section>
 
-        <div class="flex gap-2 w-full">
+    <section class="shrink flex flex-col gap-1">
+        <p>Hey! I am Jose, a BS Computer Science junior at the University of the Philippines - Diliman.</p>
+
+        <a class="flex items-center gap-2 text-slate-700 hover:text-slate-500 hover:gap-4 transition ease-out" href={ link.resume }>
+            <!-- TODO: fix not working -->
+            <span class="font-semibold text-lg">Visit my resume</span>
+            <svg 
+                class="icon rotate-[45deg]" height="1em" width="1em"
+                xmlns="http://www.w3.org/2000/svg" stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" 
+            >
+                <line x1="7" y1="17" x2="17" y2="7"></line>
+                <polyline points="7 7 17 7 17 17"></polyline>
+            </svg>
+        </a>
+
+        <div class="flex gap-2 w-full px-2">
         {#each header as image}
             <button type="button" class="grow flex justify-center bg-gradient-to-b from-white to-white {image.color} active:from-slate-100 active:to-slate-100 p-2 rounded-xl transition ease-out hover:scale-110">
                 <a 
-                    href={ image.link }
-                    target="_blank"
+                    href={ image.link } target="_blank"
                     on:focus={ buttonHover }
                 >
                     <img class="h-8" src={image.logo} alt="Logo" />
@@ -45,12 +60,27 @@
         {/each}
         </div>
     </section>
+</page>
 
+<page>
     <section class="grow flex flex-col gap-1">
         <h2>What do I do?</h2>
         <p>
-            Lorem ipsum dolor sit amet...
+            As a CS major, my course has given me the privilege to explore the different options available in the tech industry.
+            I have explored data science, software development, and formal verification.
         </p>
+        <!-- TODO: something to visualize -->
+
+        <p>
+            However, one thing I have realized is that, while nothing in particular stood out to me, I appreciated the <b>process of learning itself</b>.
+            Especially in tech, I enjoyed the way that the things I learn along the way are immediately useful to me as I create something from it
+        </p>
+        <!-- TODO: something to visualize -->
+
+        <p>
+            Right now, I am currently exploring the field of <b>UI/UX design</b>; I enjoy diving into the psychology behind what drives users into clicking buttons.
+        </p>
+        <!-- TODO: something to visualize -->
     </section>
 </page>
 
@@ -132,7 +162,7 @@
 
 <page>
 <section class="flex flex-col gap-1 grow">
-    <h2>What else am I passionate about?</h2>
+    <h2>What else do I do?</h2>
     <p>
         When not working, I prefer to spend my time away from the keyboard than in front of it;
         my favorite ways to spend my free time include hitting the gym, playing basketball, getting involved in fashion, and listening to podcasts.
