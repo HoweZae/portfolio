@@ -3,12 +3,12 @@
 export default {
   content: ["./src/**/*.{html,js,svelte}"],
   theme: {
+    fontFamily: {
+      'heading': ["Futura"],
+      'sans': ["Avenir"],
+      'mono': ["JetBrains Mono NL"],
+    },
     extend: {
-      fontFamily: {
-        'heading': ["Futura"],
-        'sans': ["Avenir"],
-        'mono': ["JetBrains Mono NL"],
-      },
       colors: {
         transparent: 'transparent',
         current: 'currentColor',
