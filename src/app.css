@@ -41,7 +41,7 @@ page {
 }
 
 section {
-    @apply bg-white p-4 rounded-md shadow-sm;
+    @apply bg-white p-4 rounded-md shadow-sm grow;
 }
 
 a.nav {
