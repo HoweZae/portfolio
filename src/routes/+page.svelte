@@ -19,9 +19,9 @@
 </script>
 
 <page class="mt-14">
-    <section class="grow flex flex-col items-center justify-between p-4">
+    <section class="grow flex flex-col items-center justify-between p-0 pb-4 overflow-hidden">
         <img 
-            class="h-[27rem] w-full object-cover border-b-sky-500 border-b-2 rounded-sm"
+            class="h-[29rem] w-full object-cover border-b-sky-500 border-b-2"
             src="/images/header.jpg"
             alt="Me"
         />
@@ -39,8 +39,7 @@
             <!-- TODO: fix not working -->
             <span class="font-semibold text-lg">Visit my resume</span>
             <svg 
-                class="icon rotate-[45deg]" height="1em" width="1em"
-                xmlns="http://www.w3.org/2000/svg" stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" 
+                class="icon rotate-[45deg]" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" 
             >
                 <line x1="7" y1="17" x2="17" y2="7"></line>
                 <polyline points="7 7 17 7 17 17"></polyline>
@@ -67,8 +66,19 @@
         <h2>What do I do?</h2>
         <p>
             As a CS major, my course has given me the privilege to explore the different options available in the tech industry.
-            I have explored data science, software development, and formal verification.
+            I have explored <i>data science</i>, <i>software development</i>, and <i>formal verification</i>.
         </p>
+        <div class="h-32 flex gap-2 items-center justify-center">
+            <div class="grow">
+                3
+            </div>
+            <div class="grow">
+                6
+            </div>
+            <div class="grow">
+                5
+            </div>
+        </div>
         <!-- TODO: something to visualize -->
 
         <p>
@@ -84,7 +94,7 @@
     </section>
 </page>
 
-<page class="flex-row">
+<page>
     <section class="basis-1/2 flex flex-col gap-1">
         <h2>What have I been up to?</h2>
         <h4>
@@ -121,7 +131,9 @@
             />
         </div>
     </section>
+</page>
 
+<page>
     <section class="basis-1/2 flex flex-col gap-1">
         <h2>What projects have I made?</h2>
         <h4>
