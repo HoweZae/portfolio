@@ -232,7 +232,7 @@
             <br>
             <textarea 
                 class="block w-full font-['Avenir'] rounded-sm border-0 text-slate-700 ring-1 ring-inset ring-slate-300 p-1"
-                rows=3 name="message" placeholder="Say something..."
+                rows=2 name="message" placeholder="Say something..."
                 bind:value={ message }
             ></textarea>
         </form>
