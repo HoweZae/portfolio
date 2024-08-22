@@ -19,10 +19,10 @@
 </script>
 
 <page class="mt-14 h-auto gap-1">
-    <section class="grow flex flex-col items-center justify-between overflow-hidden rounded-t-lg rounded-b-none">
+    <section class="grow flex flex-col gap-2 items-center justify-between overflow-hidden rounded-t-lg rounded-b-none p-0 pb-4">
         <!-- TODO: MAKE CAROUSEL -->
         <img 
-            class="h-[29rem] w-full object-cover border-b-sky-500 border-b-2"
+            class="h-[25rem] w-full object-cover border-b-sky-500 border-b-2"
             src="/images/header.jpg"
             alt="Me"
         />
