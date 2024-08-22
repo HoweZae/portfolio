@@ -20,11 +20,12 @@
 
 <page class="mt-14 h-auto gap-1">
     <section class="grow flex flex-col items-center justify-between overflow-hidden rounded-t-lg rounded-b-none">
-        <!-- <img 
+        <!-- TODO: MAKE CAROUSEL -->
+        <img 
             class="h-[29rem] w-full object-cover border-b-sky-500 border-b-2"
             src="/images/header.jpg"
             alt="Me"
-        /> -->
+        />
 
         <div class="flex flex-col gap-1 items-center">
             <h1 class="text-2xl">Jose Tomanan</h1>
@@ -34,7 +35,7 @@
 
     <section class="shrink flex flex-col gap-1 rounded-t-none rounded-b-lg">
         <p>Hey! I am Jose, a BS Computer Science junior at the University of the Philippines - Diliman.</p>
-        
+
         <a class="flex items-center gap-2 text-slate-500 hover:text-slate-400 hover:gap-4 transition ease-out" href={ link.resume }>
             <span class="font-semibold text-lg">Visit my resume</span>
             <svg 
@@ -107,7 +108,8 @@
                 hoverColor="hover:text-cyan-500"
                 title="Tackle Junior Head"
                 subtitle="UP Association of Computer Science Majors (UP CURSOR)"
-                other="September 2023 - March 2024"
+                date="SEP 2023 - MAR 2024"
+                other="..."
                 on:click|once={ () => linkClicked("role1") }
             />
             <Article 
@@ -116,7 +118,8 @@
                 hoverColor="hover:text-cyan-500"
                 title="Dev Training Program Contributor"
                 subtitle="UP Center for Student Innovations (UP CSI)"
-                other="September 2023 - November 2023"
+                date="SEP 2023 - NOV 2023"
+                other="..."
                 on:click|once={ () => linkClicked("role2") }
             />
             <Article 
@@ -125,7 +128,8 @@
                 hoverColor="hover:text-cyan-500"
                 title="Member Relations Head"
                 subtitle="UP CURSOR"
-                other="February 2023 - May 2023"
+                date="FEB 2023 - MAY 2023"
+                other="..."
                 on:click|once={ () => linkClicked("role3") }
             />
         </div>
