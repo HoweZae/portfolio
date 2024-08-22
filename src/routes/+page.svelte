@@ -18,25 +18,24 @@
     // });
 </script>
 
-<page class="mt-14">
-    <section class="grow flex flex-col items-center justify-between p-0 pb-4 overflow-hidden">
-        <img 
+<page class="mt-14 h-auto gap-1">
+    <section class="grow flex flex-col items-center justify-between overflow-hidden rounded-t-lg rounded-b-none">
+        <!-- <img 
             class="h-[29rem] w-full object-cover border-b-sky-500 border-b-2"
             src="/images/header.jpg"
             alt="Me"
-        />
+        /> -->
 
         <div class="flex flex-col gap-1 items-center">
             <h1 class="text-2xl">Jose Tomanan</h1>
-            <h3 class="text-slate-500">CS major / Web developer / Student leader / Gym rat.</h3>
+            <h3 class="text-slate-500">CS major / Web developer / Student leader / Fashionista / Gym rat</h3>
         </div>
     </section>
 
-    <section class="shrink flex flex-col gap-1">
+    <section class="shrink flex flex-col gap-1 rounded-t-none rounded-b-lg">
         <p>Hey! I am Jose, a BS Computer Science junior at the University of the Philippines - Diliman.</p>
-
-        <a class="flex items-center gap-2 text-slate-700 hover:text-slate-500 hover:gap-4 transition ease-out" href={ link.resume }>
-            <!-- TODO: fix not working -->
+        
+        <a class="flex items-center gap-2 text-slate-500 hover:text-slate-400 hover:gap-4 transition ease-out" href={ link.resume }>
             <span class="font-semibold text-lg">Visit my resume</span>
             <svg 
                 class="icon rotate-[45deg]" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" 
