@@ -14,7 +14,7 @@
 </script>
 
 <style>
-    article:hover span {
+    article:hover #perTech {
         @apply bg-sky-300;
     }
 
@@ -41,7 +41,7 @@
 
             <techs class="flex gap-1 mt-1.5">
                 {#each techInvolved as tech}
-                    <span class="bg-slate-300 rounded-lg px-2 text-slate-50 transition ease-out">
+                    <span id="perTech" class="bg-slate-300 rounded-lg px-2 text-slate-50 transition ease-out">
                         {tech}
                     </span>
                 {/each}
