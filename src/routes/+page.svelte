@@ -1,6 +1,7 @@
 <script>
     import Article from "../lib/components/Article.svelte";
     import ClickToCopy from "../lib/components/ClickToCopy.svelte";
+    import Carousel from "$lib/components/Carousel.svelte";
 
     import { link, header } from "$lib";
     import { buttonHover, linkClicked, submitForm } from "$lib";
@@ -20,12 +21,7 @@
 
 <page class="mt-14 h-auto gap-1">
     <section class="grow flex flex-col gap-2 items-center justify-between overflow-hidden rounded-t-lg rounded-b-none p-0 pb-4">
-        <!-- TODO: MAKE CAROUSEL -->
-        <img 
-            class="h-[25rem] w-full object-cover"
-            src="/images/header.jpg"
-            alt="Me"
-        />
+        <Carousel />
 
         <div class="flex flex-col gap-0.5 items-center">
             <h1 class="text-2xl">Jose Tomanan</h1>
