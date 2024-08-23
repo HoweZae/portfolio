@@ -22,12 +22,12 @@
     <section class="grow flex flex-col gap-2 items-center justify-between overflow-hidden rounded-t-lg rounded-b-none p-0 pb-4">
         <!-- TODO: MAKE CAROUSEL -->
         <img 
-            class="h-[25rem] w-full object-cover border-b-sky-500 border-b-2"
+            class="h-[25rem] w-full object-cover"
             src="/images/header.jpg"
             alt="Me"
         />
 
-        <div class="flex flex-col gap-1 items-center">
+        <div class="flex flex-col gap-0.5 items-center">
             <h1 class="text-2xl">Jose Tomanan</h1>
             <h3 class="text-slate-500">CS major / Web developer / Student leader / Fashionista / Gym rat</h3>
         </div>
@@ -36,7 +36,7 @@
     <section class="shrink flex flex-col gap-1 rounded-t-none rounded-b-lg">
         <p>Hey! I am Jose, a BS Computer Science junior at the University of the Philippines - Diliman.</p>
 
-        <a class="flex items-center gap-2 text-slate-500 hover:text-slate-400 hover:gap-4 transition ease-out" href={ link.resume }>
+        <a class="flex items-center gap-2 text-slate-500 hover:text-sky-500 hover:gap-4 transition ease-out" href={ link.resume } target="_blank">
             <span class="font-semibold text-lg">Visit my resume</span>
             <svg 
                 class="icon rotate-[45deg]" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" 
@@ -47,16 +47,16 @@
         </a>
 
         <div class="flex gap-2 w-full px-2">
-        {#each header as image}
-            <button type="button" class="grow flex justify-center bg-gradient-to-b from-white to-white {image.color} active:from-slate-100 active:to-slate-100 p-2 rounded-xl transition ease-out hover:scale-110">
-                <a 
-                    href={ image.link } target="_blank"
-                    on:focus={ buttonHover }
-                >
-                    <img class="h-8" src={image.logo} alt="Logo" />
-                </a>
-            </button>
-        {/each}
+            {#each header as image}
+                <button type="button" class="grow flex justify-center bg-gradient-to-b from-white to-white {image.color} active:from-slate-100 active:to-slate-100 p-2 rounded-xl transition ease-out hover:scale-110">
+                    <a 
+                        href={ image.link } target="_blank"
+                        on:focus={ buttonHover }
+                    >
+                        <img class="h-8" src={image.logo} alt="Logo" />
+                    </a>
+                </button>
+            {/each}
         </div>
     </section>
 </page>
@@ -66,7 +66,7 @@
         <h2>What do I do?</h2>
         <p>
             As a CS major, my course has given me the privilege to explore the different options available in the tech industry.
-            I have explored <i>data science</i>, <i>software development</i>, and <i>formal verification</i>.
+            This institution has given me the chance to explore <i>data science</i>, <i>software development</i>, and <i>formal verification</i>.
         </p>
         <div class="h-32 flex gap-2 items-center justify-center">
             <div class="grow">
@@ -105,31 +105,45 @@
             <Article 
                 id="role1"
                 href="https://www.linkedin.com/in/jedtomanan/details/experience/"
-                hoverColor="hover:text-cyan-500"
+                color="cyan-500"
                 title="Tackle Junior Head"
                 subtitle="UP Association of Computer Science Majors (UP CURSOR)"
                 date="SEP 2023 - MAR 2024"
-                other="..."
+                other="
+                    Co-headed a team of 20 in planning, marketing, and promoting a 4-day hybrid setup tech career fair.
+                    Lead the Branding & Creatives team to effectively design and market the event.
+                    Lead the Human Resources to internally disseminate the event.
+                "
+                techInvolved={ ["Notion", "Asana", "Google Sheets"] }
                 on:click|once={ () => linkClicked("role1") }
             />
             <Article 
                 id="role2"
                 href="https://www.linkedin.com/in/jedtomanan/details/experience/"
-                hoverColor="hover:text-cyan-500"
+                color="cyan-500"
                 title="Dev Training Program Contributor"
                 subtitle="UP Center for Student Innovations (UP CSI)"
                 date="SEP 2023 - NOV 2023"
-                other="..."
+                other="
+                    Wrote web development modules and exercises designed for 2324A UP CSI applicants.
+                    Collaborated using Git to streamline team workflow and consolidate collective output.
+                "
+                techInvolved={ ["Notion", "Google Sheets"] }
                 on:click|once={ () => linkClicked("role2") }
             />
             <Article 
                 id="role3"
                 href="https://www.linkedin.com/in/jedtomanan/details/experience/"
-                hoverColor="hover:text-cyan-500"
+                color="cyan-500"
                 title="Member Relations Head"
                 subtitle="UP CURSOR"
                 date="FEB 2023 - MAY 2023"
-                other="..."
+                other="
+                    Headed a team of 6 in assuring and maintaining member involvement & motivation of an organization with 100+ active members.
+                    Created publication material for CURSOR Cares, to encourage member interaction within the organization.
+                    Published material for Humans of CURSOR to share the experience of members in their respective fields.
+                "
+                techInvolved={ ["Notion"] }
                 on:click|once={ () => linkClicked("role3") }
             />
         </div>
@@ -147,28 +161,43 @@
             <Article 
                 id="proj1"
                 href="https://github.com/HoweZae/HoweZae"
-                hoverColor="hover:text-sky-500 italic"
+                color="sky-500"
                 title="JoseTomanan.io"
-                subtitle="Svelte + SvelteKit + Tailwind"
-                other="My personal webpage-portfolio-resume (i.e., this webpage!)"
+                subtitle="Personal portfolio-resume (i.e., this webpage!)"
+                date="JUL 2024 - PRESENT"
+                other="
+                    A static single-page website.
+                    Written using Svelte and Tailwind (front-end).
+                "
+                techInvolved={ ["Svelte", "Tailwind"] }
                 on:click|once={ () => linkClicked("proj1") }
             />
             <Article 
                 id="proj2"
                 href="https://tes-birth-rate.vercel.app"
-                hoverColor="hover:text-orange-500"
+                color={"orange-500"}
                 title="Poverty and Parenting: A Data Science Study"
-                subtitle="Python: Pandas, Seaborn, Geopandas"
-                other="Economic analysis of birth rates in the Philippines"
+                subtitle="Economic analysis of birth rates in the Philippines"
+                date="FEB 2024 - JUN 2024"
+                other="
+                    A data science exploration study, using Python packages Pandas, Seaborn, Geopandas.
+                    Conducted in compliance for the requirements of course CS 132: Data Science.
+                "
+                techInvolved={ ["Python"] }
                 on:click|once={ () => linkClicked("proj2") }
             />
             <Article 
                 id="proj3"
                 href="https://docs.google.com/spreadsheets/d/1Gl8ZSLqoZOfrErq09FKBjBx0lInlYxXj3dCs48e-T_Q/edit?usp=sharing"
-                hoverColor="hover:text-green-600"
+                color="green-600"
                 title="Finances Tracker"
-                subtitle="Google Sheets + Apps Script"
-                other="Personal spreadsheet with JS-powered macros"
+                subtitle="Personal spreadsheet with Apps Script-powered macros"
+                date="FEB 2022 - PRESENT"
+                other="
+                    Tobias Harris over me?
+                    Created for the purpose of tracking college life-related expenses.
+                "
+                techInvolved={ ["Google Sheets", "JavaScript"] }
                 on:click|once={ () => linkClicked("proj3") }
             />
         </div>
