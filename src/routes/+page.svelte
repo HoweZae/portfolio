@@ -94,14 +94,16 @@
     </section>
 </page>
 
-<page>
-    <section class="basis-1/2 flex flex-col gap-1">
-        <h2>What have I been up to?</h2>
-        <h4>
-            See everything I've done, in full detail, at <a class="italic text-slate-600 hover:underline" href={link.li}>LinkedIn</a>.
-        </h4>
+<page class="h-auto">
+    <section class="basis-1/2 flex flex-col gap-2">
+        <div class="gap-1">
+            <h2>What have I been up to?</h2>
+            <h4>
+                See everything I've done, in full detail, at <a class="italic text-slate-600 hover:underline" href={link.li}>LinkedIn</a>.
+            </h4>
+        </div>
 
-        <div class="flex flex-col gap-2">
+        <div class="flex flex-col gap-2 mx-2">
             <Article 
                 id="role1"
                 href="https://www.linkedin.com/in/jedtomanan/details/experience/"
@@ -150,14 +152,16 @@
     </section>
 </page>
 
-<page>
-    <section class="basis-1/2 flex flex-col gap-1">
-        <h2>What projects have I made?</h2>
-        <h4>
-            See my public repositories, in full detail, at <a class="italic text-slate-600 hover:underline" href={link.gh}>GitHub</a>.
-        </h4>
+<page class="h-auto">
+    <section class="basis-1/2 flex flex-col gap-2">
+        <div class="gap-1">
+            <h2>What projects have I made?</h2>
+            <h4>
+                See my public repositories, in full detail, at <a class="italic text-slate-600 hover:underline" href={link.gh}>GitHub</a>.
+            </h4>
+        </div>
         
-        <div class="flex flex-col gap-2">
+        <div class="flex flex-col gap-2 mx-2">
             <Article 
                 id="proj1"
                 href="https://github.com/HoweZae/HoweZae"

@@ -30,24 +30,22 @@
     <div class="flex gap-4 items-baseline">
         <date class="grow text-right text-sm font-mono tracking-tighter text-slate-400">{date}</date>
         <div class="basis-3/4 flex flex-col text-baseline gap-0.5">
-            <div class="flex items-center gap-4">
-                <h3> 
-                    <a class="text-lg clickableLink hover:text-sky-600 hover:underline transition ease-out text-slate-700" target="_blank" {id} {href} on:click|once>
-                        {title}
-                    </a> 
-                </h3>
-
-                <techs class="flex gap-1">
-                    {#each techInvolved as tech}
-                        <span class="bg-slate-300 rounded-lg px-2 text-slate-50 transition ease-out">
-                            {tech}
-                        </span>
-                    {/each}
-                </techs>
-            </div>
+            <h3> 
+                <a class="text-lg clickableLink hover:text-sky-600 hover:underline transition ease-out text-slate-700" target="_blank" {id} {href} on:click|once>
+                    {title}
+                </a> 
+            </h3>
             
             <h5><i>{subtitle}</i></h5>
             <h5 class="text-slate-500 text-sm">{other}</h5>
+
+            <techs class="flex gap-1 mt-1.5">
+                {#each techInvolved as tech}
+                    <span class="bg-slate-300 rounded-lg px-2 text-slate-50 transition ease-out">
+                        {tech}
+                    </span>
+                {/each}
+            </techs>
         </div>
     </div>
 </article>
