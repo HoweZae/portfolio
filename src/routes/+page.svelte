@@ -19,7 +19,7 @@
     // });
 </script>
 
-<page class="mt-16 h-auto gap-1">
+<page id="top" class="mt-16 h-auto gap-1">
     <section class="grow flex flex-col gap-4 items-center justify-between overflow-hidden rounded-t-lg rounded-b-none p-0 pb-4">
         <Carousel />
 
@@ -57,7 +57,7 @@
     </section>
 </page>
 
-<page>
+<page id="me">
     <section class="grow flex flex-col gap-1">
         <h2>What do I do?</h2>
         <p>
@@ -90,7 +90,7 @@
     </section>
 </page>
 
-<page class="h-auto">
+<page id="roles" class="h-auto">
     <section class="basis-1/2 flex flex-col gap-2">
         <div class="gap-1">
             <h2>What have I been up to?</h2>
@@ -148,7 +148,7 @@
     </section>
 </page>
 
-<page class="h-auto">
+<page id="projects" class="h-auto">
     <section class="basis-1/2 flex flex-col gap-2">
         <div class="gap-1">
             <h2>What projects have I made?</h2>
@@ -204,7 +204,7 @@
     </section>
 </page>
 
-<page>
+<page id="hobbies">
     <section class="flex flex-col gap-1 grow">
         <h2>What else do I do?</h2>
         <p>
@@ -217,7 +217,7 @@
     </section>
 </page>
 
-<page class="h-auto flex-row">
+<page id="contact" class="h-auto flex-row">
     <section class="basis-2/5 mt-0">
         <h2>Contact me:</h2>
 
