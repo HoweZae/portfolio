@@ -112,7 +112,7 @@
                     Lead the Branding & Creatives team to effectively design and market the event.
                     Lead the Human Resources to internally disseminate the event.
                 "
-                techInvolved={ ["Notion", "Asana", "Google Sheets"] }
+                techInvolved={ ["Notion", "Asana", "Google Sheets", "Canva"] }
                 on:click|once={ () => linkClicked("role1") }
             />
             <Article 
