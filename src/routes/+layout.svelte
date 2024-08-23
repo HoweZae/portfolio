@@ -5,12 +5,12 @@
 <nav 
     class="p-4 bg-white border-b-2 border-sky-500 max-w-screen flex items-center justify-center gap-8 font-['Avenir'] fixed w-full bg-opacity-80"
 >
-    <a class="nav" href="_blank">Top</a>
-    <a class="nav" href="_blank">Me</a>
-    <a class="nav" href="_blank">Roles</a>
-    <a class="nav" href="_blank">Projects</a>
-    <a class="nav" href="_blank">Hobbies</a>
-    <a class="nav" href="_blank">Contact</a>
+    <a class="nav" href="#top">Top</a>
+    <a class="nav" href="#me">Me</a>
+    <a class="nav" href="#roles">Roles</a>
+    <a class="nav" href="#projects">Projects</a>
+    <a class="nav" href="#hobbies">Hobbies</a>
+    <a class="nav" href="#contact">Contact</a>
 </nav>
 
 <premain class="flex justify-center">
