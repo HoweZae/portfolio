@@ -20,10 +20,10 @@
 </script>
 
 <page class="mt-14 h-auto gap-1">
-    <section class="grow flex flex-col gap-2 items-center justify-between overflow-hidden rounded-t-lg rounded-b-none p-0 pb-4">
+    <section class="grow flex flex-col gap-4 items-center justify-between overflow-hidden rounded-t-lg rounded-b-none p-0 pb-4">
         <Carousel />
 
-        <div class="flex flex-col gap-0.5 items-center">
+        <div class="flex flex-col gap-0.5 items-center justify-center">
             <h1 class="text-2xl">Jose Tomanan</h1>
             <h3 class="text-slate-500">CS major / Web developer / Student leader / Fashionista / Gym rat</h3>
         </div>
