@@ -19,7 +19,7 @@
     // });
 </script>
 
-<page class="mt-14 h-auto gap-1">
+<page class="mt-16 h-auto gap-1">
     <section class="grow flex flex-col gap-4 items-center justify-between overflow-hidden rounded-t-lg rounded-b-none p-0 pb-4">
         <Carousel />
 
