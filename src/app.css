@@ -48,6 +48,10 @@ a.nav {
     @apply hover:text-sky-400 transition ease-out;
 }
 
+jumpable {
+    @apply h-12 -mt-16 z-0;
+}
+
 input.input_text_sm {
     @apply block w-full font-sans rounded-sm border-0 text-slate-700 ring-1 ring-inset ring-slate-300 px-1 placeholder:text-gray-400;
     /* @apply focus:ring-2 focus:ring-indigo-600; */

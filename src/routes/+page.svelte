@@ -20,7 +20,7 @@
 </script>
 
 <page class="mt-20 h-auto gap-1">
-    <span id="top" class="h-12 -mt-16"></span>
+    <jumpable id="top"></jumpable>
     <section class="grow flex flex-col gap-4 items-center justify-between overflow-hidden rounded-t-lg rounded-b-none p-0 pb-4">
         <Carousel />
 
@@ -59,7 +59,7 @@
 </page>
 
 <page>
-    <span id="me" class="h-12 -mt-16"></span>
+    <jumpable id="me"></jumpable>
     <section class="grow flex flex-col gap-1">
         <h2>What do I do?</h2>
         <p>
@@ -93,7 +93,7 @@
 </page>
 
 <page class="h-auto">
-    <span id="roles" class="h-12 -mt-16"></span>
+    <jumpable id="roles"></jumpable>
     <section class="basis-1/2 flex flex-col gap-2">
         <div class="gap-1">
             <h2>What have I been up to?</h2>
@@ -155,7 +155,7 @@
 </page>
 
 <page class="h-auto">
-    <span id="projects" class="h-12 -mt-16"></span>
+    <jumpable id="projects"></jumpable>
     <section class="basis-1/2 flex flex-col gap-2">
         <div class="gap-1">
             <h2>What projects have I made?</h2>
@@ -215,7 +215,7 @@
 </page>
 
 <page>
-    <span id="hobbies" class="h-12 -mt-16"></span>
+    <jumpable id="hobbies"></jumpable>
     <section class="flex flex-col gap-1 grow">
         <h2>What else do I do?</h2>
         <p>
@@ -231,7 +231,7 @@
 </page>
 
 <page class="h-auto flex-row">
-    <span id="contact" class="h-12 -mt-16 -mx-2"></span>
+    <jumpable id="contact" class="-mx-2"></jumpable>
     <section class="basis-2/5 mt-0">
         <h2>Contact me:</h2>
 
