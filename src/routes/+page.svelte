@@ -219,8 +219,10 @@
     <section class="flex flex-col gap-1 grow">
         <h2>What else do I do?</h2>
         <p>
-            When not working, I prefer to spend my time away from the keyboard than in front of it;
-            my favorite ways to spend my free time include hitting the gym, playing basketball, getting involved in fashion, and listening to podcasts.
+            When not working, I prefer to spend my time away from the keyboard than in front of it.
+        </p>
+        <p>
+            My favorite ways to spend my free time include hitting the gym, playing basketball, getting involved in fashion trends, and listening to podcasts.
         </p>
         <p>
             I am also an avid Swiftie: I'd bet my left leg I know more about Taylor Swift than you!
