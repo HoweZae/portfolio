@@ -111,6 +111,7 @@
                     Co-headed a team of 20 in planning, marketing, and promoting a 4-day hybrid setup tech career fair.
                     Lead the Branding & Creatives team to effectively design and market the event.
                     Lead the Human Resources to internally disseminate the event.
+                    Used Notion workspace to efficiently implement task delegation, resource management, and team oversight.
                 "
                 techInvolved={ ["Notion", "Asana", "Google Sheets", "Canva"] }
                 on:click|once={ () => linkClicked("role1") }
@@ -123,7 +124,8 @@
                 subtitle="UP Center for Student Innovations (UP CSI)"
                 date="SEP 2023 - NOV 2023"
                 other="
-                    Wrote web development modules and exercises designed for 2324A UP CSI applicants.
+                    Wrote web development modules and exercises designed for 50+ UP CSI applicants.
+                    Used Typst markdown language to automate structure and organization of content.
                     Collaborated using Git to streamline team workflow and consolidate collective output.
                 "
                 techInvolved={ ["Notion", "Google Sheets"] }
@@ -138,8 +140,9 @@
                 date="FEB 2023 - MAY 2023"
                 other="
                     Headed a team of 6 in assuring and maintaining member involvement & motivation of an organization with 100+ active members.
-                    Created publication material for CURSOR Cares, to encourage member interaction within the organization.
+                    Created publication material for CURSOR Cares, to encourage organization interaction.
                     Published material for Humans of CURSOR to share the experience of members in their respective fields.
+                    Used Notion workspace to efficiently implement task delegation, resource management, and team oversight.
                 "
                 techInvolved={ ["Notion"] }
                 on:click|once={ () => linkClicked("role3") }
@@ -166,8 +169,9 @@
                 subtitle="Personal portfolio-resume (i.e., this webpage!)"
                 date="JUL 2024 - PRESENT"
                 other="
-                    A static single-page website.
-                    Written using Svelte and Tailwind (front-end).
+                    A static single-page website that showcases the relevant skills I developed throughout my tech career.
+                    Also created to demonstrate front-end tech learned and to practice my UI/UX design choices.
+                    Written using Svelte and Tailwind, to prioritize the webpage's responsiveness and intuitiveness.
                 "
                 techInvolved={ ["Svelte", "Tailwind"] }
                 on:click|once={ () => linkClicked("proj1") }
@@ -180,7 +184,8 @@
                 subtitle="Economic analysis of birth rates in the Philippines"
                 date="FEB 2024 - JUN 2024"
                 other="
-                    A data science exploration study, using Python packages Pandas, Seaborn, Geopandas.
+                    A visual exploration study, done using Python packages: Pandas, Seaborn, Geopandas.
+                    Uses data science concepts to find an association between registered live births and poverty incidence of each municipality, and data visualization techniques to make the results intuitive and easily digestible.
                     Conducted in compliance for the requirements of course CS 132: Data Science.
                 "
                 techInvolved={ ["Python"] }
@@ -194,8 +199,9 @@
                 subtitle="Personal spreadsheet with Apps Script-powered macros"
                 date="FEB 2022 - PRESENT"
                 other="
-                    Tobias Harris over me?
-                    Created for the purpose of tracking college life-related expenses.
+                    A Google Docs spreadsheet created for the purpose of tracking college life-related expenses.
+                    Uses separate sheets for incoming and outgoing funds, and summarizes all history of expenses and savings in a master sheet.
+                    Utilizes JavaScript to automate the addition of new entries, separation of each week, and creation of a new sheet for each new month.
                 "
                 techInvolved={ ["Google Sheets", "JavaScript"] }
                 on:click|once={ () => linkClicked("proj3") }
