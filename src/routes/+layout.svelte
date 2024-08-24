@@ -14,7 +14,7 @@
 </nav>
 
 <premain class="flex justify-center">
-    <main class="mx-6 min-h-screen max-w-[960px] flex flex-col">
+    <main class="mx-2 min-h-screen max-w-[960px] flex flex-col">
         <slot></slot>
     </main>
 </premain>
