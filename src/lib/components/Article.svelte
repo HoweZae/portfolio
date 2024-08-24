@@ -29,7 +29,7 @@
 
     <div class="flex gap-4 items-baseline">
         <date class="grow text-right text-sm font-mono tracking-tighter text-slate-400">{date}</date>
-        <div class="basis-3/4 flex flex-col text-baseline gap-0.5">
+        <div class="basis-4/5 flex flex-col text-baseline gap-0.5">
             <h3> 
                 <a class="text-lg clickableLink hover:text-sky-600 hover:underline transition ease-out text-slate-700" target="_blank" {id} {href} on:click|once>
                     {title}
