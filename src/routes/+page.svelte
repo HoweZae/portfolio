@@ -259,7 +259,7 @@
             <form class="basis-5/12 flex gap-2 justify-between">
                 <label for="name">Name: </label>
                 <input 
-                    name="name" type="text" class="input_text_sm" placeholder="Your Name" 
+                    name="name" type="text" class="input_text_sm caret-sky-500" placeholder="Your Name" 
                     bind:value={ name }
                 >
             </form>
@@ -267,7 +267,7 @@
             <form class="basis-7/12 flex gap-2 justify-between">
                 <label for="email">Email: </label>
                 <input 
-                    name="email" type="email" class="input_text_sm" placeholder="yourname@email.com" 
+                    name="email" type="email" class="input_text_sm caret-sky-500" placeholder="yourname@email.com" 
                     bind:value={ email }
                 >
             </form>
@@ -277,7 +277,7 @@
             <label for="message">Message:</label>
             <br>
             <textarea 
-                class="block w-full font-['Avenir'] rounded-sm border-0 text-slate-700 ring-1 ring-inset ring-slate-300 p-1"
+                class="block w-full font-['Avenir'] rounded-sm border-0 text-slate-700 ring-1 ring-inset ring-slate-300 p-1 caret-sky-500"
                 rows=2 name="message" placeholder="Say something..."
                 bind:value={ message }
             ></textarea>
