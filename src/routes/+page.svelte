@@ -33,7 +33,7 @@
     <section class="shrink flex flex-col gap-1 rounded-t-none rounded-b-lg">
         <p>Hey! I am Jose, a BS Computer Science junior at the University of the Philippines - Diliman.</p>
 
-        <a class="flex items-center gap-2 text-slate-500 hover:text-sky-500 hover:gap-4 transition ease-out" href={ link.resume } target="_blank">
+        <a class="flex items-center gap-2 text-slate-500 hover:text-sky-500 hover:gap-4 transition ease-out" href="./resume-20240824.pdf" target="_blank">
             <span class="font-semibold text-lg">Visit my resume</span>
             <svg 
                 class="icon rotate-[45deg]" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" 
