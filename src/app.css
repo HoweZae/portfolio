@@ -49,7 +49,7 @@ a.nav {
 }
 
 jumpable {
-    @apply h-12 -mt-16 z-0;
+    @apply h-12 -mt-16 -z-50;
 }
 
 input.input_text_sm {
