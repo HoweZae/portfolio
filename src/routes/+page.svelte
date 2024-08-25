@@ -250,7 +250,7 @@
 
 <page class="h-auto flex-row">
     <jumpable id="contact" class="-mx-2"></jumpable>
-    <section class="basis-2/5 mt-0">
+    <section class="basis-2/5">
         <h2>Contact me:</h2>
 
         <div class="flex flex-col">
@@ -267,10 +267,10 @@
                 on:click={ () => { navigator.clipboard.writeText("Jose Ernesto Tomanan") }} />
         </div>
 
-        <h6 class="text-slate-400 italic text-right">(hover for copy button!)</h6>
+        <!-- <h6 class="text-slate-400 italic text-right">(hover for copy button!)</h6> -->
     </section>
 
-    <section class="basis-3/5 mt-0 gap-y-2">
+    <section class="basis-3/5 gap-y-2">
         <h2>Or send me a message:</h2>
 
         <div class="flex gap-2 py-1">
@@ -303,7 +303,7 @@
 
         <form class="flex justify-end">
             <button
-                class="border border-sky-500 bg-sky-500 hover:bg-white hover:text-sky-500 hover:underline underline-offset-2 rounded-md py-2 px-4 text-base font-['Futura'] text-white transition ease-out"
+                class="border border-sky-500 bg-sky-500 hover:bg-white hover:text-sky-500 hover:underline underline-offset-2 rounded-md py-1 px-2.5 font-['Futura'] text-white transition ease-out"
                 on:click={ ()=>{ submitForm(name, email, message) }}
             >
                 Submit
