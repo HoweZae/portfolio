@@ -22,7 +22,7 @@
 <footer>
     <h6 class="text-center text-slate-400">
         //
-        This page is written with Svelte, SvelteKit and Tailwind.
+        This page is written with Svelte and Tailwind.
         Feel free to open the codebase to see how I made this!
     </h6>
 </footer>
