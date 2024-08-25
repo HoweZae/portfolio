@@ -15,7 +15,17 @@
 
 <style>
     article:hover h3 {
-        @apply text-slate-700 underline underline-offset-2;
+        text-decoration-line: underline;
+    }
+
+    #link {
+        --tw-text-opacity: 0;
+        stroke-width: 0;
+    }
+
+    article:hover #link {
+        --tw-text-opacity: 1;
+        stroke-width: 2;
     }
 
     article:hover perTech {
@@ -34,10 +44,16 @@
     <div class="flex gap-4 items-baseline">
         <date class="grow text-right text-sm font-mono tracking-tighter text-slate-400">{date}</date>
         <div class="basis-4/5 flex flex-col text-baseline gap-0.5">
-            <h3 class="text-lg text-slate-600"> 
-                <a class="clickableLink hover:text-sky-500 transition ease-out" target="_blank" {id} {href} on:click|once>
+            <h3 class="text-lg text-slate-700 underline-offset-2 hover:text-sky-500 transition ease-out flex items-center gap-2.5"> 
+                <a class="clickableLink" target="_blank" {id} {href} on:click|once>
                     {title}
                 </a> 
+                <svg 
+                    id="link" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" 
+                >
+                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                    <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
             </h3>
             
             <h5><i>{subtitle}</i></h5>
