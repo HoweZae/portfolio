@@ -45,7 +45,7 @@
 
             <span class="flex underline underline-offset-2">
                 <a 
-                    class="flex items-center text-lg gap-2 hover:gap-3.5 text-slate-500 hover:text-sky-500 transition-all ease-out" 
+                    class="flex items-baseline text-lg gap-1.5 hover:gap-3 text-slate-500 hover:text-sky-500 transition-all ease-out" 
                     href="./resume-20240824.pdf" target="_blank"
                 >
                     Visit my resume
