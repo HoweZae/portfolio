@@ -110,9 +110,6 @@
     <section class="basis-1/2 flex flex-col gap-2">
         <div class="gap-1">
             <h2>What have I been up to?</h2>
-            <h4>
-                See everything I've done, in full detail, at <a class="italic text-slate-600 hover:underline" href={link.li}>LinkedIn</a>.
-            </h4>
         </div>
 
         <div class="flex flex-col gap-2 mx-2">
@@ -140,8 +137,8 @@
                 subtitle="UP Center for Student Innovations (UP CSI)"
                 date="SEP 2023 - NOV 2023"
                 other="
-                    Wrote web development modules and exercises designed for 50+ UP CSI applicants for app process 2324B.
-                    Used Typst markdown to automate structure, layoutting, and organization of content.
+                    Wrote web development modules and exercises designed for 50+ UP CSI applicants, for app process 2324B.
+                    Used Typst markdown to automate structure, layoutting, and organization of module content.
                     Collaborated using Git to streamline team workflow and consolidate collective output.
                 "
                 techInvolved={ ["Typst", "Git"] }
@@ -164,6 +161,11 @@
                 on:click|once={ () => linkClicked("role3") }
             />
         </div>
+
+        <h6 class="text-slate-400 text-right">
+            // See everything I've done, in full detail, at 
+            <a class="underline underline-offset-2 hover:text-sky-500" href={link.li}>LinkedIn</a>.
+        </h6>
     </section>
 </page>
 
@@ -172,9 +174,6 @@
     <section class="basis-1/2 flex flex-col gap-2">
         <div class="gap-1">
             <h2>What projects have I made?</h2>
-            <h4>
-                See my public repositories, in full detail, at <a class="italic text-slate-600 hover:underline" href={link.gh}>GitHub</a>.
-            </h4>
         </div>
         
         <div class="flex flex-col gap-2 mx-2">
@@ -202,8 +201,8 @@
                 subtitle="Economic analysis of birth rates in the Philippines"
                 date="FEB 2024 - JUN 2024"
                 other="
-                    A visual exploration study, done using Python packages: Pandas, Seaborn, Geopandas.
-                    Uses data science concepts to find an association between registered live births and poverty incidence of each municipality, and data visualization techniques to make the results intuitive and easily digestible.
+                    A visual exploration study, done using data science Python packages: Pandas, Seaborn, Geopandas.
+                    Uses data science concepts to find an association between registered live births and poverty incidence in each municipality, as well as data visualization techniques to make the results intuitive and easily digestible.
                     Conducted in compliance for the requirements of course CS 132: Data Science.
                 "
                 techInvolved={ ["Python"] }
@@ -225,6 +224,11 @@
                 on:click|once={ () => linkClicked("proj3") }
             />
         </div>
+
+        <h6 class="text-slate-400 text-right">
+            // See my public repositories, in full detail, at 
+            <a class="underline hover:text-sky-500" href={link.gh}>GitHub</a>.
+        </h6>
     </section>
 </page>
 
