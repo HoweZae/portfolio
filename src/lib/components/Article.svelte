@@ -36,7 +36,7 @@
     }
 
     article:hover date {
-        @apply text-slate-500;
+        @apply text-slate-600;
     }
 </style>
 

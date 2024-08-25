@@ -32,6 +32,10 @@ h6 {
     @apply text-xs font-mono;
 }
 
+p {
+    @apply leading-snug;
+}
+
 page {
     @apply flex flex-col gap-4 h-[calc(100vh-4rem)] py-2;
 }
