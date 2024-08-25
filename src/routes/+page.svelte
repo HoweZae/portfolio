@@ -12,14 +12,23 @@
 
     // import { tweened, spring } from "svelte/motion";
     // import { elasticOut } from "svelte/easing";
+    
+    import { onMount } from "svelte";
+    import { fade } from "svelte/transition";
 
     // const hoverButton = tweened(0, {
     //     duration: 500,
     //     easing: elasticOut
     // });
+
+    let startPage = false;
+
+    onMount(() => {
+        startPage = true;
+    });
 </script>
 
-<page class="mt-20 h-auto gap-1">
+<page class="mt-20 h-auto gap-1 fade-in" transition:fade>
     <jumpable id="top"></jumpable>
     <section class="grow flex flex-col gap-4 items-center justify-between overflow-hidden rounded-t-lg rounded-b-none p-0 pb-4">
         <Carousel />
@@ -30,20 +39,24 @@
         </div>
     </section>
 
-    <section class="shrink flex flex-col gap-1 rounded-t-none rounded-b-lg">
-        <p>Hey! I am Jose, a BS Computer Science junior at the University of the Philippines - Diliman.</p>
+    <section class="shrink flex flex-col gap-2 rounded-t-none rounded-b-lg items-baseline">
+        <div class="flex flex-row gap-1.5">
+            <p>Hey! I am Jose, a BS Computer Science junior at the University of the Philippines - Diliman.</p>
 
-        <a class="flex items-center gap-2 text-slate-500 hover:text-sky-500 hover:gap-4 transition ease-out" href="./resume-20240824.pdf" target="_blank">
-            <span class="font-semibold text-lg">Visit my resume</span>
-            <svg 
-                class="icon rotate-[45deg]" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" 
-            >
-                <line x1="7" y1="17" x2="17" y2="7"></line>
-                <polyline points="7 7 17 7 17 17"></polyline>
-            </svg>
-        </a>
+            <span class="flex items-center gap-1.5 hover:gap-3 text-slate-500 hover:text-sky-500 underline underline-offset-2 transition ease-out">
+                <a class="flex text-lg" href="./resume-20240824.pdf" target="_blank">
+                    Visit my resume
+                </a>
+                <svg 
+                    class="icon rotate-[45deg]" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" 
+                >
+                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                    <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+            </span>
+        </div>
 
-        <div class="flex gap-2 w-full px-2">
+        <div class="flex gap-1 w-full px-2">
             {#each header as image}
                 <button type="button" class="grow flex justify-center bg-gradient-to-b from-white to-white {image.color} active:from-slate-100 active:to-slate-100 p-2 rounded-xl transition ease-out hover:scale-110">
                     <a 
@@ -127,11 +140,11 @@
                 subtitle="UP Center for Student Innovations (UP CSI)"
                 date="SEP 2023 - NOV 2023"
                 other="
-                    Wrote web development modules and exercises designed for 50+ UP CSI applicants.
-                    Used Typst markdown language to automate structure and organization of content.
+                    Wrote web development modules and exercises designed for 50+ UP CSI applicants for app process 2324B.
+                    Used Typst markdown to automate structure, layoutting, and organization of content.
                     Collaborated using Git to streamline team workflow and consolidate collective output.
                 "
-                techInvolved={ ["Notion", "Google Sheets"] }
+                techInvolved={ ["Typst", "Git"] }
                 on:click|once={ () => linkClicked("role2") }
             />
             <Article 
@@ -173,11 +186,12 @@
                 subtitle="Personal portfolio-resume (i.e., this webpage!)"
                 date="JUL 2024 - PRESENT"
                 other="
-                    A static single-page website that showcases the relevant skills I developed throughout my tech career.
+                    A static single-page website that showcases the relevant skills I have developed throughout my learning journey.
                     Also created to demonstrate front-end tech learned and to practice my UI/UX design choices.
                     Written using Svelte and Tailwind, to prioritize the webpage's responsiveness and intuitiveness.
+                    Used supplementary JavaScript and CSS to add more complex functionality.
                 "
-                techInvolved={ ["Svelte", "Tailwind"] }
+                techInvolved={ ["Svelte", "Tailwind", "JavaScript", "CSS"] }
                 on:click|once={ () => linkClicked("proj1") }
             />
             <Article 
@@ -201,7 +215,7 @@
                 color="green-600"
                 title="Finances Tracker"
                 subtitle="Personal spreadsheet with Apps Script-powered macros"
-                date="FEB 2022 - PRESENT"
+                date="FEB 2023 - PRESENT"
                 other="
                     A Google Docs spreadsheet created for the purpose of tracking college life-related expenses.
                     Uses separate sheets for incoming and outgoing funds, and summarizes all history of expenses and savings in a master sheet.
@@ -285,7 +299,7 @@
 
         <form class="flex justify-end">
             <button
-                class="bg-sky-500 hover:bg-sky-800 rounded-md py-2 px-4 text-base font-['Futura'] text-white transition ease-out"
+                class="border border-sky-500 bg-sky-500 hover:bg-white hover:text-sky-500 hover:underline underline-offset-2 rounded-md py-2 px-4 text-base font-['Futura'] text-white transition ease-out"
                 on:click={ ()=>{ submitForm(name, email, message) }}
             >
                 Submit
