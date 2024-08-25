@@ -15,7 +15,7 @@
 
 <style>
     article:hover h3 {
-        @apply text-slate-700;
+        @apply text-slate-700 underline underline-offset-2;
     }
 
     article:hover perTech {
@@ -35,7 +35,7 @@
         <date class="grow text-right text-sm font-mono tracking-tighter text-slate-400">{date}</date>
         <div class="basis-4/5 flex flex-col text-baseline gap-0.5">
             <h3 class="text-lg text-slate-600"> 
-                <a class="clickableLink hover:text-sky-600 hover:underline transition ease-out" target="_blank" {id} {href} on:click|once>
+                <a class="clickableLink hover:text-sky-500 transition ease-out" target="_blank" {id} {href} on:click|once>
                     {title}
                 </a> 
             </h3>
@@ -45,7 +45,7 @@
 
             <techs class="flex gap-1 mt-1.5">
                 {#each techInvolved as tech}
-                    <perTech class="bg-slate-300 rounded-lg px-2 text-slate-50 transition ease-out">
+                    <perTech class="bg-slate-300 hover:bg-sky-600 rounded-xl px-2 text-white transition ease-out">
                         {tech}
                     </perTech>
                 {/each}
