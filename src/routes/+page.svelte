@@ -43,12 +43,12 @@
         <div class="flex flex-row gap-1.5">
             <p>Hey! I am Jose, a BS Computer Science junior at the University of the Philippines - Diliman.</p>
 
-            <span class="flex items-center gap-1.5 hover:gap-3 text-slate-500 hover:text-sky-500 underline underline-offset-2 transition ease-out">
+            <span class="flex items-center gap-1.5 hover:gap-3 text-slate-500 hover:text-sky-500 underline underline-offset-2 transition-all ease-out">
                 <a class="flex text-lg" href="./resume-20240824.pdf" target="_blank">
                     Visit my resume
                 </a>
                 <svg 
-                    class="icon rotate-[45deg]" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" 
+                    class="icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" 
                 >
                     <line x1="7" y1="17" x2="17" y2="7"></line>
                     <polyline points="7 7 17 7 17 17"></polyline>
@@ -163,7 +163,7 @@
         </div>
 
         <h6 class="text-slate-400 text-right">
-            // See everything I've done, in full detail, at 
+            // See more of what I've done at
             <a class="underline underline-offset-2 hover:text-sky-500" href={link.li}>LinkedIn</a>.
         </h6>
     </section>

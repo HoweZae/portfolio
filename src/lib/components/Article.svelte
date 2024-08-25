@@ -16,6 +16,9 @@
 <style>
     article:hover h3 {
         text-decoration-line: underline;
+        transition-property: all;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-duration: 150ms;
     }
 
     #link {
@@ -44,7 +47,7 @@
     <div class="flex gap-4 items-baseline">
         <date class="grow text-right text-sm font-mono tracking-tighter text-slate-400">{date}</date>
         <div class="basis-4/5 flex flex-col text-baseline gap-0.5">
-            <h3 class="text-lg text-slate-700 underline-offset-2 hover:text-sky-500 transition ease-out flex items-center gap-2.5"> 
+            <h3 class="text-lg text-slate-700 underline-offset-2 hover:text-sky-500 transition-all ease-out flex items-center gap-2.5 hover:gap-4"> 
                 <a class="clickableLink" target="_blank" {id} {href} on:click|once>
                     {title}
                 </a> 
