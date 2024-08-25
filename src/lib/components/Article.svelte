@@ -45,18 +45,18 @@
     <!-- <div class="basis-1/2"></div> -->
 
     <div class="flex gap-4 items-baseline">
-        <date class="grow text-right text-sm font-mono tracking-tighter text-slate-400">{date}</date>
-        <div class="basis-4/5 flex flex-col text-baseline gap-0.5">
-            <h3 class="text-lg text-slate-700 underline-offset-2 hover:text-sky-500 transition-all ease-out flex items-center gap-2.5 hover:gap-4"> 
-                <a class="clickableLink" target="_blank" {id} {href} on:click|once>
+        <date class="grow text-right text-sm font-mono tracking-tighter text-slate-400 transition ease-out">{date}</date>
+        <div class="basis-4/5 flex flex-col text-baseline gap-0.5 transition-fade">
+            <h3 class="text-lg underline-offset-2 flex"> 
+                <a class="flex items-center clickableLink text-slate-700 hover:text-sky-500 gap-2.5 hover:gap-4 transition-all ease-out" target="_blank" {id} {href} on:click|once>
                     {title}
+                    <svg 
+                        id="link" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" 
+                    >
+                        <line x1="7" y1="17" x2="17" y2="7"></line>
+                        <polyline points="7 7 17 7 17 17"></polyline>
+                    </svg>
                 </a> 
-                <svg 
-                    id="link" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" 
-                >
-                    <line x1="7" y1="17" x2="17" y2="7"></line>
-                    <polyline points="7 7 17 7 17 17"></polyline>
-                </svg>
             </h3>
             
             <h5><i>{subtitle}</i></h5>
