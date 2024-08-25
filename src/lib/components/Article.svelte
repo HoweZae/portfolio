@@ -46,7 +46,7 @@
             {date}
         </date>
 
-        <div class="basis-4/5 text-baseline h-fit flex flex-col">
+        <div class="basis-4/5 flex flex-col">
             <h3 class="text-lg underline-offset-2 flex font-sans font-semibold"> 
                 <a class="flex items-baseline clickableLink text-slate-700 hover:text-sky-500 gap-2.5 hover:gap-4 transition-all ease-out" target="_blank" {id} {href} on:click|once>
                     {title}
