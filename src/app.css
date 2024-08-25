@@ -32,10 +32,6 @@ h6 {
     @apply text-xs font-mono;
 }
 
-p {
-    @apply text-justify;
-}
-
 page {
     @apply flex flex-col gap-4 h-[calc(100vh-4rem)] py-2;
 }
