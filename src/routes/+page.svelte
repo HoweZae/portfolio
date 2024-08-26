@@ -73,18 +73,18 @@
 
 <page class="h-auto gap-0.5">
     <jumpable id="me"></jumpable>
-    <section class="grow flex flex-col gap-1 mt-4 rounded-b-none">
+    <section class="grow flex flex-col gap-1 mt-3.5 rounded-b-none">
         <h2>What do I do?</h2>
         <p>
             As a CS major, my course has given me the privilege to explore the different options available in the tech industry.
             This institution has given me the chance to learn about <i>data science</i>, <i>software development</i>, <i>machine learning</i>, and <i>formal verification</i>.
         </p>
 
-        <div class="h-24 flex gap-2 items-center justify-center text-center">
+        <!-- <div class="h-24 flex gap-2 items-center justify-center text-center">
             <div class="grow">3</div>
             <div class="grow">6</div>
             <div class="grow">5</div>
-        </div>
+        </div> -->
         <!-- TODO: something to visualize -->
 
         <p>
