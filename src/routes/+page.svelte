@@ -245,7 +245,7 @@
         <p>
             I like to stay active and explore different things to spend my time on, but my favorite ways to spend my free time are through
             <a href="_blank" class="underline underline-offset-2 hover:text-sky-500">weightlifting</a> and
-            <a href="_blank" class="underline underline-offset-2 hover:text-sky-500">running</a>.
+            <a href="_blank" class="underline underline-offset-2 hover:text-sky-500">basketball</a>.
         </p>
         
         <!-- TODO: CAROUSEL OF ME -->
