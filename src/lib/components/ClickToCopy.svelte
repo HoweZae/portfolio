@@ -22,7 +22,7 @@
 <div class="flex justify-between hover:bg-slate-100 p-2 rounded-xl transition ease-out">
     <div class="h-5 w-5"></div>
     <h5>{ content }</h5>
-    <button type="button" on:click>
+    <button type="button" on:click title="Copy contents">
         <svg  
             id="copybutton" class="h-5 w-5 stroke-current hover:transition hover:ease-in-out"
             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"  fill="none"  
