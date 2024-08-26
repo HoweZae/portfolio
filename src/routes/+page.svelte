@@ -28,9 +28,9 @@
     });
 </script>
 
-<page class="mt-20 h-auto gap-1 fade-in" transition:fade>
+<page class="mt-14 h-auto gap-1 fade-in" transition:fade>
     <jumpable id="top"></jumpable>
-    <section class="grow flex flex-col gap-4 items-center justify-between overflow-hidden rounded-t-lg rounded-b-none p-0 pb-4">
+    <section class="grow flex flex-col gap-4 items-center justify-between overflow-hidden rounded-t-lg rounded-b-none p-0 pb-4 mt-4">
         <Carousel />
 
         <div class="flex flex-col gap-0.5 items-center justify-center">
@@ -46,7 +46,7 @@
                 class="inline-flex gap-1.5 hover:gap-3 underline underline-offset-2 text-slate-500 hover:text-sky-500 transition-all ease-out" 
                 href="./resume-20240824.pdf" target="_blank"
             >
-                Visit my resume
+                My resume
                 <svg 
                     class="icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" 
                 >
@@ -71,9 +71,9 @@
     </section>
 </page>
 
-<page class="h-auto">
+<page class="h-auto gap-1">
     <jumpable id="me"></jumpable>
-    <section class="grow flex flex-col gap-1">
+    <section class="grow flex flex-col gap-1 rounded-b-none mt-4">
         <h2>What do I do?</h2>
         <p>
             As a CS major, my course has given me the privilege to explore the different options available in the tech industry.
@@ -94,17 +94,27 @@
         <!-- TODO: something to visualize -->
 
         <p>
-            Right now, I am currently exploring the field of <i>UI/UX design</i>;
+            Right now, I am currently enjoying myself in the field of <i>UI/UX design</i>;
             I enjoy diving into the psychology behind what drives users into clicking buttons.
         </p>
         <!-- TODO: something to visualize -->
+    </section>
+
+    <section class="grow flex flex-col gap-1 rounded-t-none">
+        <p>
+            When not working, I prefer to spend my time away from the keyboard than in front of it.
+        </p>
 
         <p>
-            In particular, I find <i>automation</i> amusing;
-            I find a lot of fascination in how modern technology can be employed to do the mundane tasks that a person would take 10 minutes to do, in 10 seconds.
-            Especially with the recent rise of artificial intelligence, I long to be able to implement it with this and see these technologies work in conjunction in my daily life.
+            I like to stay active and explore different things, but my favorite ways to spend my free time are
+            <a href="_blank" class="underline underline-offset-2 hover:text-sky-500">weightlifting</a> and
+            <a href="_blank" class="underline underline-offset-2 hover:text-sky-500">basketball</a>.
         </p>
-        <!-- TODO: something to visualize -->
+
+        <p>
+            I am also an <a href="_blank" class="underline underline-offset-2 hover:text-sky-500">avid Swiftie</a>: 
+            I'd bet my left leg I know more about Taylor Swift than you!
+        </p>
     </section>
 </page>
 
@@ -235,32 +245,9 @@
     </section>
 </page>
 
-<page class="h-auto">
+<!-- <page class="h-auto">
     <jumpable id="hobbies"></jumpable>
-    <section class="flex flex-col gap-1 grow">
-        <h2>What else do I do?</h2>
-        <p>
-            When not working, I prefer to spend my time away from the keyboard than in front of it.
-        </p>
-        <p>
-            I like to stay active and explore different things to spend my time on, but my favorite ways to spend my free time are through
-            <a href="_blank" class="underline underline-offset-2 hover:text-sky-500">weightlifting</a> and
-            <a href="_blank" class="underline underline-offset-2 hover:text-sky-500">basketball</a>.
-        </p>
-        
-        <!-- TODO: CAROUSEL OF ME -->
-        <div class="h-24 flex gap-2 items-center justify-center text-center">
-            <div class="grow">3</div>
-            <div class="grow">6</div>
-            <div class="grow">5</div>
-        </div>
-
-        <p>
-            I am also an <a href="_blank" class="underline underline-offset-2 hover:text-sky-500">avid Swiftie</a>: 
-            I'd bet my left leg I know more about Taylor Swift than you!
-        </p>
-    </section>
-</page>
+</page> -->
 
 <page class="h-auto flex-row">
     <jumpable id="contact" class="-mx-2"></jumpable>

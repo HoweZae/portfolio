@@ -9,7 +9,7 @@
     <a class="nav" href="#me">Me</a>
     <a class="nav" href="#roles">Roles</a>
     <a class="nav" href="#projects">Projects</a>
-    <a class="nav" href="#hobbies">Hobbies</a>
+    <!-- <a class="nav" href="#hobbies">Hobbies</a> -->
     <a class="nav" href="#contact">Contact</a>
 </nav>
 
