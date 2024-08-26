@@ -22,15 +22,16 @@ h4, h5, p, label {
     @apply font-sans text-slate-500;
 }
 
+h6 {
+    @apply font-mono;
+}
+
 /* TODO : fix (I just know this isnt the proper implementation of this) */
 h2  { @apply text-xl }
 h3  { @apply text-lg }
 h4  { @apply text-lg }
 p   { @apply text-base }
-
-h6 {
-    @apply text-xs font-mono;
-}
+h6  { @apply text-xs }
 
 page {
     @apply flex flex-col gap-4 h-[calc(100vh-4rem)] py-2;
