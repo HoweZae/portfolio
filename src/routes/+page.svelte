@@ -40,24 +40,21 @@
     </section>
 
     <section class="shrink flex flex-col gap-2 rounded-t-none rounded-b-lg items-baseline">
-        <div class="flex flex-row gap-1.5">
-            <p>Hey! I am Jose, a BS Computer Science junior at the University of the Philippines - Diliman.</p>
-
-            <span class="flex underline underline-offset-2">
-                <a 
-                    class="flex items-baseline text-lg gap-1.5 hover:gap-3 text-slate-500 hover:text-sky-500 transition-all ease-out" 
-                    href="./resume-20240824.pdf" target="_blank"
+        <h4>
+            Hey! I am Jose, a BS Computer Science junior at the University of the Philippines - Diliman.
+            <a
+                class="inline-flex gap-1.5 hover:gap-3 underline underline-offset-2 text-slate-500 hover:text-sky-500 transition-all ease-out" 
+                href="./resume-20240824.pdf" target="_blank"
+            >
+                Visit my resume
+                <svg 
+                    class="icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" 
                 >
-                    Visit my resume
-                    <svg 
-                        class="icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" 
-                    >
-                        <line x1="7" y1="17" x2="17" y2="7"></line>
-                        <polyline points="7 7 17 7 17 17"></polyline>
-                    </svg>
-                </a>
-            </span>
-        </div>
+                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                    <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+            </a>
+        </h4>
 
         <div class="flex gap-1 w-full px-2">
             {#each header as image}
@@ -74,35 +71,38 @@
     </section>
 </page>
 
-<page>
+<page class="h-auto">
     <jumpable id="me"></jumpable>
     <section class="grow flex flex-col gap-1">
         <h2>What do I do?</h2>
         <p>
             As a CS major, my course has given me the privilege to explore the different options available in the tech industry.
-            This institution has given me the chance to explore <i>data science</i>, <i>software development</i>, and <i>formal verification</i>.
+            This institution has given me the chance to learn about <i>data science</i>, <i>software development</i>, <i>machine learning</i>, and <i>formal verification</i>.
         </p>
-        <div class="h-32 flex gap-2 items-center justify-center">
-            <div class="grow">
-                3
-            </div>
-            <div class="grow">
-                6
-            </div>
-            <div class="grow">
-                5
-            </div>
+
+        <div class="h-24 flex gap-2 items-center justify-center text-center">
+            <div class="grow">3</div>
+            <div class="grow">6</div>
+            <div class="grow">5</div>
         </div>
         <!-- TODO: something to visualize -->
 
         <p>
             However, one thing I have realized is that, while nothing in particular stood out to me, I appreciated the <b>process of learning itself</b>.
-            Especially in tech, I enjoyed the way that the things I learn along the way are immediately useful to me as I create something from it
+            Especially in tech, I enjoyed the way that the things I learn along the way are immediately useful to me as I create something from it.
         </p>
         <!-- TODO: something to visualize -->
 
         <p>
-            Right now, I am currently exploring the field of <b>UI/UX design</b>; I enjoy diving into the psychology behind what drives users into clicking buttons.
+            Right now, I am currently exploring the field of <i>UI/UX design</i>;
+            I enjoy diving into the psychology behind what drives users into clicking buttons.
+        </p>
+        <!-- TODO: something to visualize -->
+
+        <p>
+            In particular, I find <i>automation</i> amusing;
+            I find a lot of fascination in how modern technology can be employed to do the mundane tasks that a person would take 10 minutes to do, in 10 seconds.
+            Especially with the recent rise of artificial intelligence, I long to be able to implement it with this and see these technologies work in conjunction in my daily life.
         </p>
         <!-- TODO: something to visualize -->
     </section>
@@ -235,7 +235,7 @@
     </section>
 </page>
 
-<page>
+<page class="h-auto">
     <jumpable id="hobbies"></jumpable>
     <section class="flex flex-col gap-1 grow">
         <h2>What else do I do?</h2>
@@ -243,10 +243,21 @@
             When not working, I prefer to spend my time away from the keyboard than in front of it.
         </p>
         <p>
-            My favorite ways to spend my free time include hitting the gym, playing basketball, getting involved in fashion trends, and listening to podcasts.
+            I like to stay active and explore different things to spend my time on, but my favorite ways to spend my free time are through
+            <a href="_blank" class="underline underline-offset-2 hover:text-sky-500">weightlifting</a> and
+            <a href="_blank" class="underline underline-offset-2 hover:text-sky-500">running</a>.
         </p>
+        
+        <!-- TODO: CAROUSEL OF ME -->
+        <div class="h-24 flex gap-2 items-center justify-center text-center">
+            <div class="grow">3</div>
+            <div class="grow">6</div>
+            <div class="grow">5</div>
+        </div>
+
         <p>
-            I am also an avid Swiftie: I'd bet my left leg I know more about Taylor Swift than you!
+            I am also an <a href="_blank" class="underline underline-offset-2 hover:text-sky-500">avid Swiftie</a>: 
+            I'd bet my left leg I know more about Taylor Swift than you!
         </p>
     </section>
 </page>
