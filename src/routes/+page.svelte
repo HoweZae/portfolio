@@ -28,7 +28,7 @@
     });
 </script>
 
-<page class="mt-14 h-auto gap-1 fade-in" transition:fade>
+<page class="mt-14 h-auto gap-0.5 fade-in" transition:fade>
     <jumpable id="top"></jumpable>
     <section class="grow flex flex-col gap-4 items-center justify-between overflow-hidden rounded-t-lg rounded-b-none p-0 pb-4 mt-4">
         <Carousel />
@@ -46,7 +46,7 @@
                 class="inline-flex gap-1.5 hover:gap-3 underline underline-offset-2 text-slate-500 hover:text-sky-500 transition-all ease-out" 
                 href="./resume-20240824.pdf" target="_blank"
             >
-                My resume
+                See my resume
                 <svg 
                     class="icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" 
                 >
@@ -71,9 +71,9 @@
     </section>
 </page>
 
-<page class="h-auto gap-1">
+<page class="h-auto gap-0.5">
     <jumpable id="me"></jumpable>
-    <section class="grow flex flex-col gap-1 rounded-b-none mt-4">
+    <section class="grow flex flex-col gap-1 mt-4 rounded-b-none">
         <h2>What do I do?</h2>
         <p>
             As a CS major, my course has given me the privilege to explore the different options available in the tech industry.
@@ -88,25 +88,25 @@
         <!-- TODO: something to visualize -->
 
         <p>
-            However, one thing I have realized is that, while nothing in particular stood out to me, I appreciated the <b>process of learning itself</b>.
-            Especially in tech, I enjoyed the way that the things I learn along the way are immediately useful to me as I create something from it.
+            However, one thing I have realized is that, while nothing in particular stood out to me,
+            <i class="font-bold">I appreciated the journey as much as the destination</i>.
+            I enjoyed the way that the things I learn along the way are immediately useful to me as I create something from it.
+            For me, the journey is the destination.
         </p>
         <!-- TODO: something to visualize -->
 
         <p>
-            Right now, I am currently enjoying myself in the field of <i>UI/UX design</i>;
-            I enjoy diving into the psychology behind what drives users into clicking buttons.
+            Right now, I am currently immersing myself in the field of <i>UI/UX design</i>;
+            I'm enjoying diving into the psychology behind what drives users into clicking buttons.
+            I long to be able to make a career out of this path that I enjoy.
         </p>
         <!-- TODO: something to visualize -->
     </section>
 
     <section class="grow flex flex-col gap-1 rounded-t-none">
         <p>
-            When not working, I prefer to spend my time away from the keyboard than in front of it.
-        </p>
-
-        <p>
-            I like to stay active and explore different things, but my favorite ways to spend my free time are
+            When not working, however, I prefer to spend my time away from the keyboard than in front of it.
+            I like to stay active and explore different things, but my favorite ways to spend my free time are with
             <a href="_blank" class="underline underline-offset-2 hover:text-sky-500">weightlifting</a> and
             <a href="_blank" class="underline underline-offset-2 hover:text-sky-500">basketball</a>.
         </p>
