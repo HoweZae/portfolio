@@ -69,7 +69,7 @@
 </svelte:head>
 
 <page class="mt-16 h-auto gap-0.5 fade-in" transition:fade>
-    <jumpable id="top"></jumpable>
+    <jumpable id="top" />
     <section class="grow flex flex-col gap-4 items-center justify-between overflow-hidden rounded-t-lg rounded-b-none p-0 pb-4 mt-4">
         <Carousel />
 
@@ -109,7 +109,7 @@
 </page>
 
 <page class="h-auto gap-0.5">
-    <jumpable id="me"></jumpable>
+    <jumpable id="me" />
     <section class="grow flex flex-col gap-1.5 mt-3.5 rounded-b-none">
         <h2>What do I do?</h2>
         <p>
@@ -155,7 +155,7 @@
 </page>
 
 <page class="h-auto">
-    <jumpable id="roles"></jumpable>
+    <jumpable id="roles" />
     <section class="basis-1/2 flex flex-col gap-2">
         <div class="gap-1">
             <h2>What have I been up to?</h2>
@@ -219,7 +219,7 @@
 </page>
 
 <page class="h-auto">
-    <jumpable id="projects"></jumpable>
+    <jumpable id="projects" />
     <section class="basis-1/2 flex flex-col gap-2">
         <div class="gap-1">
             <h2>What projects have I made?</h2>
@@ -282,11 +282,11 @@
 </page>
 
 <!-- <page class="h-auto">
-    <jumpable id="hobbies"></jumpable>
+    <jumpable id="hobbies" />
 </page> -->
 
 <page class="h-auto flex-row">
-    <jumpable id="contact" class="-mx-2"></jumpable>
+    <jumpable id="contact" class="-mx-2" />
     <section class="basis-2/5">
         <h2>Contact me:</h2>
 
