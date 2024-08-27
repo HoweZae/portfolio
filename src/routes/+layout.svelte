@@ -20,7 +20,7 @@
         </main>
     </premain>
 
-    <footer>
+    <footer class="py-2">
         <h6 class="text-center text-slate-400">
             //
             This page is written with Svelte and Tailwind.
