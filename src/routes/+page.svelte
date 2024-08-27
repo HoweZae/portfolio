@@ -117,11 +117,12 @@
 
 <page class="h-auto gap-0.5">
     <jumpable id="me"></jumpable>
-    <section class="grow flex flex-col gap-1 mt-3.5 rounded-b-none">
+    <section class="grow flex flex-col gap-1.5 mt-3.5 rounded-b-none">
         <h2>What do I do?</h2>
         <p>
             As a CS major, my course has given me the privilege to explore the different options available in the tech industry.
-            This institution has given me the chance to learn about <i>data science</i>, <i>software development</i>, <i>machine learning</i>, and <i>formal verification</i>.
+            This institution has given me the chance to learn about <i>data science</i>, <i>software development</i>, and <i>database systems</i>.
+            While nothing in particular stood out to me personally, I was enjoying the act of learning a new skill by creating something from what I have learned.
         </p>
 
         <!-- <div class="h-24 flex gap-2 items-center justify-center text-center">
@@ -132,22 +133,19 @@
         <!-- TODO: something to visualize -->
 
         <p>
-            However, one thing I have realized is that, while nothing in particular stood out to me,
-            <i class="font-bold">I appreciated the journey as much as the destination</i>.
-            I enjoyed the way that the things I learn along the way are immediately useful to me as I create something from it.
-            For me, the journey is the destination.
+            <i class="font-bold">It was almost like the journey was part of the destination.</i>
         </p>
         <!-- TODO: something to visualize -->
 
         <p>
             Right now, I am currently immersing myself in the field of <i>UI/UX design</i>;
-            I'm enjoying diving into the psychology behind what drives users into clicking buttons.
+            I appreciate diving into the psychology behind what drives users into clicking buttons.
             I long to be able to make a career out of this path that I enjoy.
         </p>
         <!-- TODO: something to visualize -->
     </section>
 
-    <section class="grow flex flex-col gap-1 rounded-t-none">
+    <section class="grow flex flex-col gap-1.5 rounded-t-none">
         <p>
             When not working, however, I prefer to spend my time away from the keyboard than in front of it.
             I like to stay active and explore different things, but my favorite ways to spend my free time are with
