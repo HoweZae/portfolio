@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    @apply bg-slate-200;
+}
+
 /* ALL OTHER */
 h1, h2, h3 {
     @apply font-heading text-slate-800;
