@@ -28,6 +28,11 @@
     });
 </script>
 
+<svelte:head>
+    <title>Jose Tomanan</title>
+    <meta name="description" content="Jose's portfolio" />
+</svelte:head>
+
 <page class="mt-14 h-auto gap-0.5 fade-in" transition:fade>
     <jumpable id="top"></jumpable>
     <section class="grow flex flex-col gap-4 items-center justify-between overflow-hidden rounded-t-lg rounded-b-none p-0 pb-4 mt-4">
