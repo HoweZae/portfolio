@@ -53,10 +53,6 @@
         alert(`Submitted ${name}, ${email} with message: ${message}`);
     }
 
-    function buttonHover() {
-        console.log("Hovering on button...");
-    }
-
     // const hoverButton = tweened(0, {
     //     duration: 500,
     //     easing: elasticOut
@@ -103,10 +99,7 @@
         <div class="flex gap-1 w-full px-2">
             {#each header as image}
                 <button type="button" class="grow flex justify-center bg-gradient-to-b from-white to-white {image.color} active:from-slate-100 active:to-slate-100 p-2 rounded-xl transition ease-out hover:scale-110">
-                    <a 
-                        href={ image.link } target="_blank"
-                        on:focus={ buttonHover }
-                    >
+                    <a href={ image.link } target="_blank">
                         <img class="h-8" src={image.logo} alt="Logo" />
                     </a>
                 </button>
