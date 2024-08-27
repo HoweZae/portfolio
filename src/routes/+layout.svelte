@@ -6,12 +6,12 @@
     <nav 
         class="p-4 bg-white border-b-2 border-sky-500 max-w-screen flex items-center justify-center gap-8 font-['Avenir'] fixed w-full bg-opacity-80 z-50"
     >
-        <a class="nav" href="#top">Top</a>
-        <a class="nav" href="#me">Me</a>
-        <a class="nav" href="#roles">Roles</a>
-        <a class="nav" href="#projects">Projects</a>
-        <!-- <a class="nav" href="#hobbies">Hobbies</a> -->
-        <a class="nav" href="#contact">Contact</a>
+        <a href="#top">Top</a>
+        <a href="#me">Me</a>
+        <a href="#roles">Roles</a>
+        <a href="#projects">Projects</a>
+        <!-- <a href="#hobbies">Hobbies</a> -->
+        <a href="#contact">Contact</a>
     </nav>
 
     <premain class="flex justify-center">
@@ -28,3 +28,13 @@
         </h6>
     </footer>
 </div>
+
+<style>
+    nav > a {
+        @apply transition ease-out;
+    }
+
+    nav > a:hover {
+        @apply text-sky-400;
+    }
+</style>

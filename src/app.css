@@ -27,8 +27,8 @@ h6 {
 h2  { @apply text-xl }
 h3  { @apply text-lg }
 h4  { @apply text-lg }
-p   { @apply text-base }
 h6  { @apply text-xs }
+p   { @apply text-base }
 
 page {
     @apply flex flex-col gap-4 h-[calc(100vh-4rem)];
@@ -38,15 +38,6 @@ section {
     @apply bg-white p-4 rounded-md shadow-sm grow;
 }
 
-a.nav {
-    @apply hover:text-sky-400 transition ease-out;
-}
-
 jumpable {
     @apply h-12 -mt-16 -z-50;
-}
-
-input.input_text_sm {
-    @apply block w-full font-sans rounded-sm border-0 text-slate-700 ring-1 ring-inset ring-slate-300 px-1 placeholder:text-gray-400;
-    /* @apply focus:ring-2 focus:ring-indigo-600; */
 }

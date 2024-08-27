@@ -314,7 +314,7 @@
             <form class="basis-5/12 flex gap-2 justify-between">
                 <label for="name">Name: </label>
                 <input 
-                    name="name" type="text" class="input_text_sm caret-sky-500" placeholder="Your Name" 
+                    name="name" type="text" class="input-sm caret-sky-500" placeholder="Your Name" 
                     bind:value={ name }
                 >
             </form>
@@ -322,7 +322,7 @@
             <form class="basis-7/12 flex gap-2 justify-between">
                 <label for="email">Email: </label>
                 <input 
-                    name="email" type="email" class="input_text_sm caret-sky-500" placeholder="yourname@email.com" 
+                    name="email" type="email" class="input-sm caret-sky-500" placeholder="yourname@email.com" 
                     bind:value={ email }
                 >
             </form>
@@ -348,3 +348,14 @@
         </form>
     </section>
 </page>
+
+<style>
+    .input-sm {
+        @apply block w-full font-sans rounded-sm border-0 text-slate-700 ring-1 ring-inset ring-slate-300 px-1;
+        /* @apply focus:ring-2 focus:ring-indigo-600; */
+    }
+
+    .input-sm::placeholder {
+        @apply text-gray-400;   
+    }
+</style>
