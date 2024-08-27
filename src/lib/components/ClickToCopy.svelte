@@ -3,22 +3,6 @@
     // export let src = "";
 </script>
 
-<style>
-    #copybutton {
-        --tw-text-opacity: 1;
-        color: transparent;
-        stroke-width: 1;
-    }
-
-    .flex:hover #copybutton {
-        color: rgb(100 116 139 / var(--tw-text-opacity)) /* #64748b */;
-    }
-
-    #copybutton:hover {
-        stroke-width: 2;
-    }
-</style>
-
 <div class="flex justify-between hover:bg-slate-100 p-2 rounded-xl transition ease-out">
     <div class="h-5 w-5"></div>
     <h5>{ content }</h5>
@@ -34,3 +18,19 @@
         </svg>
     </button>
 </div>
+
+<style>
+    #copybutton {
+        --tw-text-opacity: 1;
+        color: transparent;
+        stroke-width: 1;
+    }
+
+    .flex:hover #copybutton {
+        color: rgb(100 116 139 / var(--tw-text-opacity)) /* #64748b */;
+    }
+
+    #copybutton:hover {
+        stroke-width: 2;
+    }
+</style>

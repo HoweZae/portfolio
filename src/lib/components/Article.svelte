@@ -13,33 +13,6 @@
     export let techInvolved = [""];
 </script>
 
-<style>
-    article:hover h3 {
-        text-decoration-line: underline;
-        transition-property: all;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-        transition-duration: 150ms;
-    }
-
-    #link {
-        --tw-text-opacity: 0;
-        stroke-width: 0;
-    }
-
-    article:hover #link {
-        --tw-text-opacity: 1;
-        stroke-width: 2;
-    }
-
-    article:hover perTech {
-        @apply bg-sky-300;
-    }
-
-    article:hover date {
-        @apply text-slate-600;
-    }
-</style>
-
 <article class="flex min-h-48 gap-4 items-baseline bg-slate-50 hover:bg-slate-100 py-2 px-3 rounded-lg text-left border border-slate-100 transition ease-linear z-10">
     <date class="grow text-right text-sm font-mono tracking-tighter text-slate-400 transition ease-out">
         {date}
@@ -72,3 +45,30 @@
         </techs>
     </div>
 </article>
+
+<style>
+    article:hover h3 {
+        text-decoration-line: underline;
+        transition-property: all;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-duration: 150ms;
+    }
+
+    #link {
+        --tw-text-opacity: 0;
+        stroke-width: 0;
+    }
+
+    article:hover #link {
+        --tw-text-opacity: 1;
+        stroke-width: 2;
+    }
+
+    article:hover perTech {
+        @apply bg-sky-300;
+    }
+
+    article:hover date {
+        @apply text-slate-600;
+    }
+</style>
