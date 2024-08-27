@@ -1,27 +1,66 @@
 <script>
-    import Article from "../lib/components/Article.svelte";
-    import ClickToCopy from "../lib/components/ClickToCopy.svelte";
+    import Article from "$lib/components/Article.svelte";
     import Carousel from "$lib/components/Carousel.svelte";
+    import ClickToCopy from "$lib/components/ClickToCopy.svelte";
 
-    import { link, header } from "$lib";
-    import { buttonHover, linkClicked, submitForm } from "$lib";
+    import { onMount } from "svelte";
+    import { fade } from "svelte/transition";
+    // import { tweened, spring } from "svelte/motion";
+    // import { elasticOut } from "svelte/easing";
 
     let name = "";
     let email = "";
     let message = "";
 
-    // import { tweened, spring } from "svelte/motion";
-    // import { elasticOut } from "svelte/easing";
-    
-    import { onMount } from "svelte";
-    import { fade } from "svelte/transition";
+    let startPage = false;
+
+    const link = {
+        li: "https://www.linkedin.com/in/jedtomanan/",
+        gh: "https://github.com/HoweZae",
+        fb: "https://www.facebook.com/jedtomanan/",
+        ig: "https://www.instagram.com/jose.tmnn/",
+        twt: "https://x.com/howe_zae",
+        resume: "https://flowcv.com/resume/hsjhe4q16a"
+    }
+
+    const header = [
+        {logo: "/logo/li.png", color: "hover:from-cyan-100 hover:to-cyan-300", link: link.li, handle: "jedtomanan"},
+        {logo: "/logo/gh.svg", color: "hover:from-purple-100 hover:to-purple-300", link: link.gh, handle: "HoweZae"},
+        {logo: "/logo/fb.png", color: "hover:from-blue-100 hover:to-blue-300", link: link.fb, handle: "jedtomanan"},
+        {logo: "/logo/ig.png", color: "hover:from-red-50 hover:to-red-200", link: link.ig, handle: "jose.tmnn"},
+        {logo: "/logo/twt.png", color: "hover:from-sky-50 hover:to-sky-200", link: link.twt, handle: "howe_zae"},
+    ]
+
+    /**
+     * @param {string} id
+     */
+    function linkClicked(id) {
+        console.log("Link clicked...");
+
+        if (id != null) {
+            const link = document.getElementById(id);
+            // @ts-ignore
+            link.classList.add("text-violet-800", "underline");
+        }
+    }
+
+    /**
+     * @param {string} name
+     * @param {string} email
+     * @param {string} message
+     */
+     function submitForm(name, email, message) {
+        alert(`Submitted ${name}, ${email} with message: ${message}`);
+    }
+
+    function buttonHover() {
+        console.log("Hovering on button...");
+    }
 
     // const hoverButton = tweened(0, {
     //     duration: 500,
     //     easing: elasticOut
     // });
-
-    let startPage = false;
 
     onMount(() => {
         startPage = true;
