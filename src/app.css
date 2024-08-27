@@ -23,7 +23,7 @@ p   { @apply text-base }
 h6  { @apply text-xs }
 
 page {
-    @apply flex flex-col gap-4 h-[calc(100vh-4rem)] py-2;
+    @apply flex flex-col gap-4 h-[calc(100vh-4rem)];
 }
 
 section {
