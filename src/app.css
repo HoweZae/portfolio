@@ -7,8 +7,6 @@
         scroll-behavior: smooth;
     },
     body {
-        @apply bg-slate-200;
-
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         position: relative;
@@ -27,8 +25,12 @@
             opacity: 0.03;
             z-index: -1;
             */
-        }  
+        }
     }
+}
+
+body {
+    @apply bg-slate-200;
 }
 
 /* ALL OTHER */
