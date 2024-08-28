@@ -340,6 +340,7 @@
             <button
                 class="border border-sky-500 bg-sky-500 hover:bg-white hover:text-sky-500 hover:underline underline-offset-2 rounded-md py-1 px-2.5 font-['Futura'] text-white transition ease-out"
                 on:click={ ()=>{ submitForm(name, email, message) }}
+                title="Work in progress"
             >
                 Submit
             </button>

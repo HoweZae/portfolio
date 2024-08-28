@@ -2,12 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-    scroll-behavior: smooth;
-}
+@layer base {
+    html {
+        scroll-behavior: smooth;
+    },
+    body {
+        @apply bg-slate-200;
 
-body {
-    @apply bg-slate-200;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        position: relative;
+
+        body::before {
+            content: '';
+            position: absolute;
+            top: 0; 
+            left: 0;
+            right: 0;
+            bottom: 0;
+            /* 
+            background-image: url("");
+            background-size: auto;  
+            background-repeat: repeat;
+            opacity: 0.03;
+            z-index: -1;
+            */
+        }  
+    }
 }
 
 /* ALL OTHER */
