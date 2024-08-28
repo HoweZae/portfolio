@@ -20,7 +20,7 @@ h4, h5, p, label {
 }
 
 h6 {
-    @apply font-mono;
+    @apply font-mono tracking-tight;
 }
 
 /* TODO : fix (I just know this isnt the proper implementation of this) */
