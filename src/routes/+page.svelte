@@ -333,7 +333,7 @@
                 class="block w-full font-['Avenir'] rounded-sm border-0 text-slate-700 ring-1 ring-inset ring-slate-300 p-1 caret-sky-500"
                 rows=2 name="message" placeholder="Say something..."
                 bind:value={ message }
-            ></textarea>
+            />
         </form>
 
         <form class="flex justify-end">
