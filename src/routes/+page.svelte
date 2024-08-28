@@ -125,9 +125,7 @@
         </div> -->
         <!-- TODO: something to visualize -->
 
-        <p>
-            <i class="font-bold">It was almost like the journey was part of the destination.</i>
-        </p>
+        <p class="italic font-bold">It was almost like the journey is part of the destination.</p>
         <!-- TODO: something to visualize -->
 
         <p>
