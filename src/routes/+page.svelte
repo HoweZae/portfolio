@@ -140,13 +140,13 @@
         <p>
             When not working, however, I prefer to spend my time away from the keyboard than in front of it.
             I like to stay active and explore different things, but my favorite ways to spend my free time are with
-            <a href="https://www.instagram.com/stories/highlights/17992555250680811/" class="underline underline-offset-2 hover:text-sky-500">weightlifting</a> and
-            <a href="_blank" class="underline underline-offset-2 hover:text-sky-500">basketball</a>.
+            <a href="https://www.instagram.com/stories/highlights/17992555250680811/" class="underline underline-offset-2 hover:text-sky-500" target="_blank">weightlifting</a> and
+            <a href="_blank" class="underline underline-offset-2 hover:text-sky-500" target="_blank">basketball</a>.
         </p>
 
         <p>
             I am also an 
-            <a href="https://www.instagram.com/p/B6p4rR_hoUC/" class="underline underline-offset-2 hover:text-sky-500">avid Swiftie</a>: 
+            <a href="https://www.instagram.com/p/B6p4rR_hoUC/" class="underline underline-offset-2 hover:text-sky-500" target="_blank">avid Swiftie</a>: 
             I'd bet my left leg I know more about Taylor Swift than you!
         </p>
     </section>
