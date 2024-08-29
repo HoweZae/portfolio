@@ -83,12 +83,11 @@
         <h4>
             Hey! I am Jose, a BS Computer Science junior at the University of the Philippines - Diliman.
             <a
-                class="inline-flex gap-1.5 hover:gap-3 underline underline-offset-2 text-slate-500 hover:text-sky-500 transition-all ease-out" 
-                href="./resume-20240824.pdf" target="_blank"
+                id="see-resume" href="./resume-20240824.pdf" target="_blank"
             >
-                See my resume
+                See my resume!
                 <svg 
-                    class="icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" 
+                    id="link" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" 
                 >
                     <line x1="7" y1="17" x2="17" y2="7"></line>
                     <polyline points="7 7 17 7 17 17"></polyline>
@@ -349,6 +348,22 @@
 </page>
 
 <style>
+    #see-resume {
+        @apply inline-flex gap-0.5 underline underline-offset-2 text-slate-500 transition-all ease-out;
+    }
+
+    #see-resume:hover {
+        @apply gap-2 text-sky-500;
+    }
+
+    #link {
+        opacity: 0;
+    }
+
+    #see-resume:hover #link {
+        opacity: 1;
+    }
+
     .input-sm {
         @apply block w-full font-sans rounded-sm border-0 text-slate-700 ring-1 ring-inset ring-slate-300 px-1;
         /* @apply focus:ring-2 focus:ring-indigo-600; */
