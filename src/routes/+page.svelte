@@ -87,7 +87,7 @@
         <h4>
             Hey! I am Jose, a BS Computer Science junior at the University of the Philippines - Diliman.
             <a
-                id="see-resume" href="./resume-20240824.pdf" target="_blank"
+                id="see-resume" class="hoverable-link" href="./resume-20240824.pdf" target="_blank"
             >
                 See my resume!
                 <svg 
@@ -143,13 +143,13 @@
         <p>
             When not working, however, I prefer to spend my time away from the keyboard than in front of it.
             I like to stay active and explore different things, but my favorite ways to spend my free time are with
-            <a href="https://www.instagram.com/stories/highlights/17992555250680811/" class="underline underline-offset-2 hover:text-sky-500" target="_blank">weightlifting</a> and
-            <a href="_blank" class="underline underline-offset-2 hover:text-sky-500" target="_blank">basketball</a>.
+            <a href="https://www.instagram.com/stories/highlights/17992555250680811/" class="hoverable-link" target="_blank">weightlifting</a> and
+            <a href="_blank" class="hoverable-link" target="_blank">basketball</a>.
         </p>
 
         <p>
             I am also an 
-            <a href="https://www.instagram.com/p/B6p4rR_hoUC/" class="underline underline-offset-2 hover:text-sky-500" target="_blank">avid Swiftie</a>: 
+            <a href="https://www.instagram.com/p/B6p4rR_hoUC/" class="hoverable-link" target="_blank">avid Swiftie</a>: 
             I'd bet my left leg I know more about Taylor Swift than you!
         </p>
     </section>
@@ -353,7 +353,7 @@
 
 <style>
     #see-resume {
-        @apply inline-flex gap-0.5 underline underline-offset-2 text-slate-500 transition-all ease-out;
+        @apply inline-flex gap-0.5 text-slate-500;
     }
 
     #see-resume:hover {

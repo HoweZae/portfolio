@@ -63,5 +63,7 @@
 }
 
 @layer utilities {
-    
+    a.hoverable-link {
+        @apply underline underline-offset-2 hover:text-sky-500 transition-all ease-out;
+    }
 }
