@@ -8,7 +8,7 @@
     <h5>{ content }</h5>
     <button type="button" on:click title="Copy contents">
         <svg  
-            id="copybutton" class="h-5 w-5 stroke-current hover:transition hover:ease-in-out"
+            id="copybutton" height="1em" width="1em"
             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"  fill="none"  
             stroke="currentColor" stroke-linecap="round"  stroke-linejoin="round"  
         >
