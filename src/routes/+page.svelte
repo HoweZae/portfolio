@@ -229,7 +229,7 @@
         <div class="flex flex-col gap-2 mx-2">
             <Article 
                 id="proj1"
-                href="https://github.com/HoweZae/HoweZae"
+                href="https://github.com/HoweZae/portfolio"
                 color="sky-500"
                 title="JoseTomanan.io"
                 subtitle="Personal portfolio-resume (i.e., this webpage!)"
