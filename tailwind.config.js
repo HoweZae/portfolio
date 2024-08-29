@@ -5,7 +5,7 @@ export default {
   theme: {
     fontFamily: {
       'heading': ["Futura"],
-      'sans': ["Avenir"],
+      'sans': ["Avenir", "sans-serif"],
       'mono': ["JetBrains Mono NL"],
     },
     extend: {
