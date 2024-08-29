@@ -3,8 +3,11 @@
 </script>
 
 <div class="app bg-fixed">
-    <nav 
-        class="p-4 bg-white border-b-2 border-none max-w-screen flex items-center justify-center gap-8 font-['Avenir'] fixed w-full bg-opacity-75 backdrop-blur-sm z-50"
+    <nav class="
+        flex items-center justify-center gap-8
+        fixed w-full max-w-screen p-4 z-50
+        bg-gradient-to-t from-white from-0% to-[250%] backdrop-blur-sm
+        border-b-2 border-none"
     >
         <a href="#top">Top</a>
         <a href="#me">Me</a>
