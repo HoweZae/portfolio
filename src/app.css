@@ -7,7 +7,7 @@
         scroll-behavior: smooth;
     }
     body {
-        @apply bg-slate-200;
+        @apply bg-slate-200 font-sans;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         position: relative;
