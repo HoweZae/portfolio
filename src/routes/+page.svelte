@@ -74,7 +74,7 @@
 
 <page class="mt-16 h-auto gap-0.5 fade-in" transition:fade>
     <jumpable id="top" />
-    <section class="grow flex flex-col gap-4 items-center justify-between overflow-hidden rounded-t-lg rounded-b-none p-0 pb-4 mt-4">
+    <section class="flex flex-col gap-4 items-center justify-between overflow-hidden rounded-t-lg rounded-b-none p-0 pb-4 mt-4">
         <Carousel />
 
         <div class="flex flex-col gap-0.5 items-center justify-center">
@@ -113,7 +113,7 @@
 
 <page class="h-auto gap-0.5">
     <jumpable id="me" />
-    <section class="grow flex flex-col gap-1.5 mt-3.5 rounded-b-none">
+    <section class="flex flex-col gap-1.5 mt-3.5 rounded-b-none">
         <h2>What do I do?</h2>
         <p>
             As a CS major, my course has given me the privilege to explore the different options available in the tech industry.
@@ -139,7 +139,7 @@
         <!-- TODO: something to visualize -->
     </section>
 
-    <section class="grow flex flex-col gap-1.5 rounded-t-none">
+    <section class="flex flex-col gap-1.5 rounded-t-none">
         <p>
             When not working, however, I prefer to spend my time away from the keyboard than in front of it.
             I like to stay active and explore different things, but my favorite ways to spend my free time are with
@@ -268,7 +268,7 @@
                 other="
                     A Google Docs spreadsheet created for the purpose of tracking college life-related expenses.
                     Uses separate sheets for incoming and outgoing funds, and summarizes all history of expenses and savings in a master sheet.
-                    Utilizes JavaScript to automate the addition of new entries, separation of each week, and creation of a new sheet for each new month.
+                    Utilizes JavaScript (via Google Apps Script) to automate the addition of new entries, separation of each week, and creation of a new sheet for each new month.
                 "
                 techInvolved={ ["Google Sheets", "JavaScript"] }
                 on:click|once={ () => linkClicked("proj3") }
