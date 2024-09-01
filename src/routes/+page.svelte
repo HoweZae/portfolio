@@ -2,16 +2,15 @@
     import Article from "$lib/components/Article.svelte";
     import Carousel from "$lib/components/Carousel.svelte";
     import ClickToCopy from "$lib/components/ClickToCopy.svelte";
-
     import { onMount } from "svelte";
     import { fade } from "svelte/transition";
+
     // import { tweened, spring } from "svelte/motion";
     // import { elasticOut } from "svelte/easing";
 
     let name = "";
     let email = "";
     let message = "";
-
     let startPage = false;
 
     const link = {
@@ -39,11 +38,6 @@
      function submitForm(name, email, message) {
         alert(`Submitted ${name}, ${email} with message: ${message}`);
     }
-
-    // const hoverButton = tweened(0, {
-    //     duration: 500,
-    //     easing: elasticOut
-    // });
 
     onMount(() => {
         startPage = true;
@@ -345,24 +339,19 @@
     #see-resume {
         @apply inline-flex gap-0.5 text-slate-500;
     }
-
     #see-resume:hover {
         @apply gap-2 text-sky-500;
     }
-
     #link {
         opacity: 0;
     }
-
     #see-resume:hover #link {
         opacity: 1;
     }
-
     .input-sm {
         @apply block w-full font-sans rounded-sm border-0 text-slate-700 ring-1 ring-inset ring-slate-300 px-1;
         /* @apply focus:ring-2 focus:ring-indigo-600; */
     }
-
     .input-sm::placeholder {
         @apply text-gray-400;   
     }
