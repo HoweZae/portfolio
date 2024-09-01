@@ -120,12 +120,6 @@
             This institution has given me the chance to learn about <i>data science</i>, <i>software development</i>, and <i>database systems</i>.
             While nothing in particular stood out to me personally, I was enjoying the act of learning a new skill by creating something from what I have learned.
         </p>
-
-        <!-- <div class="h-24 flex gap-2 items-center justify-center text-center">
-            <div class="grow">3</div>
-            <div class="grow">6</div>
-            <div class="grow">5</div>
-        </div> -->
         <!-- TODO: something to visualize -->
 
         <p class="italic font-bold">It was almost like the journey is part of the destination.</p>
@@ -227,6 +221,21 @@
         </div>
         
         <div class="flex flex-col gap-2 mx-2">
+            <!-- 
+            <Article 
+                id="proj0"
+                href="_blank"
+                title="Food"
+                subtitle="Food app"
+                date="AUG 2024 - PRESENT"
+                other="
+                    ,,,
+                    Made in compliance for the requirements of course CS 191 and 192: Software Engineering I and II.
+                "
+                techInvolved={ ["Svelte", "PHP"] }
+                on:click|once={ () => linkClicked("proj0") }
+            /> 
+            -->
             <Article 
                 id="proj1"
                 href="https://github.com/HoweZae/portfolio"
