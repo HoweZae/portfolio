@@ -1,8 +1,8 @@
 <script>
+    import Header from "./Header.svelte";
+
     import Article from "$lib/components/Article.svelte";
     import ClickToCopy from "$lib/components/ClickToCopy.svelte";
-
-    import Header from "./Header.svelte";
 
     import { onMount } from "svelte";
     // import { fade } from "svelte/transition";
