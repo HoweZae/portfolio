@@ -32,19 +32,6 @@
     ]
 
     /**
-     * @param {string} id
-     */
-    function linkClicked(id) {
-        console.log("Link clicked...");
-
-        if (id != null) {
-            const link = document.getElementById(id);
-            // @ts-ignore
-            link.classList.add("text-violet-800", "underline");
-        }
-    }
-
-    /**
      * @param {string} name
      * @param {string} email
      * @param {string} message
@@ -171,7 +158,6 @@
                     Used Notion workspace to efficiently implement task delegation, resource management, and team oversight.
                 "
                 techInvolved={ ["Notion", "Asana", "Google Sheets", "Canva"] }
-                on:click|once={ () => linkClicked("role1") }
             />
             <Article 
                 id="role2"
@@ -186,7 +172,6 @@
                     Collaborated using Git to streamline team workflow and consolidate collective output.
                 "
                 techInvolved={ ["Typst", "Git"] }
-                on:click|once={ () => linkClicked("role2") }
             />
             <Article 
                 id="role3"
@@ -202,7 +187,6 @@
                     Used Notion workspace to efficiently implement task delegation, resource management, and team oversight.
                 "
                 techInvolved={ ["Notion"] }
-                on:click|once={ () => linkClicked("role3") }
             />
         </div>
 
@@ -250,7 +234,6 @@
                     Used supplementary JavaScript and CSS to add more complex functionality.
                 "
                 techInvolved={ ["Svelte", "Tailwind", "JavaScript", "CSS"] }
-                on:click|once={ () => linkClicked("proj1") }
             />
             <Article 
                 id="proj2"
@@ -265,7 +248,6 @@
                     Conducted in compliance for the requirements of course CS 132: Data Science.
                 "
                 techInvolved={ ["Python"] }
-                on:click|once={ () => linkClicked("proj2") }
             />
             <Article 
                 id="proj3"
@@ -280,7 +262,6 @@
                     Utilizes JavaScript (via Google Apps Script) to automate the addition of new entries, separation of each week, and creation of a new sheet for each new month.
                 "
                 techInvolved={ ["Google Sheets", "JavaScript"] }
-                on:click|once={ () => linkClicked("proj3") }
             />
         </div>
 
