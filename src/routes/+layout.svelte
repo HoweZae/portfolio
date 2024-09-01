@@ -6,7 +6,7 @@
     <nav class="
         flex items-center justify-center gap-8
         fixed w-full max-w-screen p-4 z-50
-        bg-gradient-to-t from-white from-20% to-[250%] backdrop-blur-sm
+        bg-gradient-to-t from-white to-[200%] backdrop-blur-sm
         border-b-2 border-none"
     >
         <a href="#top">Top</a>
@@ -38,6 +38,6 @@
     }
 
     nav > a:hover {
-        @apply text-sky-400;
+        @apply text-sky-500;
     }
 </style>
