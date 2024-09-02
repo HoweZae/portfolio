@@ -2,7 +2,7 @@
     import { fly } from "svelte/transition";
 </script>
 
-<page class="h-auto gap-0.5" transition:fly={{ delay: 100, duration: 500 }}>
+<page class="h-auto gap-0.5" transition:fly={{ delay: 100, duration: 1000 }}>
     <jumpable id="me" />
     <section class="flex flex-col gap-1.5 mt-3.5 rounded-b-none">
         <h2>What do I do?</h2>

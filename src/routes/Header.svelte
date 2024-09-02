@@ -37,7 +37,7 @@
     ]
 </script>
 
-<page class="mt-16 h-auto gap-0.5 fade-in" transition:fly={{ delay: 100, duration: 500 }}>
+<page class="mt-16 h-auto gap-0.5 fade-in" transition:fly={{ delay: 100, duration: 1000 }}>
     <jumpable id="top" />
     <section class="flex flex-col gap-4 items-center justify-between overflow-hidden rounded-t-lg rounded-b-none p-0 pb-4 mt-4">
         <Carousel />

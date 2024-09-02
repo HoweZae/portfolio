@@ -16,7 +16,7 @@
     }
 </script>
 
-<page class="h-auto flex-row" transition:fly={{ delay: 100, duration: 500 }}>
+<page class="h-auto flex-row" transition:fly={{ delay: 100, duration: 1000 }}>
     <jumpable id="contact" class="-mx-2" />
     <section class="basis-2/5">
         <h2>Contact me:</h2>

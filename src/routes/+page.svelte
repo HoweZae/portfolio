@@ -26,17 +26,17 @@
     <link rel="manifest" href="/site.webmanifest">
 </svelte:head>
 
+<Header />
+
 {#if startPage}
-    <Header />
+    <Me />
+    
+    <Roles />
+    
+    <Projects />
+    
+    <Contact />
 {/if}
-
-<Me />
-
-<Roles />
-
-<Projects />
-
-<Contact />
 
 <style>
 </style>

@@ -4,7 +4,7 @@
     import { link } from "$lib";
 </script>
 
-<page class="h-auto" transition:fly={{ delay: 100, duration: 500 }}>
+<page class="h-auto" transition:fly={{ delay: 100, duration: 1000 }}>
     <jumpable id="roles" />
     <section class="basis-1/2 flex flex-col gap-2">
         <div class="gap-1">
