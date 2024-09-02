@@ -4,36 +4,11 @@
     import { fly } from "svelte/transition";
 
     const header = [
-        {
-            logo: "/logo/li.png", 
-            color: "hover:from-cyan-100 hover:to-cyan-300", 
-            link: link.li,
-            handle: "jedtomanan"
-        },
-        {
-            logo: "/logo/gh.svg", 
-            color: "hover:from-purple-100 hover:to-purple-300", 
-            link: link.gh,
-            handle: "HoweZae"
-        },
-        {
-            logo: "/logo/fb.png", 
-            color: "hover:from-blue-100 hover:to-blue-300", 
-            link: link.fb,
-            handle: "jedtomanan"
-        },
-        {
-            logo: "/logo/ig.png", 
-            color: "hover:from-red-50 hover:to-red-200", 
-            link: link.ig,
-            handle: "jose.tmnn"
-        },
-        {
-            logo: "/logo/twt.png", 
-            color: "hover:from-sky-50 hover:to-sky-200", 
-            link: link.twt, 
-            handle: "howe_zae"
-        },
+        { logo: "/logo/li.png", color: "hover:from-cyan-100 hover:to-cyan-300", link: link.li, handle: "jedtomanan" },
+        { logo: "/logo/gh.svg", color: "hover:from-purple-100 hover:to-purple-300", link: link.gh, handle: "HoweZae" },
+        { logo: "/logo/fb.png", color: "hover:from-blue-100 hover:to-blue-300", link: link.fb, handle: "jedtomanan" },
+        { logo: "/logo/ig.png", color: "hover:from-red-50 hover:to-red-200", link: link.ig, handle: "jose.tmnn" },
+        { logo: "/logo/twt.png", color: "hover:from-sky-50 hover:to-sky-200", link: link.twt, handle: "howe_zae" },
     ]
 </script>
 
