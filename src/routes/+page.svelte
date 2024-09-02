@@ -1,5 +1,5 @@
 <script>
-    import Header from "./Header.svelte";
+    import Top from "./Top.svelte";
     import Me from "./Me.svelte";
     import Roles from "./Roles.svelte";
     import Projects from "./Projects.svelte";
@@ -26,7 +26,7 @@
     <link rel="manifest" href="/site.webmanifest">
 </svelte:head>
 
-<Header />
+<Top />
 
 {#if startPage}
     <Me />
