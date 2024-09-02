@@ -38,7 +38,9 @@
     <link rel="manifest" href="/site.webmanifest">
 </svelte:head>
 
-<Header />
+{#if startPage}
+    <Header />
+{/if}
 
 <page class="h-auto gap-0.5">
     <jumpable id="me" />
