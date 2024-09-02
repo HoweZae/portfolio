@@ -3,20 +3,12 @@
 
     import Article from "$lib/components/Article.svelte";
     import ClickToCopy from "$lib/components/ClickToCopy.svelte";
+    import { link } from "$lib";
 
     import { onMount } from "svelte";
     // import { fade } from "svelte/transition";
     // import { tweened, spring } from "svelte/motion";
     // import { elasticOut } from "svelte/easing";
-
-    const link = {
-        li: "https://www.linkedin.com/in/jedtomanan/",
-        gh: "https://github.com/HoweZae",
-        fb: "https://www.facebook.com/jedtomanan/",
-        ig: "https://www.instagram.com/jose.tmnn/",
-        twt: "https://x.com/howe_zae",
-        resume: "https://flowcv.com/resume/hsjhe4q16a"
-    }
 
     let name = "";
     let email = "";
