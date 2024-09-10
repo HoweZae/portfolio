@@ -6,15 +6,16 @@
     <nav class="
         flex items-center justify-center gap-8
         fixed w-full max-w-screen p-4 z-50
-        bg-gradient-to-t from-white to-[200%] backdrop-blur-sm
+        bg-white backdrop-blur-sm opacity-90
+        shadow-xl
         border-b-2 border-none"
     >
-        <a href="#top">Top</a>
-        <a href="#me">Me</a>
-        <a href="#roles">Roles</a>
-        <a href="#projects">Projects</a>
-        <!-- <a href="#hobbies">Hobbies</a> -->
-        <a href="#contact">Contact</a>
+        <a class="justify-items-start font-bold italic" href="#top">JoseTomanan.io</a>
+            <a href="#me">Me</a>
+            <a href="#roles">Roles</a>
+            <a href="#projects">Projects</a>
+            <!-- <a href="#hobbies">Hobbies</a> -->
+            <a href="#contact">Contact</a>
     </nav>
 
     <premain class="flex justify-center">
