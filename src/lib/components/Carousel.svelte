@@ -1,7 +1,7 @@
 <!--
-<img 
+<enhanced:img 
     class="h-[25rem] w-full object-cover"
-    src="/images/header.jpg"
+    src="$lib/images/header.jpg"
     alt="Me"
 />
 -->
@@ -12,17 +12,17 @@
     <div class="relative h-56 overflow-hidden rounded-t-lg md:h-96">
          <!-- Item 1 -->
         <div class="duration-700 ease-in-out" data-carousel-item="active">
-            <img src="/images/carousel/header.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            <enhanced:img src="$lib/images/carousel/header.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
         </div>
 
         <!-- Item 2 -->
         <div class="duration-700 ease-in-out" data-carousel-item>
-            <img src="/images/carousel/header.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            <enhanced:img src="$lib/images/carousel/header.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
         </div>
 
         <!-- Item 3 -->
         <div class="duration-700 ease-in-out" data-carousel-item>
-            <img src="/images/carousel/header.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            <enhanced:img src="$lib/images/carousel/header.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
         </div>
     </div>
 
