@@ -233,12 +233,10 @@ html {
     }
   }
   
-  .non-link-highlight {
-    font-weight: 400;
+  .hoverable {
     color: var(--color-foreground);
-  
-    &:hover {
-      color: var(--color-tertiary);
+    a&:hover {
+      color: var(--color-primary);
     }
   }
 }
