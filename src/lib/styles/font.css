@@ -25,6 +25,7 @@
 @font-face {
   font-family: "Source Sans 3";
   src: url("/fonts/SourceSerif4Variable-Italic.otf.woff2") format("woff2");
+  /* src: url("/fonts/SourceSans3-Italic.woff2") format("woff2"); */
   font-style: italic;
   font-weight: 100 900;
   font-display: swap;
