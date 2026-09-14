@@ -1,0 +1,63 @@
+@layer components {
+  .section-card {
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    border-radius: 0.75rem;
+    border: 2px solid var(--color-border);
+    transition: box-shadow 600ms ease;
+  }
+
+  .section-card-active {
+    position: relative;
+    z-index: 1;
+    box-shadow:
+      0 0 12px 3px var(--color-border),
+      0 0 6px 3px color-mix(in srgb, var(--color-border) 50%, transparent);
+  }
+
+  .section-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    background: var(--color-muted);
+    @apply px-4 py-6;
+    flex-grow: 1;
+    border-radius: 0.75rem;
+  }
+
+  .section-heading {
+    text-align: left;
+    color: var(--color-primary);
+    margin-left: 10px;
+    padding-left: 20px;
+    @apply border-l-3 border-muted-foreground;
+  }
+
+  .section-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .section-anchor {
+    display: block;
+    height: 2rem;
+    margin-top: -3rem;
+    z-index: -50;
+  }
+
+  .section-footnote {
+    @apply text-muted-foreground/35 text-base;
+    text-align: right;
+  }
+
+  .section-footnote-link {
+    text-decoration-line: underline;
+  }
+
+  .section-footnote-link:hover {
+    color: var(--color-secondary);
+  }
+}

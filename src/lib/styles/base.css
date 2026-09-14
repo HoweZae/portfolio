@@ -1,0 +1,101 @@
+html {
+  scroll-behavior: smooth;
+  scrollbar-gutter: stable;
+}
+
+:root {
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 3px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: var(--color-muted);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-border);
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-input);
+  }
+
+  ::-webkit-scrollbar-corner {
+    background: var(--color-background);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--color-background);
+    position: relative;
+    background-attachment: fixed;
+  }
+
+  button,
+  a,
+  input,
+  textarea,
+  article,
+  span {
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, gap;
+    transition-duration: 150ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  h1 {
+    @apply text-4xl sm:text-5xl md:text-6xl;
+    font-family: var(--font-heading);
+    color: var(--color-foreground);
+    text-wrap: balance;
+  }
+
+  h2 {
+    @apply text-2xl md:text-3xl;
+    font-family: var(--font-heading);
+    color: var(--color-foreground);
+    text-wrap: balance;
+  }
+
+  h3 {
+    @apply text-xl md:text-2xl;
+    font-family: var(--font-heading);
+    color: var(--color-muted-foreground);
+    text-wrap: balance;
+  }
+
+  h4 {
+    @apply text-lg md:text-xl;
+    font-family: var(--font-sans);
+    color: var(--color-muted-foreground);
+    font-weight: 350;
+  }
+
+  h5 {
+    @apply text-base md:text-lg;
+    font-family: var(--font-sans);
+    color: var(--color-muted-foreground);
+  }
+
+  h6 {
+    @apply text-sm md:text-base text-foreground/80;
+  }
+
+  p {
+    @apply text-lg;
+    font-family: var(--font-sans);
+    color: var(--color-muted-foreground);
+    text-wrap: pretty;
+  }
+
+  label {
+    font-family: var(--font-sans);
+    color: var(--color-muted-foreground);
+  }
+}

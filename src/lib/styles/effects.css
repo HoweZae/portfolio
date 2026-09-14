@@ -1,0 +1,37 @@
+@utility hoverable-link {
+  white-space: nowrap;
+  color: var(--color-foreground);
+  text-underline-offset: 2px;
+
+  span&:hover {
+    color: var(--color-tertiary);
+  }
+
+  a&:hover {
+    @apply magic-text;
+  }
+}
+
+@utility magic-text {
+  animation: background-pan 6s linear infinite;
+  background: linear-gradient(
+    to right,
+    var(--color-foreground),
+    var(--color-secondary),
+    var(--color-tertiary),
+    var(--color-foreground)
+  );
+  background-size: 200%;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes background-pan {
+  from {
+    background-position: 0% center;
+  }
+
+  to {
+    background-position: 200% center;
+  }
+}
