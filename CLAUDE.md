@@ -27,13 +27,18 @@ Single-page SvelteKit portfolio. All visible content lives on one route (`src/ro
 
 ## Styling
 
-The design system uses CSS custom properties (raw RGB triplets) defined in `src/lib/styles/theme.css` and mapped to Tailwind utility classes in `tailwind.config.js`. Always use semantic token names (e.g. `bg-muted`, `bg-card`, `text-foreground`, `border-border`) rather than raw hex or generic Tailwind color classes. Token names follow shadcn-ui conventions: `--muted` for subdued section/nav surfaces, `--card` for card surfaces, `--popover` for elevated/floating surfaces (tooltips, inputs).
+`src/app.css` is only the Tailwind entry point and stylesheet manifest. Styling responsibilities under `src/lib/styles/` are split by ownership:
 
-Typography is set globally in `src/app.css` via `@layer base` — `h1`–`h6`, `p`, and `section` all have opinionated defaults. Avoid overriding font families inline; use the `font-heading`, `font-sans`, `font-mono` theme tokens.
+- `theme.css` and `font.css` define design tokens, breakpoints, and fonts.
+- `base.css` owns document-wide behavior and typography defaults.
+- `sections.css` exposes the shared section contracts used by the page sections.
+- `effects.css` contains reusable animated text and hover utilities.
 
-Reusable CSS patterns (`hoverable-link`, `footnote`, `hoverable`, `magic-text`) are in `src/app.css` under `@layer components` / `@layer utilities`.
+Use semantic token utilities (for example, `bg-muted`, `bg-card`, `text-foreground`, and `border-border`) instead of raw colors. Breakpoint semantics come from `theme.css`; do not duplicate them with custom container media queries.
 
-Scroll targets use `<span class="jumpable" id="...">` with negative margin to account for the fixed navbar height.
+Page- and feature-specific styles belong in the consuming Svelte component. The hero parallax animation is owned by `+page.svelte`, while the navbar condensation animations and link typography are owned by `Navbar.svelte`.
+
+Shared section markup uses the intentional contracts in `sections.css`, including `section-card`, `section-content`, `section-heading`, `section-list`, `section-anchor`, and `section-footnote`. Do not couple these styles to element names or DOM hierarchy.
 
 ## Icons
 
