@@ -175,3 +175,18 @@
     </div>
   </div>
 </footer>
+
+<style>
+  @keyframes hero-parallax {
+    from { transform: translateY(0); }
+    to { transform: translateY(46svh); }
+  }
+
+  @supports (animation-timeline: scroll()) {
+    .hero-parallax {
+      animation: hero-parallax linear both;
+      animation-timeline: scroll(root block);
+      animation-range: 0 92svh;
+    }
+  }
+</style>
