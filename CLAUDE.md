@@ -31,7 +31,7 @@ The design system uses CSS custom properties (raw RGB triplets) defined in `src/
 
 Typography is set globally in `src/app.css` via `@layer base` — `h1`–`h6`, `p`, and `section` all have opinionated defaults. Avoid overriding font families inline; use the `font-heading`, `font-sans`, `font-mono` theme tokens.
 
-Reusable CSS patterns (`hoverable-link`, `footnote`, `non-link-highlight`, `magic-text`) are in `src/app.css` under `@layer components` / `@layer utilities`.
+Reusable CSS patterns (`hoverable-link`, `footnote`, `hoverable`, `magic-text`) are in `src/app.css` under `@layer components` / `@layer utilities`.
 
 Scroll targets use `<span class="jumpable" id="...">` with negative margin to account for the fixed navbar height.
 
