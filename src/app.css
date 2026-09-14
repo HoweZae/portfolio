@@ -174,7 +174,7 @@ html {
     flex-direction: column;
     height: auto;
     border-radius: 0.75rem;
-    border: 1px solid var(--color-border);
+    border: 2px solid var(--color-border);
     transition: box-shadow 600ms ease;
   }
 
