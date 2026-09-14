@@ -244,7 +244,7 @@ html {
 
 /* MARK: UTILITIES */
 @utility hoverable-link {
-  font-weight: 600;
+  white-space: nowrap;
   color: var(--color-foreground);
   text-underline-offset: 2px;
 
@@ -253,7 +253,7 @@ html {
   }
 
   a&:hover {
-    color: var(--color-secondary);
+    @apply magic-text;
   }
 }
 
@@ -269,7 +269,6 @@ html {
 	background-size: 200%;
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
-	white-space: normal;
 }
 
 @utility magic-bg {
