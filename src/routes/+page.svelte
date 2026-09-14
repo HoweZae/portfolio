@@ -134,11 +134,11 @@
                 *:text-muted-foreground/75">
       <h4 class="font-bold">Jose Tomanan</h4>
       <a href="mailto:tomananjose.work@gmail.com"
-          class="hoverable-link inline-flex gap-x-2 items-center w-fit">
+          class="hover:text-primary inline-flex gap-x-2 items-center w-fit">
         <IconEmail class="size-4 shrink-0"/> tomananjose.work@gmail.com
       </a>
       <a href="tel:+639473013664"
-          class="hoverable-link inline-flex gap-x-2 items-center w-fit">
+          class="hover:text-primary inline-flex gap-x-2 items-center w-fit">
         <IconPhone class="size-4 shrink-0"/> +63 947 301 3664
       </a>
     </div>
@@ -161,7 +161,7 @@
           <FaBrandsInstagram/>
         </a>
       </div>
-      <a href="#top" class="hoverable-link text-muted-foreground/75">
+      <a href="#top" class="text-muted-foreground/75 hover:text-primary">
         Back to top
       </a>
     </div>
