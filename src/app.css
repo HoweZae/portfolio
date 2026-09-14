@@ -132,6 +132,7 @@ html {
 		@apply text-lg md:text-xl;
 		font-family: var(--font-sans);
 		color: var(--color-muted-foreground);
+    font-weight: 350;
 	}
 
 	h5 {
