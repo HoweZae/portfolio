@@ -19,7 +19,7 @@
   function updateActiveSection() {
     const threshold = window.innerHeight * 0.40;
     let current: string | null = null;
-    for (const el of document.querySelectorAll<HTMLElement>("div.page[data-section]")) {
+    for (const el of document.querySelectorAll<HTMLElement>("[data-section]")) {
       if (el.getBoundingClientRect().top <= threshold)
         current = el.dataset.section!;
     }
@@ -49,12 +49,12 @@
 
 <main class="max-w-[960px] flex flex-col
               gap-y-6 px-2 w-full mx-auto">
-  <span class="jumpable" id="top"></span>
-  <div class="page h-[92svh] border-0 gap-0 overflow-visible"
+  <span class="section-anchor" id="top"></span>
+  <div class="section-card h-[92svh] border-0 gap-0 overflow-visible"
           data-section="top"
           transition:fly={{ delay: 100, duration: 1000 }}>
     <section class="hero-parallax
-                    section-body
+                    section-content
                     bg-transparent pt-16
                     flex flex-col-reverse sm:flex-row
                     justify-center items-center gap-y-8
@@ -91,13 +91,13 @@
     </section>
   </div>
 
-  <span class="jumpable" id="me"></span>
-  <div class="page gap-0 z-5"
+  <span class="section-anchor" id="me"></span>
+  <div class="section-card gap-0 z-5"
         data-section="me"
         transition:fly={{ delay: 0, duration: 1000 }}
-        class:section-active={$activeSection === 'me'}>
-    <section class="section-body gap-4 rounded-b-none border-b border-border">
-      <h2>About me</h2>
+        class:section-card-active={$activeSection === 'me'}>
+    <section class="section-content gap-4 rounded-b-none border-b border-border">
+      <h2 class="section-heading">About me</h2>
       <h4>
         I am Jose, a BSCS cum laude graduate from UPD and an
         <span class="text-foreground">
@@ -111,7 +111,7 @@
       </h4>
     </section>
     
-    <section class="section-body gap-2 rounded-t-none">
+    <section class="section-content gap-2 rounded-t-none">
       <h4>
         Off the clock, I play competitive FPS (Valorant, CS2), and
         physical activity: bouldering, lifting, running.
