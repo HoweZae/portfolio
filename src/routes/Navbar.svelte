@@ -42,3 +42,35 @@
     </a>
   </nav>
 </div>
+
+<style lang="postcss">
+  @reference "../app.css";
+
+  nav > a {
+    @apply text-base sm:text-lg;
+  }
+
+  @keyframes navbar-condense {
+    from { transform: translate(-50%, 0); }
+    to { transform: translate(-50%, -12px); }
+  }
+
+  @keyframes navbar-condense-padding {
+    from { padding-block: 4px; }
+    to { padding-block: 0; }
+  }
+
+  @supports (animation-timeline: scroll()) {
+    .navbar-condense {
+      animation: navbar-condense linear both;
+      animation-timeline: scroll(root block);
+      animation-range: 0 240px;
+    }
+
+    .navbar-condense-padding {
+      animation: navbar-condense-padding linear both;
+      animation-timeline: scroll(root block);
+      animation-range: 0 80px;
+    }
+  }
+</style>
