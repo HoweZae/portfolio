@@ -8,14 +8,14 @@
   let openValue = $state<string | undefined>(undefined);
 </script>
 
-<span class="jumpable" id="projects"></span>
-<div class="page"
+<span class="section-anchor" id="projects"></span>
+<div class="section-card"
       data-section="projects"
       transition:fly={{ delay: 400, duration: 1000 }}
-      class:section-active={$activeSection === 'projects'}>
-  <section class="section-body">
-    <h2>My projects</h2>
-    <Accordion.Root type="single" class="projects-roles" bind:value={openValue}>
+      class:section-card-active={$activeSection === 'projects'}>
+  <section class="section-content">
+    <h2 class="section-heading">My projects</h2>
+    <Accordion.Root type="single" class="section-list" bind:value={openValue}>
       <Article title="I/O MONEY"
 						id="proj-finances"
 						href="https://josetomanan.github.io/money-sheet-monorepo"
@@ -99,9 +99,9 @@
 					/>
     </Accordion.Root>
     
-    <h6 class="footnote">
+    <h6 class="section-footnote">
       See my repositories at 
-      <a href={link.gh} target="_blank" rel="noopener noreferrer">GitHub</a>.
+      <a class="section-footnote-link" href={link.gh} target="_blank" rel="noopener noreferrer">GitHub</a>.
     </h6>
   </section>
 </div>
