@@ -8,14 +8,14 @@
   let openValue = $state<string | undefined>(undefined);
 </script>
 
-<span class="jumpable" id="roles"></span>
-<div class="page"
+<span class="section-anchor" id="roles"></span>
+<div class="section-card"
       data-section="roles"
       transition:fly={{ delay: 200, duration: 1000 }}
-      class:section-active={$activeSection === 'roles'}>
-  <section class="section-body">
-    <h2>My roles</h2>
-    <Accordion.Root type="single" class="projects-roles" bind:value={openValue}>
+      class:section-card-active={$activeSection === 'roles'}>
+  <section class="section-content">
+    <h2 class="section-heading">My roles</h2>
+    <Accordion.Root type="single" class="section-list" bind:value={openValue}>
       <Article
 						id="role-metr"
 						title="Software Engineer"
@@ -75,9 +75,9 @@
 					/>
     </Accordion.Root>
     
-    <h6 class="footnote">
+    <h6 class="section-footnote">
       See more of what I've done at
-      <a href={defaultLink} target="_blank" rel="noopener noreferrer">LinkedIn</a>.
+      <a class="section-footnote-link" href={defaultLink} target="_blank" rel="noopener noreferrer">LinkedIn</a>.
     </h6>
   </section>
 </div>
