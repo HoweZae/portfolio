@@ -99,23 +99,23 @@
     <section class="section-body gap-4 rounded-b-none border-b border-border">
       <h2>About me</h2>
       <h4>
-        Hello! I am Jose, a <span class="non-link-highlight">BS CS graduate from UP Diliman</span> and an AI-proficient full-stack web developer.
-        I graduated in July 2026 with Cum Laude honors, and am currently working as a Backend Software Engineer at Metro East Technology Resources, Inc.
-        I am passionate about building software that is
-        <span class="non-link-highlight">equally elegant &amp; functional</span>.
+        I am Jose, a BSCS cum laude graduate from UPD and an
+        <span class="text-foreground">
+          AI-proficient full-stack web developer
+        </span>,
+        currently working as a backend developer at METR.
+        I use AI to develop my passion projects, one of which is a
+        <a href={link.gh_hooper_game} class="hoverable-link font-medium" target="_blank" rel="noopener noreferrer">
+          duel-style basketball game in Godot
+        </a> (prototype coming soon)!
       </h4>
     </section>
     
     <section class="section-body gap-2 rounded-t-none">
       <h4>
         Off the clock, I play competitive FPS (Valorant, CS2), and
-        physical activity: running, lifting, basketball.
-        I am also developing a
-        <a href={link.gh_hooper_game} class="hoverable-link" target="_blank" rel="noopener noreferrer">
-          duel-style basketball game in Godot/C#
-        </a>
-        primarily only using AI.
-        Prototype coming soon!
+        physical activity: bouldering, lifting, running.
+
       </h4>
     </section>
   </div>
