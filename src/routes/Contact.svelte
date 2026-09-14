@@ -11,10 +11,10 @@
   }
 </script>
 
-<span class="jumpable" id="contact"></span>
-<div class="page h-auto flex flex-col" transition:fly={{ delay: 100, duration: 1000 }}>
-  <section class="section-body">
-    <h2 class="mb-3">
+<span class="section-anchor" id="contact"></span>
+<div class="section-card h-auto flex flex-col" transition:fly={{ delay: 100, duration: 1000 }}>
+  <section class="section-content">
+    <h2 class="section-heading mb-3">
       Reach out to me!
     </h2>
     <form class="flex flex-col gap-2">
