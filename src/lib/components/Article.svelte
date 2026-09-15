@@ -43,28 +43,25 @@
             md:w-auto md:basis-1/3 lg:basis-[24%] md:flex-col">
         <span class="text-left md:text-right text-base font-mono font-normal 
               tracking-tight w-full
-              text-muted-foreground/60
-              group-hover/whole:text-foreground/100
-              group-data-[open=true]/whole:text-foreground/100">
+              text-muted-foreground/60">
           {date}
         </span>
 
         <div class="flex flex-row justify-end gap-2">
         {#each techInvolved as tech}
           {@const actualTag = tech.toLowerCase()}
-          {@const displayableName = tech.split(":")[1]}
+          {@const techName = tech.split(":")[1]}
           {@const TechIcon = iconMap[actualTag]}
           <Tooltip.Root>
-            <Tooltip.Trigger class="items-center" aria-label={displayableName}>
+            <Tooltip.Trigger class="items-center" aria-label={techName}>
               <TechIcon class="h-4 w-4
                       cursor-default
                       text-muted-foreground/60
-                      group-hover/whole:text-muted-foreground/100
                       group-data-[open=true]/whole:text-muted-foreground/100
                     "/>
             </Tooltip.Trigger>
             <Tooltip.Content class="bg-popover text-popover-foreground border-none">
-              {displayableName}
+              {techName}
             </Tooltip.Content>
           </Tooltip.Root>
         {/each}
@@ -78,7 +75,6 @@
                       group-data-[open=true]/whole:text-foreground/100">
             <a class="group/link flex items-baseline leading-5 gap-2 hover:gap-4
                   text-foreground/80
-                  group-hover/whole:text-foreground/100
                   group-data-[open=true]/whole:text-foreground/100
                   hover:text-secondary"
                   target="_blank" rel="noopener noreferrer" {id} {href}
