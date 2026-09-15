@@ -1,4 +1,4 @@
-@utility hoverable-link {
+@utility hoverable {
   white-space: nowrap;
   color: var(--color-foreground);
   text-underline-offset: 2px;
