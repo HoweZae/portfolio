@@ -100,22 +100,22 @@
       <h2 class="section-heading">About me</h2>
       <h4>
         I am Jose, a BSCS cum laude graduate from UPD and an
-        <span class="text-foreground">
+        <span class="text-primary">
           AI-proficient full-stack web developer
         </span>,
         currently working as a backend developer at METR.
         I use AI to develop my passion projects, one of which is a
         <a href={link.gh_hooper_game} class="hoverable-link font-medium" target="_blank" rel="noopener noreferrer">
-          duel-style basketball game in Godot
-        </a> (prototype coming soon)!
+          duel-style basketball game
+        </a>
+        in Godot. Prototype coming soon!
       </h4>
     </section>
     
     <section class="section-content gap-2 rounded-t-none">
       <h4>
-        Off the clock, I play competitive FPS (Valorant, CS2), and
-        physical activity: bouldering, lifting, running.
-
+        Off the clock, I play Valorant &amp; CS2, and do physical activity: bouldering, lifting, running.
+        Reach out to me <a class="hoverable font-normal" href={link.ig} target="_blank" rel="noopener noreferrer">here</a> if you want to connect!
       </h4>
     </section>
   </div>
