@@ -203,7 +203,9 @@ html {
       color: var(--color-primary);
       margin-left: 10px;
       padding-left: 20px;
-      @apply border-l-3 border-muted-foreground;
+
+      @apply border-l-3;
+      border-color: var(--color-muted-foreground);
     }
   }
   

@@ -107,7 +107,8 @@
         I use AI to develop my passion projects, one of which is a
         <a href={link.gh_hooper_game} class="hoverable-link font-medium" target="_blank" rel="noopener noreferrer">
           duel-style basketball game
-        </a> in Godot. Prototype coming soon!
+        </a>
+        in Godot. Prototype coming soon!
       </h4>
     </section>
     <section class="section-body gap-2 rounded-t-none">
