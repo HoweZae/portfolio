@@ -28,6 +28,7 @@
                 Ongoing project.
 							"
 						techInvolved={ ["simple-icons:GoogleAppsScript", "simple-icons:Svelte"] }
+						{openValue}
 					/>
       <Article title="Svelte-based Pokédex"
 						id="proj-svelte-pokedex"
